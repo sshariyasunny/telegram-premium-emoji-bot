@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+bot_data.db
+.system_generated/
+.vscode/
+.idea/

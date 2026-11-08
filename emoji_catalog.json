@@ -1,0 +1,5571 @@
+{
+  "by_emoji": {
+    "😀": {
+      "custom_emoji_id": "5372954454653933911",
+      "fallback": "😀",
+      "pack": "RestrictedEmoji"
+    },
+    "😃": {
+      "custom_emoji_id": "5370601486885591701",
+      "fallback": "😃",
+      "pack": "RestrictedEmoji"
+    },
+    "😄": {
+      "custom_emoji_id": "5373330410321223066",
+      "fallback": "😄",
+      "pack": "RestrictedEmoji"
+    },
+    "😁": {
+      "custom_emoji_id": "5373329319399529171",
+      "fallback": "😁",
+      "pack": "RestrictedEmoji"
+    },
+    "😆": {
+      "custom_emoji_id": "5372881676433105377",
+      "fallback": "😆",
+      "pack": "RestrictedEmoji"
+    },
+    "🥹": {
+      "custom_emoji_id": "5371007876691138460",
+      "fallback": "🥹",
+      "pack": "RestrictedEmoji"
+    },
+    "😅": {
+      "custom_emoji_id": "5373015670822804395",
+      "fallback": "😅",
+      "pack": "RestrictedEmoji"
+    },
+    "😂": {
+      "custom_emoji_id": "5370953476635368811",
+      "fallback": "😂",
+      "pack": "RestrictedEmoji"
+    },
+    "🤣": {
+      "custom_emoji_id": "5370712413005945913",
+      "fallback": "🤣",
+      "pack": "RestrictedEmoji"
+    },
+    "🥲": {
+      "custom_emoji_id": "5370959021438146805",
+      "fallback": "🥲",
+      "pack": "RestrictedEmoji"
+    },
+    "☺️": {
+      "custom_emoji_id": "5371037748188683677",
+      "fallback": "☺️",
+      "pack": "RestrictedEmoji"
+    },
+    "😊": {
+      "custom_emoji_id": "5370738629486319646",
+      "fallback": "😊",
+      "pack": "RestrictedEmoji"
+    },
+    "😇": {
+      "custom_emoji_id": "5370947515220761242",
+      "fallback": "😇",
+      "pack": "RestrictedEmoji"
+    },
+    "🙂": {
+      "custom_emoji_id": "5400022850381827997",
+      "fallback": "🙂",
+      "pack": "RestrictedEmoji"
+    },
+    "🙃": {
+      "custom_emoji_id": "5373179691328871991",
+      "fallback": "🙃",
+      "pack": "RestrictedEmoji"
+    },
+    "😉": {
+      "custom_emoji_id": "5373101475679443553",
+      "fallback": "😉",
+      "pack": "RestrictedEmoji"
+    },
+    "😌": {
+      "custom_emoji_id": "5370699111492229743",
+      "fallback": "😌",
+      "pack": "RestrictedEmoji"
+    },
+    "😍": {
+      "custom_emoji_id": "5372886001465170842",
+      "fallback": "😍",
+      "pack": "RestrictedEmoji"
+    },
+    "🥰": {
+      "custom_emoji_id": "5370900820336319679",
+      "fallback": "🥰",
+      "pack": "RestrictedEmoji"
+    },
+    "😘": {
+      "custom_emoji_id": "5373189724372474575",
+      "fallback": "😘",
+      "pack": "RestrictedEmoji"
+    },
+    "😗": {
+      "custom_emoji_id": "5373292756342938165",
+      "fallback": "😗",
+      "pack": "RestrictedEmoji"
+    },
+    "😙": {
+      "custom_emoji_id": "5372828792500788028",
+      "fallback": "😙",
+      "pack": "RestrictedEmoji"
+    },
+    "😚": {
+      "custom_emoji_id": "5370967353674701492",
+      "fallback": "😚",
+      "pack": "RestrictedEmoji"
+    },
+    "😋": {
+      "custom_emoji_id": "5371057462088570593",
+      "fallback": "😋",
+      "pack": "RestrictedEmoji"
+    },
+    "😛": {
+      "custom_emoji_id": "5370823648363943942",
+      "fallback": "😛",
+      "pack": "RestrictedEmoji"
+    },
+    "😝": {
+      "custom_emoji_id": "5370564490037303348",
+      "fallback": "😝",
+      "pack": "RestrictedEmoji"
+    },
+    "😜": {
+      "custom_emoji_id": "5371087054413241706",
+      "fallback": "😜",
+      "pack": "RestrictedEmoji"
+    },
+    "🤪": {
+      "custom_emoji_id": "5370853232098681087",
+      "fallback": "🤪",
+      "pack": "RestrictedEmoji"
+    },
+    "🤨": {
+      "custom_emoji_id": "5370562939554111732",
+      "fallback": "🤨",
+      "pack": "RestrictedEmoji"
+    },
+    "🧐": {
+      "custom_emoji_id": "5373153968769735192",
+      "fallback": "🧐",
+      "pack": "RestrictedEmoji"
+    },
+    "🤓": {
+      "custom_emoji_id": "5370856771151730818",
+      "fallback": "🤓",
+      "pack": "RestrictedEmoji"
+    },
+    "😎": {
+      "custom_emoji_id": "5373141891321699086",
+      "fallback": "😎",
+      "pack": "RestrictedEmoji"
+    },
+    "🥸": {
+      "custom_emoji_id": "5370574634750056701",
+      "fallback": "🥸",
+      "pack": "RestrictedEmoji"
+    },
+    "🤩": {
+      "custom_emoji_id": "5373026167722876724",
+      "fallback": "🤩",
+      "pack": "RestrictedEmoji"
+    },
+    "🥳": {
+      "custom_emoji_id": "5370870691140737817",
+      "fallback": "🥳",
+      "pack": "RestrictedEmoji"
+    },
+    "😏": {
+      "custom_emoji_id": "5370976574969486150",
+      "fallback": "😏",
+      "pack": "RestrictedEmoji"
+    },
+    "😒": {
+      "custom_emoji_id": "5370763368497944736",
+      "fallback": "😒",
+      "pack": "RestrictedEmoji"
+    },
+    "😞": {
+      "custom_emoji_id": "5370812696197339229",
+      "fallback": "😞",
+      "pack": "RestrictedEmoji"
+    },
+    "😔": {
+      "custom_emoji_id": "5370781385885751708",
+      "fallback": "😔",
+      "pack": "RestrictedEmoji"
+    },
+    "😟": {
+      "custom_emoji_id": "5370987174948771923",
+      "fallback": "😟",
+      "pack": "RestrictedEmoji"
+    },
+    "😕": {
+      "custom_emoji_id": "5373272140499918095",
+      "fallback": "😕",
+      "pack": "RestrictedEmoji"
+    },
+    "🙁": {
+      "custom_emoji_id": "5372872665591717013",
+      "fallback": "🙁",
+      "pack": "RestrictedEmoji"
+    },
+    "☹️": {
+      "custom_emoji_id": "5370663188385766522",
+      "fallback": "☹️",
+      "pack": "RestrictedEmoji"
+    },
+    "😣": {
+      "custom_emoji_id": "5370679238678551249",
+      "fallback": "😣",
+      "pack": "RestrictedEmoji"
+    },
+    "😖": {
+      "custom_emoji_id": "5370843963559254781",
+      "fallback": "😖",
+      "pack": "RestrictedEmoji"
+    },
+    "😫": {
+      "custom_emoji_id": "5371077231823036079",
+      "fallback": "😫",
+      "pack": "RestrictedEmoji"
+    },
+    "😩": {
+      "custom_emoji_id": "5370553005294754329",
+      "fallback": "😩",
+      "pack": "RestrictedEmoji"
+    },
+    "🥺": {
+      "custom_emoji_id": "5373230475022179039",
+      "fallback": "🥺",
+      "pack": "RestrictedEmoji"
+    },
+    "😢": {
+      "custom_emoji_id": "5370881342659631698",
+      "fallback": "😢",
+      "pack": "RestrictedEmoji"
+    },
+    "😭": {
+      "custom_emoji_id": "5370646412243510708",
+      "fallback": "😭",
+      "pack": "RestrictedEmoji"
+    },
+    "😤": {
+      "custom_emoji_id": "5370650883304462905",
+      "fallback": "😤",
+      "pack": "RestrictedEmoji"
+    },
+    "😠": {
+      "custom_emoji_id": "5370752953202252786",
+      "fallback": "😠",
+      "pack": "RestrictedEmoji"
+    },
+    "😡": {
+      "custom_emoji_id": "5372811453717813644",
+      "fallback": "😡",
+      "pack": "RestrictedEmoji"
+    },
+    "🤬": {
+      "custom_emoji_id": "5373123633415723713",
+      "fallback": "🤬",
+      "pack": "RestrictedEmoji"
+    },
+    "🤯": {
+      "custom_emoji_id": "5370745797786738962",
+      "fallback": "🤯",
+      "pack": "RestrictedEmoji"
+    },
+    "😳": {
+      "custom_emoji_id": "5372864857341172842",
+      "fallback": "😳",
+      "pack": "RestrictedEmoji"
+    },
+    "🥵": {
+      "custom_emoji_id": "5373067498193166118",
+      "fallback": "🥵",
+      "pack": "RestrictedEmoji"
+    },
+    "🥶": {
+      "custom_emoji_id": "5372892693024218813",
+      "fallback": "🥶",
+      "pack": "RestrictedEmoji"
+    },
+    "😶‍🌫️": {
+      "custom_emoji_id": "5370547013815376328",
+      "fallback": "😶‍🌫️",
+      "pack": "RestrictedEmoji"
+    },
+    "😱": {
+      "custom_emoji_id": "5370810157871667232",
+      "fallback": "😱",
+      "pack": "RestrictedEmoji"
+    },
+    "😨": {
+      "custom_emoji_id": "5370664287897393412",
+      "fallback": "😨",
+      "pack": "RestrictedEmoji"
+    },
+    "😰": {
+      "custom_emoji_id": "5373122864616577600",
+      "fallback": "😰",
+      "pack": "RestrictedEmoji"
+    },
+    "😥": {
+      "custom_emoji_id": "5370603784693094754",
+      "fallback": "😥",
+      "pack": "RestrictedEmoji"
+    },
+    "😓": {
+      "custom_emoji_id": "5370846862662179567",
+      "fallback": "😓",
+      "pack": "RestrictedEmoji"
+    },
+    "🤗": {
+      "custom_emoji_id": "5373192254108211756",
+      "fallback": "🤗",
+      "pack": "RestrictedEmoji"
+    },
+    "🤔": {
+      "custom_emoji_id": "5370724846936267183",
+      "fallback": "🤔",
+      "pack": "RestrictedEmoji"
+    },
+    "🫣": {
+      "custom_emoji_id": "5373117556036999296",
+      "fallback": "🫣",
+      "pack": "RestrictedEmoji"
+    },
+    "🤭": {
+      "custom_emoji_id": "5373044447103687138",
+      "fallback": "🤭",
+      "pack": "RestrictedEmoji"
+    },
+    "🫢": {
+      "custom_emoji_id": "5370782936368946402",
+      "fallback": "🫢",
+      "pack": "RestrictedEmoji"
+    },
+    "🫡": {
+      "custom_emoji_id": "5372952487558912793",
+      "fallback": "🫡",
+      "pack": "RestrictedEmoji"
+    },
+    "🤫": {
+      "custom_emoji_id": "5370930189322688800",
+      "fallback": "🤫",
+      "pack": "RestrictedEmoji"
+    },
+    "🫠": {
+      "custom_emoji_id": "5373161588041718232",
+      "fallback": "🫠",
+      "pack": "RestrictedEmoji"
+    },
+    "🤥": {
+      "custom_emoji_id": "5373069598432172355",
+      "fallback": "🤥",
+      "pack": "RestrictedEmoji"
+    },
+    "😶": {
+      "custom_emoji_id": "5370588928401218156",
+      "fallback": "😶",
+      "pack": "RestrictedEmoji"
+    },
+    "🫥": {
+      "custom_emoji_id": "5372913502140766965",
+      "fallback": "🫥",
+      "pack": "RestrictedEmoji"
+    },
+    "😐": {
+      "custom_emoji_id": "5370771949842602821",
+      "fallback": "😐",
+      "pack": "RestrictedEmoji"
+    },
+    "🫤": {
+      "custom_emoji_id": "5370849697340593527",
+      "fallback": "🫤",
+      "pack": "RestrictedEmoji"
+    },
+    "😑": {
+      "custom_emoji_id": "5371039809772985021",
+      "fallback": "😑",
+      "pack": "RestrictedEmoji"
+    },
+    "🫨": {
+      "custom_emoji_id": "5249119354825487565",
+      "fallback": "🫨",
+      "pack": "RestrictedEmoji"
+    },
+    "😬": {
+      "custom_emoji_id": "5372815907598899227",
+      "fallback": "😬",
+      "pack": "RestrictedEmoji"
+    },
+    "🙄": {
+      "custom_emoji_id": "5370669532052461802",
+      "fallback": "🙄",
+      "pack": "RestrictedEmoji"
+    },
+    "😯": {
+      "custom_emoji_id": "5370964879773539088",
+      "fallback": "😯",
+      "pack": "RestrictedEmoji"
+    },
+    "😦": {
+      "custom_emoji_id": "5373345399757085790",
+      "fallback": "😦",
+      "pack": "RestrictedEmoji"
+    },
+    "😧": {
+      "custom_emoji_id": "5370892118732576453",
+      "fallback": "😧",
+      "pack": "RestrictedEmoji"
+    },
+    "😮": {
+      "custom_emoji_id": "5370824412868122831",
+      "fallback": "😮",
+      "pack": "RestrictedEmoji"
+    },
+    "😲": {
+      "custom_emoji_id": "5371054528625908421",
+      "fallback": "😲",
+      "pack": "RestrictedEmoji"
+    },
+    "🥱": {
+      "custom_emoji_id": "5373159114140555980",
+      "fallback": "🥱",
+      "pack": "RestrictedEmoji"
+    },
+    "😴": {
+      "custom_emoji_id": "5372923973271034075",
+      "fallback": "😴",
+      "pack": "RestrictedEmoji"
+    },
+    "🤤": {
+      "custom_emoji_id": "5370743302410738268",
+      "fallback": "🤤",
+      "pack": "RestrictedEmoji"
+    },
+    "😪": {
+      "custom_emoji_id": "5371009319800150304",
+      "fallback": "😪",
+      "pack": "RestrictedEmoji"
+    },
+    "😮‍💨": {
+      "custom_emoji_id": "5373111135060892185",
+      "fallback": "😮‍💨",
+      "pack": "RestrictedEmoji"
+    },
+    "😵": {
+      "custom_emoji_id": "5372869745013954798",
+      "fallback": "😵",
+      "pack": "RestrictedEmoji"
+    },
+    "😵‍💫": {
+      "custom_emoji_id": "5370890542479579293",
+      "fallback": "😵‍💫",
+      "pack": "RestrictedEmoji"
+    },
+    "🤐": {
+      "custom_emoji_id": "5372800046284674872",
+      "fallback": "🤐",
+      "pack": "RestrictedEmoji"
+    },
+    "🥴": {
+      "custom_emoji_id": "5370571834431380930",
+      "fallback": "🥴",
+      "pack": "RestrictedEmoji"
+    },
+    "🤢": {
+      "custom_emoji_id": "5371041051018533122",
+      "fallback": "🤢",
+      "pack": "RestrictedEmoji"
+    },
+    "🤮": {
+      "custom_emoji_id": "5372824841130879657",
+      "fallback": "🤮",
+      "pack": "RestrictedEmoji"
+    },
+    "🤧": {
+      "custom_emoji_id": "5370880659759831851",
+      "fallback": "🤧",
+      "pack": "RestrictedEmoji"
+    },
+    "😷": {
+      "custom_emoji_id": "5370702049249859619",
+      "fallback": "😷",
+      "pack": "RestrictedEmoji"
+    },
+    "🤒": {
+      "custom_emoji_id": "5373262021556967911",
+      "fallback": "🤒",
+      "pack": "RestrictedEmoji"
+    },
+    "🤕": {
+      "custom_emoji_id": "5372952977185184202",
+      "fallback": "🤕",
+      "pack": "RestrictedEmoji"
+    },
+    "🤑": {
+      "custom_emoji_id": "5373303394976929925",
+      "fallback": "🤑",
+      "pack": "RestrictedEmoji"
+    },
+    "🤠": {
+      "custom_emoji_id": "5373308531757817004",
+      "fallback": "🤠",
+      "pack": "RestrictedEmoji"
+    },
+    "😈": {
+      "custom_emoji_id": "5370856741086960948",
+      "fallback": "😈",
+      "pack": "RestrictedEmoji"
+    },
+    "👿": {
+      "custom_emoji_id": "5373150640170081115",
+      "fallback": "👿",
+      "pack": "RestrictedEmoji"
+    },
+    "👹": {
+      "custom_emoji_id": "5372951839018850336",
+      "fallback": "👹",
+      "pack": "RestrictedEmoji"
+    },
+    "👺": {
+      "custom_emoji_id": "5372931824471251423",
+      "fallback": "👺",
+      "pack": "RestrictedEmoji"
+    },
+    "🤡": {
+      "custom_emoji_id": "5371074117971745503",
+      "fallback": "🤡",
+      "pack": "RestrictedEmoji"
+    },
+    "💩": {
+      "custom_emoji_id": "5371035398841571673",
+      "fallback": "💩",
+      "pack": "RestrictedEmoji"
+    },
+    "👻": {
+      "custom_emoji_id": "5371017798065592581",
+      "fallback": "👻",
+      "pack": "RestrictedEmoji"
+    },
+    "💀": {
+      "custom_emoji_id": "5370971163310693562",
+      "fallback": "💀",
+      "pack": "RestrictedEmoji"
+    },
+    "☠️": {
+      "custom_emoji_id": "5370842086658546991",
+      "fallback": "☠️",
+      "pack": "RestrictedEmoji"
+    },
+    "👽": {
+      "custom_emoji_id": "5371018382181145040",
+      "fallback": "👽",
+      "pack": "RestrictedEmoji"
+    },
+    "👾": {
+      "custom_emoji_id": "5370869711888194012",
+      "fallback": "👾",
+      "pack": "RestrictedEmoji"
+    },
+    "🤖": {
+      "custom_emoji_id": "5372981976804366741",
+      "fallback": "🤖",
+      "pack": "RestrictedEmoji"
+    },
+    "🎃": {
+      "custom_emoji_id": "5370610867094166617",
+      "fallback": "🎃",
+      "pack": "RestrictedEmoji"
+    },
+    "😺": {
+      "custom_emoji_id": "5370996619581856274",
+      "fallback": "😺",
+      "pack": "RestrictedEmoji"
+    },
+    "😸": {
+      "custom_emoji_id": "5370679174254041760",
+      "fallback": "😸",
+      "pack": "RestrictedEmoji"
+    },
+    "😹": {
+      "custom_emoji_id": "5370677443382221953",
+      "fallback": "😹",
+      "pack": "RestrictedEmoji"
+    },
+    "😻": {
+      "custom_emoji_id": "5370597492566006063",
+      "fallback": "😻",
+      "pack": "RestrictedEmoji"
+    },
+    "😼": {
+      "custom_emoji_id": "5386828444560530381",
+      "fallback": "😼",
+      "pack": "RestrictedEmoji"
+    },
+    "😽": {
+      "custom_emoji_id": "5372993873863776984",
+      "fallback": "😽",
+      "pack": "RestrictedEmoji"
+    },
+    "🙀": {
+      "custom_emoji_id": "5370704475906383039",
+      "fallback": "🙀",
+      "pack": "RestrictedEmoji"
+    },
+    "😿": {
+      "custom_emoji_id": "5386666691797195065",
+      "fallback": "😿",
+      "pack": "RestrictedEmoji"
+    },
+    "😾": {
+      "custom_emoji_id": "5370977588581767676",
+      "fallback": "😾",
+      "pack": "RestrictedEmoji"
+    },
+    "🫶": {
+      "custom_emoji_id": "5357107687484038897",
+      "fallback": "🫶",
+      "pack": "RestrictedEmoji"
+    },
+    "🤲": {
+      "custom_emoji_id": "5471895949804575096",
+      "fallback": "🤲",
+      "pack": "RestrictedEmoji"
+    },
+    "👐": {
+      "custom_emoji_id": "5472221443901103190",
+      "fallback": "👐",
+      "pack": "RestrictedEmoji"
+    },
+    "🙌": {
+      "custom_emoji_id": "5469645992531862101",
+      "fallback": "🙌",
+      "pack": "RestrictedEmoji"
+    },
+    "👏": {
+      "custom_emoji_id": "5471921242866981303",
+      "fallback": "👏",
+      "pack": "RestrictedEmoji"
+    },
+    "🤝": {
+      "custom_emoji_id": "5357080225463149588",
+      "fallback": "🤝",
+      "pack": "RestrictedEmoji"
+    },
+    "👍": {
+      "custom_emoji_id": "5469770542288478598",
+      "fallback": "👍",
+      "pack": "RestrictedEmoji"
+    },
+    "👎": {
+      "custom_emoji_id": "5472309400536358507",
+      "fallback": "👎",
+      "pack": "RestrictedEmoji"
+    },
+    "👊": {
+      "custom_emoji_id": "5470058558500382450",
+      "fallback": "👊",
+      "pack": "RestrictedEmoji"
+    },
+    "✊": {
+      "custom_emoji_id": "5472404692975753822",
+      "fallback": "✊",
+      "pack": "RestrictedEmoji"
+    },
+    "🤛": {
+      "custom_emoji_id": "5469724332735340531",
+      "fallback": "🤛",
+      "pack": "RestrictedEmoji"
+    },
+    "🤜": {
+      "custom_emoji_id": "5472101816177008629",
+      "fallback": "🤜",
+      "pack": "RestrictedEmoji"
+    },
+    "🫷": {
+      "custom_emoji_id": "5433871032375060997",
+      "fallback": "🫷",
+      "pack": "RestrictedEmoji"
+    },
+    "🫸": {
+      "custom_emoji_id": "5434103785242768167",
+      "fallback": "🫸",
+      "pack": "RestrictedEmoji"
+    },
+    "🤞": {
+      "custom_emoji_id": "5472139590414376346",
+      "fallback": "🤞",
+      "pack": "RestrictedEmoji"
+    },
+    "✌️": {
+      "custom_emoji_id": "5469986291380657759",
+      "fallback": "✌️",
+      "pack": "RestrictedEmoji"
+    },
+    "🫰": {
+      "custom_emoji_id": "5357461124637794049",
+      "fallback": "🫰",
+      "pack": "RestrictedEmoji"
+    },
+    "🤟": {
+      "custom_emoji_id": "5471957105843904125",
+      "fallback": "🤟",
+      "pack": "RestrictedEmoji"
+    },
+    "🤘": {
+      "custom_emoji_id": "5470076726212042350",
+      "fallback": "🤘",
+      "pack": "RestrictedEmoji"
+    },
+    "👌": {
+      "custom_emoji_id": "5471984997361523302",
+      "fallback": "👌",
+      "pack": "RestrictedEmoji"
+    },
+    "🤌": {
+      "custom_emoji_id": "5472234792659458002",
+      "fallback": "🤌",
+      "pack": "RestrictedEmoji"
+    },
+    "🤏": {
+      "custom_emoji_id": "5472060215123778885",
+      "fallback": "🤏",
+      "pack": "RestrictedEmoji"
+    },
+    "🫳": {
+      "custom_emoji_id": "5357041699606503565",
+      "fallback": "🫳",
+      "pack": "RestrictedEmoji"
+    },
+    "🫴": {
+      "custom_emoji_id": "5357429539448299875",
+      "fallback": "🫴",
+      "pack": "RestrictedEmoji"
+    },
+    "👈": {
+      "custom_emoji_id": "5469735272017043817",
+      "fallback": "👈",
+      "pack": "RestrictedEmoji"
+    },
+    "👉": {
+      "custom_emoji_id": "5471978009449731768",
+      "fallback": "👉",
+      "pack": "RestrictedEmoji"
+    },
+    "👆": {
+      "custom_emoji_id": "5469718869536940860",
+      "fallback": "👆",
+      "pack": "RestrictedEmoji"
+    },
+    "👇": {
+      "custom_emoji_id": "5470177992950946662",
+      "fallback": "👇",
+      "pack": "RestrictedEmoji"
+    },
+    "☝️": {
+      "custom_emoji_id": "5472105307985419058",
+      "fallback": "☝️",
+      "pack": "RestrictedEmoji"
+    },
+    "✋": {
+      "custom_emoji_id": "5472354553527541051",
+      "fallback": "✋",
+      "pack": "RestrictedEmoji"
+    },
+    "🤚": {
+      "custom_emoji_id": "5469904794376217131",
+      "fallback": "🤚",
+      "pack": "RestrictedEmoji"
+    },
+    "🖐": {
+      "custom_emoji_id": "5472241608772557596",
+      "fallback": "🖐",
+      "pack": "RestrictedEmoji"
+    },
+    "🖖": {
+      "custom_emoji_id": "5471893463018511081",
+      "fallback": "🖖",
+      "pack": "RestrictedEmoji"
+    },
+    "👋": {
+      "custom_emoji_id": "5472055112702629499",
+      "fallback": "👋",
+      "pack": "RestrictedEmoji"
+    },
+    "🤙": {
+      "custom_emoji_id": "5469774158650942877",
+      "fallback": "🤙",
+      "pack": "RestrictedEmoji"
+    },
+    "🫲": {
+      "custom_emoji_id": "5472370131373923279",
+      "fallback": "🫲",
+      "pack": "RestrictedEmoji"
+    },
+    "🫱": {
+      "custom_emoji_id": "5472348819746200625",
+      "fallback": "🫱",
+      "pack": "RestrictedEmoji"
+    },
+    "💪": {
+      "custom_emoji_id": "5471883477219549006",
+      "fallback": "💪",
+      "pack": "RestrictedEmoji"
+    },
+    "🦾": {
+      "custom_emoji_id": "5386766919154016047",
+      "fallback": "🦾",
+      "pack": "RestrictedEmoji"
+    },
+    "🖕": {
+      "custom_emoji_id": "5470028837326691625",
+      "fallback": "🖕",
+      "pack": "RestrictedEmoji"
+    },
+    "✍️": {
+      "custom_emoji_id": "5470060791883374114",
+      "fallback": "✍️",
+      "pack": "RestrictedEmoji"
+    },
+    "🙏": {
+      "custom_emoji_id": "5472189549473963781",
+      "fallback": "🙏",
+      "pack": "RestrictedEmoji"
+    },
+    "🫵": {
+      "custom_emoji_id": "5357423427709838027",
+      "fallback": "🫵",
+      "pack": "RestrictedEmoji"
+    },
+    "🦶": {
+      "custom_emoji_id": "5469873690223059497",
+      "fallback": "🦶",
+      "pack": "RestrictedEmoji"
+    },
+    "🦵": {
+      "custom_emoji_id": "5472145530354145694",
+      "fallback": "🦵",
+      "pack": "RestrictedEmoji"
+    },
+    "🦿": {
+      "custom_emoji_id": "5415966542078683753",
+      "fallback": "🦿",
+      "pack": "RestrictedEmoji"
+    },
+    "💄": {
+      "custom_emoji_id": "5425119671437237058",
+      "fallback": "💄",
+      "pack": "RestrictedEmoji"
+    },
+    "💋": {
+      "custom_emoji_id": "5420273668427096000",
+      "fallback": "💋",
+      "pack": "RestrictedEmoji"
+    },
+    "🫦": {
+      "custom_emoji_id": "5390999527819844807",
+      "fallback": "🫦",
+      "pack": "RestrictedEmoji"
+    },
+    "👄": {
+      "custom_emoji_id": "5391137757047298749",
+      "fallback": "👄",
+      "pack": "RestrictedEmoji"
+    },
+    "🦷": {
+      "custom_emoji_id": "5469760204302196866",
+      "fallback": "🦷",
+      "pack": "RestrictedEmoji"
+    },
+    "👅": {
+      "custom_emoji_id": "5470039656349310887",
+      "fallback": "👅",
+      "pack": "RestrictedEmoji"
+    },
+    "👂": {
+      "custom_emoji_id": "5472199711366584503",
+      "fallback": "👂",
+      "pack": "RestrictedEmoji"
+    },
+    "🦻": {
+      "custom_emoji_id": "5472248558029642850",
+      "fallback": "🦻",
+      "pack": "RestrictedEmoji"
+    },
+    "👃": {
+      "custom_emoji_id": "5471966722275679446",
+      "fallback": "👃",
+      "pack": "RestrictedEmoji"
+    },
+    "👣": {
+      "custom_emoji_id": "5188501157072347830",
+      "fallback": "👣",
+      "pack": "RestrictedEmoji"
+    },
+    "👁": {
+      "custom_emoji_id": "5424892643760937442",
+      "fallback": "👁",
+      "pack": "RestrictedEmoji"
+    },
+    "👀": {
+      "custom_emoji_id": "5424885441100782420",
+      "fallback": "👀",
+      "pack": "RestrictedEmoji"
+    },
+    "🧠": {
+      "custom_emoji_id": "5237799019329105246",
+      "fallback": "🧠",
+      "pack": "RestrictedEmoji"
+    },
+    "🗣": {
+      "custom_emoji_id": "5370765563226236970",
+      "fallback": "🗣",
+      "pack": "RestrictedEmoji"
+    },
+    "👤": {
+      "custom_emoji_id": "5373012449597335010",
+      "fallback": "👤",
+      "pack": "RestrictedEmoji"
+    },
+    "👥": {
+      "custom_emoji_id": "5372926953978341366",
+      "fallback": "👥",
+      "pack": "RestrictedEmoji"
+    },
+    "🫂": {
+      "custom_emoji_id": "5370867268051806190",
+      "fallback": "🫂",
+      "pack": "RestrictedEmoji"
+    },
+    "👶": {
+      "custom_emoji_id": "5379601719703379510",
+      "fallback": "👶",
+      "pack": "RestrictedEmoji"
+    },
+    "👵": {
+      "custom_emoji_id": "5190941656274181429",
+      "fallback": "👵",
+      "pack": "RestrictedEmoji"
+    },
+    "👮‍♀️": {
+      "custom_emoji_id": "5370872220149099318",
+      "fallback": "👮‍♀️",
+      "pack": "RestrictedEmoji"
+    },
+    "👮‍♂️": {
+      "custom_emoji_id": "5377754411319698237",
+      "fallback": "👮‍♂️",
+      "pack": "RestrictedEmoji"
+    },
+    "👩‍⚕️": {
+      "custom_emoji_id": "5431602426354344379",
+      "fallback": "👩‍⚕️",
+      "pack": "RestrictedEmoji"
+    },
+    "👨‍⚕️": {
+      "custom_emoji_id": "5429363657471434941",
+      "fallback": "👨‍⚕️",
+      "pack": "RestrictedEmoji"
+    },
+    "👨‍🏫": {
+      "custom_emoji_id": "5373039692574893940",
+      "fallback": "👨‍🏫",
+      "pack": "RestrictedEmoji"
+    },
+    "👩‍💻": {
+      "custom_emoji_id": "5190736541521025564",
+      "fallback": "👩‍💻",
+      "pack": "RestrictedEmoji"
+    },
+    "🧑‍💻": {
+      "custom_emoji_id": "5190458330719461749",
+      "fallback": "🧑‍💻",
+      "pack": "RestrictedEmoji"
+    },
+    "👨‍💻": {
+      "custom_emoji_id": "5190498849440931467",
+      "fallback": "👨‍💻",
+      "pack": "RestrictedEmoji"
+    },
+    "🤶": {
+      "custom_emoji_id": "5190595636528947694",
+      "fallback": "🤶",
+      "pack": "RestrictedEmoji"
+    },
+    "🧑‍🎄": {
+      "custom_emoji_id": "5190748979746317724",
+      "fallback": "🧑‍🎄",
+      "pack": "RestrictedEmoji"
+    },
+    "🎅": {
+      "custom_emoji_id": "5190723690978886110",
+      "fallback": "🎅",
+      "pack": "RestrictedEmoji"
+    },
+    "🧛‍♀️": {
+      "custom_emoji_id": "5190445793709924936",
+      "fallback": "🧛‍♀️",
+      "pack": "RestrictedEmoji"
+    },
+    "🧛": {
+      "custom_emoji_id": "5192935590546382362",
+      "fallback": "🧛",
+      "pack": "RestrictedEmoji"
+    },
+    "🧛‍♂️": {
+      "custom_emoji_id": "5190548452018233240",
+      "fallback": "🧛‍♂️",
+      "pack": "RestrictedEmoji"
+    },
+    "🧟‍♀️": {
+      "custom_emoji_id": "5190533149049757592",
+      "fallback": "🧟‍♀️",
+      "pack": "RestrictedEmoji"
+    },
+    "🧟": {
+      "custom_emoji_id": "5190680981824085932",
+      "fallback": "🧟",
+      "pack": "RestrictedEmoji"
+    },
+    "🧟‍♂️": {
+      "custom_emoji_id": "5190733157086796387",
+      "fallback": "🧟‍♂️",
+      "pack": "RestrictedEmoji"
+    },
+    "🤰": {
+      "custom_emoji_id": "5386381480198938366",
+      "fallback": "🤰",
+      "pack": "RestrictedEmoji"
+    },
+    "🤦‍♀️": {
+      "custom_emoji_id": "5283021507377768251",
+      "fallback": "🤦‍♀️",
+      "pack": "RestrictedEmoji"
+    },
+    "🤦": {
+      "custom_emoji_id": "5282722547589196222",
+      "fallback": "🤦",
+      "pack": "RestrictedEmoji"
+    },
+    "🤦‍♂️": {
+      "custom_emoji_id": "5282785636363807099",
+      "fallback": "🤦‍♂️",
+      "pack": "RestrictedEmoji"
+    },
+    "🤷‍♀️": {
+      "custom_emoji_id": "5190569523127787186",
+      "fallback": "🤷‍♀️",
+      "pack": "RestrictedEmoji"
+    },
+    "🤷": {
+      "custom_emoji_id": "5395517004486551976",
+      "fallback": "🤷",
+      "pack": "RestrictedEmoji"
+    },
+    "🤷‍♂️": {
+      "custom_emoji_id": "5190748314026385859",
+      "fallback": "🤷‍♂️",
+      "pack": "RestrictedEmoji"
+    },
+    "💅": {
+      "custom_emoji_id": "5373334855612375386",
+      "fallback": "💅",
+      "pack": "RestrictedEmoji"
+    },
+    "💃": {
+      "custom_emoji_id": "5190799832159100491",
+      "fallback": "💃",
+      "pack": "RestrictedEmoji"
+    },
+    "🕺": {
+      "custom_emoji_id": "5190758974135212829",
+      "fallback": "🕺",
+      "pack": "RestrictedEmoji"
+    },
+    "👠": {
+      "custom_emoji_id": "5372917273122054051",
+      "fallback": "👠",
+      "pack": "RestrictedEmoji"
+    },
+    "👨‍👩‍👧‍👦": {
+      "custom_emoji_id": "5386539642369614675",
+      "fallback": "👨‍👩‍👧‍👦",
+      "pack": "RestrictedEmoji"
+    },
+    "🎩": {
+      "custom_emoji_id": "5467480195143310096",
+      "fallback": "🎩",
+      "pack": "RestrictedEmoji"
+    },
+    "🎓": {
+      "custom_emoji_id": "5375163339154399459",
+      "fallback": "🎓",
+      "pack": "RestrictedEmoji"
+    },
+    "🪖": {
+      "custom_emoji_id": "5375271950287379933",
+      "fallback": "🪖",
+      "pack": "RestrictedEmoji"
+    },
+    "👑": {
+      "custom_emoji_id": "5467406098367521267",
+      "fallback": "👑",
+      "pack": "RestrictedEmoji"
+    },
+    "💍": {
+      "custom_emoji_id": "5402100905883488232",
+      "fallback": "💍",
+      "pack": "RestrictedEmoji"
+    },
+    "👛": {
+      "custom_emoji_id": "5472363448404809929",
+      "fallback": "👛",
+      "pack": "RestrictedEmoji"
+    },
+    "👜": {
+      "custom_emoji_id": "5380056101473492248",
+      "fallback": "👜",
+      "pack": "RestrictedEmoji"
+    },
+    "💼": {
+      "custom_emoji_id": "5359785904535774578",
+      "fallback": "💼",
+      "pack": "RestrictedEmoji"
+    },
+    "🧳": {
+      "custom_emoji_id": "5375106250449100282",
+      "fallback": "🧳",
+      "pack": "RestrictedEmoji"
+    },
+    "🐶": {
+      "custom_emoji_id": "5283020991981693429",
+      "fallback": "🐶",
+      "pack": "RestrictedEmoji"
+    },
+    "🐱": {
+      "custom_emoji_id": "5282816560128336499",
+      "fallback": "🐱",
+      "pack": "RestrictedEmoji"
+    },
+    "🐭": {
+      "custom_emoji_id": "5283220982838864517",
+      "fallback": "🐭",
+      "pack": "RestrictedEmoji"
+    },
+    "🐹": {
+      "custom_emoji_id": "5282938489954902480",
+      "fallback": "🐹",
+      "pack": "RestrictedEmoji"
+    },
+    "🦊": {
+      "custom_emoji_id": "5283051451889756068",
+      "fallback": "🦊",
+      "pack": "RestrictedEmoji"
+    },
+    "🐰": {
+      "custom_emoji_id": "5413628907343588244",
+      "fallback": "🐰",
+      "pack": "RestrictedEmoji"
+    },
+    "🐻": {
+      "custom_emoji_id": "5282822525837911765",
+      "fallback": "🐻",
+      "pack": "RestrictedEmoji"
+    },
+    "🐼": {
+      "custom_emoji_id": "5280639613004685879",
+      "fallback": "🐼",
+      "pack": "RestrictedEmoji"
+    },
+    "🐻‍❄️": {
+      "custom_emoji_id": "5280924618444514633",
+      "fallback": "🐻‍❄️",
+      "pack": "RestrictedEmoji"
+    },
+    "🐨": {
+      "custom_emoji_id": "5282989982317814757",
+      "fallback": "🐨",
+      "pack": "RestrictedEmoji"
+    },
+    "🐯": {
+      "custom_emoji_id": "5364298326025970096",
+      "fallback": "🐯",
+      "pack": "RestrictedEmoji"
+    },
+    "🦁": {
+      "custom_emoji_id": "5397972596203462916",
+      "fallback": "🦁",
+      "pack": "RestrictedEmoji"
+    },
+    "🐮": {
+      "custom_emoji_id": "5393123749924984737",
+      "fallback": "🐮",
+      "pack": "RestrictedEmoji"
+    },
+    "🐷": {
+      "custom_emoji_id": "5357233044694508227",
+      "fallback": "🐷",
+      "pack": "RestrictedEmoji"
+    },
+    "🐽": {
+      "custom_emoji_id": "5357546847890055677",
+      "fallback": "🐽",
+      "pack": "RestrictedEmoji"
+    },
+    "🐸": {
+      "custom_emoji_id": "5411083752673650595",
+      "fallback": "🐸",
+      "pack": "RestrictedEmoji"
+    },
+    "🐵": {
+      "custom_emoji_id": "5465449362807070392",
+      "fallback": "🐵",
+      "pack": "RestrictedEmoji"
+    },
+    "🙈": {
+      "custom_emoji_id": "5467370583282950466",
+      "fallback": "🙈",
+      "pack": "RestrictedEmoji"
+    },
+    "🙉": {
+      "custom_emoji_id": "5465507121527266133",
+      "fallback": "🙉",
+      "pack": "RestrictedEmoji"
+    },
+    "🙊": {
+      "custom_emoji_id": "5467550297599516219",
+      "fallback": "🙊",
+      "pack": "RestrictedEmoji"
+    },
+    "🐔": {
+      "custom_emoji_id": "5283202076392827429",
+      "fallback": "🐔",
+      "pack": "RestrictedEmoji"
+    },
+    "🐧": {
+      "custom_emoji_id": "5361541227604878624",
+      "fallback": "🐧",
+      "pack": "RestrictedEmoji"
+    },
+    "🐦": {
+      "custom_emoji_id": "5332594174527022579",
+      "fallback": "🐦",
+      "pack": "RestrictedEmoji"
+    },
+    "🐤": {
+      "custom_emoji_id": "5282786130285044165",
+      "fallback": "🐤",
+      "pack": "RestrictedEmoji"
+    },
+    "🐣": {
+      "custom_emoji_id": "5470113903448956707",
+      "fallback": "🐣",
+      "pack": "RestrictedEmoji"
+    },
+    "🐥": {
+      "custom_emoji_id": "5470012829983580233",
+      "fallback": "🐥",
+      "pack": "RestrictedEmoji"
+    },
+    "🪿": {
+      "custom_emoji_id": "5271913686863208405",
+      "fallback": "🪿",
+      "pack": "RestrictedEmoji"
+    },
+    "🦆": {
+      "custom_emoji_id": "5368684320858843385",
+      "fallback": "🦆",
+      "pack": "RestrictedEmoji"
+    },
+    "🐦‍⬛️": {
+      "custom_emoji_id": "5271564922633869989",
+      "fallback": "🐦‍⬛️",
+      "pack": "RestrictedEmoji"
+    },
+    "🦉": {
+      "custom_emoji_id": "5445146051671497117",
+      "fallback": "🦉",
+      "pack": "RestrictedEmoji"
+    },
+    "🦇": {
+      "custom_emoji_id": "5442769745050871204",
+      "fallback": "🦇",
+      "pack": "RestrictedEmoji"
+    },
+    "🐺": {
+      "custom_emoji_id": "5276289730256842699",
+      "fallback": "🐺",
+      "pack": "RestrictedEmoji"
+    },
+    "🐴": {
+      "custom_emoji_id": "5339237329292764502",
+      "fallback": "🐴",
+      "pack": "RestrictedEmoji"
+    },
+    "🦄": {
+      "custom_emoji_id": "5415696465945173620",
+      "fallback": "🦄",
+      "pack": "RestrictedEmoji"
+    },
+    "🐝": {
+      "custom_emoji_id": "5411500325846656872",
+      "fallback": "🐝",
+      "pack": "RestrictedEmoji"
+    },
+    "🪱": {
+      "custom_emoji_id": "5233206123036682153",
+      "fallback": "🪱",
+      "pack": "RestrictedEmoji"
+    },
+    "🐛": {
+      "custom_emoji_id": "5397991236361527676",
+      "fallback": "🐛",
+      "pack": "RestrictedEmoji"
+    },
+    "🦋": {
+      "custom_emoji_id": "5445096582238181549",
+      "fallback": "🦋",
+      "pack": "RestrictedEmoji"
+    },
+    "🐌": {
+      "custom_emoji_id": "5368469400695351161",
+      "fallback": "🐌",
+      "pack": "RestrictedEmoji"
+    },
+    "🐞": {
+      "custom_emoji_id": "5368487491097601104",
+      "fallback": "🐞",
+      "pack": "RestrictedEmoji"
+    },
+    "🐜": {
+      "custom_emoji_id": "5472009457200277262",
+      "fallback": "🐜",
+      "pack": "RestrictedEmoji"
+    },
+    "🪰": {
+      "custom_emoji_id": "5224189032472275894",
+      "fallback": "🪰",
+      "pack": "RestrictedEmoji"
+    },
+    "🪲": {
+      "custom_emoji_id": "5445397693805373887",
+      "fallback": "🪲",
+      "pack": "RestrictedEmoji"
+    },
+    "🪳": {
+      "custom_emoji_id": "5460712963067362896",
+      "fallback": "🪳",
+      "pack": "RestrictedEmoji"
+    },
+    "🦟": {
+      "custom_emoji_id": "5397618806862392535",
+      "fallback": "🦟",
+      "pack": "RestrictedEmoji"
+    },
+    "🦗": {
+      "custom_emoji_id": "5397617947868930988",
+      "fallback": "🦗",
+      "pack": "RestrictedEmoji"
+    },
+    "🕷": {
+      "custom_emoji_id": "5445149053853637789",
+      "fallback": "🕷",
+      "pack": "RestrictedEmoji"
+    },
+    "🕸": {
+      "custom_emoji_id": "5445388468215619925",
+      "fallback": "🕸",
+      "pack": "RestrictedEmoji"
+    },
+    "🦂": {
+      "custom_emoji_id": "5380003148821712039",
+      "fallback": "🦂",
+      "pack": "RestrictedEmoji"
+    },
+    "🐢": {
+      "custom_emoji_id": "5350813992732338949",
+      "fallback": "🐢",
+      "pack": "RestrictedEmoji"
+    },
+    "🐍": {
+      "custom_emoji_id": "5409076727341130651",
+      "fallback": "🐍",
+      "pack": "RestrictedEmoji"
+    },
+    "🦎": {
+      "custom_emoji_id": "5238108342873762772",
+      "fallback": "🦎",
+      "pack": "RestrictedEmoji"
+    },
+    "🦖": {
+      "custom_emoji_id": "5460873384390830669",
+      "fallback": "🦖",
+      "pack": "RestrictedEmoji"
+    },
+    "🦕": {
+      "custom_emoji_id": "5461115427272796310",
+      "fallback": "🦕",
+      "pack": "RestrictedEmoji"
+    },
+    "🐙": {
+      "custom_emoji_id": "5352815688010441881",
+      "fallback": "🐙",
+      "pack": "RestrictedEmoji"
+    },
+    "🦑": {
+      "custom_emoji_id": "5474140796066210842",
+      "fallback": "🦑",
+      "pack": "RestrictedEmoji"
+    },
+    "🦐": {
+      "custom_emoji_id": "5361600498153564481",
+      "fallback": "🦐",
+      "pack": "RestrictedEmoji"
+    },
+    "🦞": {
+      "custom_emoji_id": "5397772549511717747",
+      "fallback": "🦞",
+      "pack": "RestrictedEmoji"
+    },
+    "🦀": {
+      "custom_emoji_id": "5222474515887435551",
+      "fallback": "🦀",
+      "pack": "RestrictedEmoji"
+    },
+    "🐠": {
+      "custom_emoji_id": "5397842858126353661",
+      "fallback": "🐠",
+      "pack": "RestrictedEmoji"
+    },
+    "🐟": {
+      "custom_emoji_id": "5382210409824525356",
+      "fallback": "🐟",
+      "pack": "RestrictedEmoji"
+    },
+    "🐬": {
+      "custom_emoji_id": "5362063083311214432",
+      "fallback": "🐬",
+      "pack": "RestrictedEmoji"
+    },
+    "🐳": {
+      "custom_emoji_id": "5431815452437257407",
+      "fallback": "🐳",
+      "pack": "RestrictedEmoji"
+    },
+    "🐋": {
+      "custom_emoji_id": "5222292529533167322",
+      "fallback": "🐋",
+      "pack": "RestrictedEmoji"
+    },
+    "🦈": {
+      "custom_emoji_id": "5361632650278744629",
+      "fallback": "🦈",
+      "pack": "RestrictedEmoji"
+    },
+    "🦭": {
+      "custom_emoji_id": "5420642954010175242",
+      "fallback": "🦭",
+      "pack": "RestrictedEmoji"
+    },
+    "🐅": {
+      "custom_emoji_id": "5474425672657021493",
+      "fallback": "🐅",
+      "pack": "RestrictedEmoji"
+    },
+    "🐆": {
+      "custom_emoji_id": "5409152396074952733",
+      "fallback": "🐆",
+      "pack": "RestrictedEmoji"
+    },
+    "🦓": {
+      "custom_emoji_id": "5339136715388887338",
+      "fallback": "🦓",
+      "pack": "RestrictedEmoji"
+    },
+    "🦍": {
+      "custom_emoji_id": "5461044878139991881",
+      "fallback": "🦍",
+      "pack": "RestrictedEmoji"
+    },
+    "🦣": {
+      "custom_emoji_id": "5222463202943575830",
+      "fallback": "🦣",
+      "pack": "RestrictedEmoji"
+    },
+    "🐘": {
+      "custom_emoji_id": "5224708023435404637",
+      "fallback": "🐘",
+      "pack": "RestrictedEmoji"
+    },
+    "🦛": {
+      "custom_emoji_id": "5247022225374063963",
+      "fallback": "🦛",
+      "pack": "RestrictedEmoji"
+    },
+    "🦏": {
+      "custom_emoji_id": "5195097801637243044",
+      "fallback": "🦏",
+      "pack": "RestrictedEmoji"
+    },
+    "🐪": {
+      "custom_emoji_id": "5224323379049296560",
+      "fallback": "🐪",
+      "pack": "RestrictedEmoji"
+    },
+    "🐫": {
+      "custom_emoji_id": "5436346870567806865",
+      "fallback": "🐫",
+      "pack": "RestrictedEmoji"
+    },
+    "🦒": {
+      "custom_emoji_id": "5395848782120233514",
+      "fallback": "🦒",
+      "pack": "RestrictedEmoji"
+    },
+    "🦘": {
+      "custom_emoji_id": "5395748653547662674",
+      "fallback": "🦘",
+      "pack": "RestrictedEmoji"
+    },
+    "🦬": {
+      "custom_emoji_id": "5341464046497440643",
+      "fallback": "🦬",
+      "pack": "RestrictedEmoji"
+    },
+    "🐃": {
+      "custom_emoji_id": "5454199713882449973",
+      "fallback": "🐃",
+      "pack": "RestrictedEmoji"
+    },
+    "🐂": {
+      "custom_emoji_id": "5427148558153295349",
+      "fallback": "🐂",
+      "pack": "RestrictedEmoji"
+    },
+    "🐄": {
+      "custom_emoji_id": "5417952788359423425",
+      "fallback": "🐄",
+      "pack": "RestrictedEmoji"
+    },
+    "🐎": {
+      "custom_emoji_id": "5350774831220532974",
+      "fallback": "🐎",
+      "pack": "RestrictedEmoji"
+    },
+    "🐖": {
+      "custom_emoji_id": "5201910092215105927",
+      "fallback": "🐖",
+      "pack": "RestrictedEmoji"
+    },
+    "🐏": {
+      "custom_emoji_id": "5221960120539293842",
+      "fallback": "🐏",
+      "pack": "RestrictedEmoji"
+    },
+    "🐑": {
+      "custom_emoji_id": "5222303808117306484",
+      "fallback": "🐑",
+      "pack": "RestrictedEmoji"
+    },
+    "🦙": {
+      "custom_emoji_id": "5343553685525899318",
+      "fallback": "🦙",
+      "pack": "RestrictedEmoji"
+    },
+    "🐐": {
+      "custom_emoji_id": "5222141780476046109",
+      "fallback": "🐐",
+      "pack": "RestrictedEmoji"
+    },
+    "🦌": {
+      "custom_emoji_id": "5427137412713161135",
+      "fallback": "🦌",
+      "pack": "RestrictedEmoji"
+    },
+    "🐕": {
+      "custom_emoji_id": "5429363803500338694",
+      "fallback": "🐕",
+      "pack": "RestrictedEmoji"
+    },
+    "🐩": {
+      "custom_emoji_id": "5429286305110449868",
+      "fallback": "🐩",
+      "pack": "RestrictedEmoji"
+    },
+    "🦮": {
+      "custom_emoji_id": "5244914019201984931",
+      "fallback": "🦮",
+      "pack": "RestrictedEmoji"
+    },
+    "🐕‍🦺": {
+      "custom_emoji_id": "5255982403326846597",
+      "fallback": "🐕‍🦺",
+      "pack": "RestrictedEmoji"
+    },
+    "🐈": {
+      "custom_emoji_id": "5413492778355140447",
+      "fallback": "🐈",
+      "pack": "RestrictedEmoji"
+    },
+    "🐈‍⬛": {
+      "custom_emoji_id": "5413703918947413540",
+      "fallback": "🐈‍⬛",
+      "pack": "RestrictedEmoji"
+    },
+    "🐓": {
+      "custom_emoji_id": "5318986601441813952",
+      "fallback": "🐓",
+      "pack": "RestrictedEmoji"
+    },
+    "🦃": {
+      "custom_emoji_id": "5438309683506979622",
+      "fallback": "🦃",
+      "pack": "RestrictedEmoji"
+    },
+    "🦤": {
+      "custom_emoji_id": "5319003338929366294",
+      "fallback": "🦤",
+      "pack": "RestrictedEmoji"
+    },
+    "🦚": {
+      "custom_emoji_id": "5197299191419789230",
+      "fallback": "🦚",
+      "pack": "RestrictedEmoji"
+    },
+    "🦜": {
+      "custom_emoji_id": "5449565637443593864",
+      "fallback": "🦜",
+      "pack": "RestrictedEmoji"
+    },
+    "🦢": {
+      "custom_emoji_id": "5350817398641404705",
+      "fallback": "🦢",
+      "pack": "RestrictedEmoji"
+    },
+    "🦩": {
+      "custom_emoji_id": "5413616769766009559",
+      "fallback": "🦩",
+      "pack": "RestrictedEmoji"
+    },
+    "🕊": {
+      "custom_emoji_id": "5434121252874756456",
+      "fallback": "🕊",
+      "pack": "RestrictedEmoji"
+    },
+    "🐇": {
+      "custom_emoji_id": "5460999037954042754",
+      "fallback": "🐇",
+      "pack": "RestrictedEmoji"
+    },
+    "🦝": {
+      "custom_emoji_id": "5460664743469525674",
+      "fallback": "🦝",
+      "pack": "RestrictedEmoji"
+    },
+    "🦡": {
+      "custom_emoji_id": "5221982978355243461",
+      "fallback": "🦡",
+      "pack": "RestrictedEmoji"
+    },
+    "🦫": {
+      "custom_emoji_id": "5222285176549156658",
+      "fallback": "🦫",
+      "pack": "RestrictedEmoji"
+    },
+    "🦦": {
+      "custom_emoji_id": "5235720796323719802",
+      "fallback": "🦦",
+      "pack": "RestrictedEmoji"
+    },
+    "🦥": {
+      "custom_emoji_id": "5226639796645932042",
+      "fallback": "🦥",
+      "pack": "RestrictedEmoji"
+    },
+    "🐁": {
+      "custom_emoji_id": "5233312311808108588",
+      "fallback": "🐁",
+      "pack": "RestrictedEmoji"
+    },
+    "🐀": {
+      "custom_emoji_id": "5325622678101451093",
+      "fallback": "🐀",
+      "pack": "RestrictedEmoji"
+    },
+    "🐿": {
+      "custom_emoji_id": "5233608776220681373",
+      "fallback": "🐿",
+      "pack": "RestrictedEmoji"
+    },
+    "🦔": {
+      "custom_emoji_id": "5397600806654453370",
+      "fallback": "🦔",
+      "pack": "RestrictedEmoji"
+    },
+    "🐾": {
+      "custom_emoji_id": "5188308218551475917",
+      "fallback": "🐾",
+      "pack": "RestrictedEmoji"
+    },
+    "🐉": {
+      "custom_emoji_id": "5470088387048266598",
+      "fallback": "🐉",
+      "pack": "RestrictedEmoji"
+    },
+    "🐲": {
+      "custom_emoji_id": "5258112758645282249",
+      "fallback": "🐲",
+      "pack": "RestrictedEmoji"
+    },
+    "🌵": {
+      "custom_emoji_id": "5449820402018688838",
+      "fallback": "🌵",
+      "pack": "RestrictedEmoji"
+    },
+    "🎄": {
+      "custom_emoji_id": "5449857802593901902",
+      "fallback": "🎄",
+      "pack": "RestrictedEmoji"
+    },
+    "🌲": {
+      "custom_emoji_id": "5449523005598210324",
+      "fallback": "🌲",
+      "pack": "RestrictedEmoji"
+    },
+    "🌳": {
+      "custom_emoji_id": "5449918202718985124",
+      "fallback": "🌳",
+      "pack": "RestrictedEmoji"
+    },
+    "🌴": {
+      "custom_emoji_id": "5449372007432985754",
+      "fallback": "🌴",
+      "pack": "RestrictedEmoji"
+    },
+    "🪵": {
+      "custom_emoji_id": "5188239353045868629",
+      "fallback": "🪵",
+      "pack": "RestrictedEmoji"
+    },
+    "🌱": {
+      "custom_emoji_id": "5449885771420934013",
+      "fallback": "🌱",
+      "pack": "RestrictedEmoji"
+    },
+    "🌿": {
+      "custom_emoji_id": "5449850741667668411",
+      "fallback": "🌿",
+      "pack": "RestrictedEmoji"
+    },
+    "☘️": {
+      "custom_emoji_id": "5368544635637475254",
+      "fallback": "☘️",
+      "pack": "RestrictedEmoji"
+    },
+    "🍀": {
+      "custom_emoji_id": "5395325195542078574",
+      "fallback": "🍀",
+      "pack": "RestrictedEmoji"
+    },
+    "🎍": {
+      "custom_emoji_id": "5465271641355350028",
+      "fallback": "🎍",
+      "pack": "RestrictedEmoji"
+    },
+    "🪴": {
+      "custom_emoji_id": "5278428495121248059",
+      "fallback": "🪴",
+      "pack": "RestrictedEmoji"
+    },
+    "🍁": {
+      "custom_emoji_id": "5281026503658728615",
+      "fallback": "🍁",
+      "pack": "RestrictedEmoji"
+    },
+    "🍄": {
+      "custom_emoji_id": "5467491306223730835",
+      "fallback": "🍄",
+      "pack": "RestrictedEmoji"
+    },
+    "💐": {
+      "custom_emoji_id": "5190661263629243818",
+      "fallback": "💐",
+      "pack": "RestrictedEmoji"
+    },
+    "🌷": {
+      "custom_emoji_id": "5404835520150773707",
+      "fallback": "🌷",
+      "pack": "RestrictedEmoji"
+    },
+    "🌹": {
+      "custom_emoji_id": "5440911110838425969",
+      "fallback": "🌹",
+      "pack": "RestrictedEmoji"
+    },
+    "🥀": {
+      "custom_emoji_id": "5208923808169222461",
+      "fallback": "🥀",
+      "pack": "RestrictedEmoji"
+    },
+    "🪻": {
+      "custom_emoji_id": "5375282786489880721",
+      "fallback": "🪻",
+      "pack": "RestrictedEmoji"
+    },
+    "🪷": {
+      "custom_emoji_id": "5208911829505432564",
+      "fallback": "🪷",
+      "pack": "RestrictedEmoji"
+    },
+    "🌺": {
+      "custom_emoji_id": "5440748683765227563",
+      "fallback": "🌺",
+      "pack": "RestrictedEmoji"
+    },
+    "🌸": {
+      "custom_emoji_id": "5440354006335495210",
+      "fallback": "🌸",
+      "pack": "RestrictedEmoji"
+    },
+    "🌼": {
+      "custom_emoji_id": "5370731117588523522",
+      "fallback": "🌼",
+      "pack": "RestrictedEmoji"
+    },
+    "🌻": {
+      "custom_emoji_id": "5211226911367257670",
+      "fallback": "🌻",
+      "pack": "RestrictedEmoji"
+    },
+    "🌞": {
+      "custom_emoji_id": "5467597172872584200",
+      "fallback": "🌞",
+      "pack": "RestrictedEmoji"
+    },
+    "🌝": {
+      "custom_emoji_id": "5467387526928931399",
+      "fallback": "🌝",
+      "pack": "RestrictedEmoji"
+    },
+    "🌛": {
+      "custom_emoji_id": "5465643984955120548",
+      "fallback": "🌛",
+      "pack": "RestrictedEmoji"
+    },
+    "🌜": {
+      "custom_emoji_id": "5467894148386265851",
+      "fallback": "🌜",
+      "pack": "RestrictedEmoji"
+    },
+    "🌚": {
+      "custom_emoji_id": "5465374681915727405",
+      "fallback": "🌚",
+      "pack": "RestrictedEmoji"
+    },
+    "🌕": {
+      "custom_emoji_id": "5188608638628929611",
+      "fallback": "🌕",
+      "pack": "RestrictedEmoji"
+    },
+    "🌖": {
+      "custom_emoji_id": "5188452705546281155",
+      "fallback": "🌖",
+      "pack": "RestrictedEmoji"
+    },
+    "🌗": {
+      "custom_emoji_id": "5188420746694633417",
+      "fallback": "🌗",
+      "pack": "RestrictedEmoji"
+    },
+    "🌘": {
+      "custom_emoji_id": "5188377234380954537",
+      "fallback": "🌘",
+      "pack": "RestrictedEmoji"
+    },
+    "🌑": {
+      "custom_emoji_id": "5188497854242495901",
+      "fallback": "🌑",
+      "pack": "RestrictedEmoji"
+    },
+    "🌒": {
+      "custom_emoji_id": "5188666899860298925",
+      "fallback": "🌒",
+      "pack": "RestrictedEmoji"
+    },
+    "🌓": {
+      "custom_emoji_id": "5190851612284819957",
+      "fallback": "🌓",
+      "pack": "RestrictedEmoji"
+    },
+    "🌔": {
+      "custom_emoji_id": "5188461347020481276",
+      "fallback": "🌔",
+      "pack": "RestrictedEmoji"
+    },
+    "🌎": {
+      "custom_emoji_id": "5397575638146110953",
+      "fallback": "🌎",
+      "pack": "RestrictedEmoji"
+    },
+    "🌍": {
+      "custom_emoji_id": "5399898266265475100",
+      "fallback": "🌍",
+      "pack": "RestrictedEmoji"
+    },
+    "🌏": {
+      "custom_emoji_id": "5397753673130463064",
+      "fallback": "🌏",
+      "pack": "RestrictedEmoji"
+    },
+    "💫": {
+      "custom_emoji_id": "5469741319330996757",
+      "fallback": "💫",
+      "pack": "RestrictedEmoji"
+    },
+    "⭐️": {
+      "custom_emoji_id": "5435957248314579621",
+      "fallback": "⭐️",
+      "pack": "RestrictedEmoji"
+    },
+    "🌟": {
+      "custom_emoji_id": "5458799228719472718",
+      "fallback": "🌟",
+      "pack": "RestrictedEmoji"
+    },
+    "✨": {
+      "custom_emoji_id": "5472164874886846699",
+      "fallback": "✨",
+      "pack": "RestrictedEmoji"
+    },
+    "⚡️": {
+      "custom_emoji_id": "5431449001532594346",
+      "fallback": "⚡️",
+      "pack": "RestrictedEmoji"
+    },
+    "💥": {
+      "custom_emoji_id": "5469785308386041323",
+      "fallback": "💥",
+      "pack": "RestrictedEmoji"
+    },
+    "🔥": {
+      "custom_emoji_id": "5420315771991497307",
+      "fallback": "🔥",
+      "pack": "RestrictedEmoji"
+    },
+    "🌈": {
+      "custom_emoji_id": "5427042798878610107",
+      "fallback": "🌈",
+      "pack": "RestrictedEmoji"
+    },
+    "☀️": {
+      "custom_emoji_id": "5469947168523558652",
+      "fallback": "☀️",
+      "pack": "RestrictedEmoji"
+    },
+    "🌤": {
+      "custom_emoji_id": "5283075860188898177",
+      "fallback": "🌤",
+      "pack": "RestrictedEmoji"
+    },
+    "⛅️": {
+      "custom_emoji_id": "5283197442123114023",
+      "fallback": "⛅️",
+      "pack": "RestrictedEmoji"
+    },
+    "🌥": {
+      "custom_emoji_id": "5283155153875116393",
+      "fallback": "🌥",
+      "pack": "RestrictedEmoji"
+    },
+    "☁️": {
+      "custom_emoji_id": "5287571024500498635",
+      "fallback": "☁️",
+      "pack": "RestrictedEmoji"
+    },
+    "🌦": {
+      "custom_emoji_id": "5283097055852503586",
+      "fallback": "🌦",
+      "pack": "RestrictedEmoji"
+    },
+    "🌧": {
+      "custom_emoji_id": "5283243028905994049",
+      "fallback": "🌧",
+      "pack": "RestrictedEmoji"
+    },
+    "⛈": {
+      "custom_emoji_id": "5282939632416206153",
+      "fallback": "⛈",
+      "pack": "RestrictedEmoji"
+    },
+    "🌩": {
+      "custom_emoji_id": "5282731554135615450",
+      "fallback": "🌩",
+      "pack": "RestrictedEmoji"
+    },
+    "🌨": {
+      "custom_emoji_id": "5282833267551117457",
+      "fallback": "🌨",
+      "pack": "RestrictedEmoji"
+    },
+    "❄️": {
+      "custom_emoji_id": "5431895003821513760",
+      "fallback": "❄️",
+      "pack": "RestrictedEmoji"
+    },
+    "☃️": {
+      "custom_emoji_id": "5471950641918121951",
+      "fallback": "☃️",
+      "pack": "RestrictedEmoji"
+    },
+    "⛄️": {
+      "custom_emoji_id": "5470093614023449749",
+      "fallback": "⛄️",
+      "pack": "RestrictedEmoji"
+    },
+    "🍋‍🟩": {
+      "custom_emoji_id": "5197480146981906157",
+      "fallback": "🍋‍🟩",
+      "pack": "RestrictedEmoji"
+    },
+    "🍌": {
+      "custom_emoji_id": "5390950002551954897",
+      "fallback": "🍌",
+      "pack": "RestrictedEmoji"
+    },
+    "🍉": {
+      "custom_emoji_id": "5305336095863485125",
+      "fallback": "🍉",
+      "pack": "RestrictedEmoji"
+    },
+    "🍓": {
+      "custom_emoji_id": "5469963154391833732",
+      "fallback": "🍓",
+      "pack": "RestrictedEmoji"
+    },
+    "🍒": {
+      "custom_emoji_id": "5406759193052995173",
+      "fallback": "🍒",
+      "pack": "RestrictedEmoji"
+    },
+    "🍑": {
+      "custom_emoji_id": "5375191900686927814",
+      "fallback": "🍑",
+      "pack": "RestrictedEmoji"
+    },
+    "🍆": {
+      "custom_emoji_id": "5354916382284730411",
+      "fallback": "🍆",
+      "pack": "RestrictedEmoji"
+    },
+    "🥖": {
+      "custom_emoji_id": "5222351452189509927",
+      "fallback": "🥖",
+      "pack": "RestrictedEmoji"
+    },
+    "🥨": {
+      "custom_emoji_id": "5389005589252676667",
+      "fallback": "🥨",
+      "pack": "RestrictedEmoji"
+    },
+    "🍳": {
+      "custom_emoji_id": "5388747006451655179",
+      "fallback": "🍳",
+      "pack": "RestrictedEmoji"
+    },
+    "🥞": {
+      "custom_emoji_id": "5373004843210251169",
+      "fallback": "🥞",
+      "pack": "RestrictedEmoji"
+    },
+    "🍗": {
+      "custom_emoji_id": "5470182756069678947",
+      "fallback": "🍗",
+      "pack": "RestrictedEmoji"
+    },
+    "🍖": {
+      "custom_emoji_id": "5470159421512359552",
+      "fallback": "🍖",
+      "pack": "RestrictedEmoji"
+    },
+    "🦴": {
+      "custom_emoji_id": "5470173702278622823",
+      "fallback": "🦴",
+      "pack": "RestrictedEmoji"
+    },
+    "🌭": {
+      "custom_emoji_id": "5370724786806725431",
+      "fallback": "🌭",
+      "pack": "RestrictedEmoji"
+    },
+    "🍔": {
+      "custom_emoji_id": "5372998546788194447",
+      "fallback": "🍔",
+      "pack": "RestrictedEmoji"
+    },
+    "🍟": {
+      "custom_emoji_id": "5370962534721395008",
+      "fallback": "🍟",
+      "pack": "RestrictedEmoji"
+    },
+    "🍕": {
+      "custom_emoji_id": "5370980663778351052",
+      "fallback": "🍕",
+      "pack": "RestrictedEmoji"
+    },
+    "🥪": {
+      "custom_emoji_id": "5388893447656577052",
+      "fallback": "🥪",
+      "pack": "RestrictedEmoji"
+    },
+    "🥙": {
+      "custom_emoji_id": "5370689026909018935",
+      "fallback": "🥙",
+      "pack": "RestrictedEmoji"
+    },
+    "🌮": {
+      "custom_emoji_id": "5370940699107662298",
+      "fallback": "🌮",
+      "pack": "RestrictedEmoji"
+    },
+    "🥗": {
+      "custom_emoji_id": "5264946326491134516",
+      "fallback": "🥗",
+      "pack": "RestrictedEmoji"
+    },
+    "🫕": {
+      "custom_emoji_id": "5197351413927128451",
+      "fallback": "🫕",
+      "pack": "RestrictedEmoji"
+    },
+    "🥫": {
+      "custom_emoji_id": "5471958978449644934",
+      "fallback": "🥫",
+      "pack": "RestrictedEmoji"
+    },
+    "🍣": {
+      "custom_emoji_id": "5188646425751198926",
+      "fallback": "🍣",
+      "pack": "RestrictedEmoji"
+    },
+    "🍱": {
+      "custom_emoji_id": "5393575567599607062",
+      "fallback": "🍱",
+      "pack": "RestrictedEmoji"
+    },
+    "🍙": {
+      "custom_emoji_id": "5188216117272780281",
+      "fallback": "🍙",
+      "pack": "RestrictedEmoji"
+    },
+    "🍘": {
+      "custom_emoji_id": "5469832166479240291",
+      "fallback": "🍘",
+      "pack": "RestrictedEmoji"
+    },
+    "🍥": {
+      "custom_emoji_id": "5469759478452722926",
+      "fallback": "🍥",
+      "pack": "RestrictedEmoji"
+    },
+    "🍢": {
+      "custom_emoji_id": "5373282031809600510",
+      "fallback": "🍢",
+      "pack": "RestrictedEmoji"
+    },
+    "🍡": {
+      "custom_emoji_id": "5373024050303999039",
+      "fallback": "🍡",
+      "pack": "RestrictedEmoji"
+    },
+    "🍦": {
+      "custom_emoji_id": "5372799217355987430",
+      "fallback": "🍦",
+      "pack": "RestrictedEmoji"
+    },
+    "🥧": {
+      "custom_emoji_id": "5372806755023592592",
+      "fallback": "🥧",
+      "pack": "RestrictedEmoji"
+    },
+    "🧁": {
+      "custom_emoji_id": "5372907046804920585",
+      "fallback": "🧁",
+      "pack": "RestrictedEmoji"
+    },
+    "🍰": {
+      "custom_emoji_id": "5390932938646887892",
+      "fallback": "🍰",
+      "pack": "RestrictedEmoji"
+    },
+    "🎂": {
+      "custom_emoji_id": "5370999492914976897",
+      "fallback": "🎂",
+      "pack": "RestrictedEmoji"
+    },
+    "🍮": {
+      "custom_emoji_id": "5370817227387857270",
+      "fallback": "🍮",
+      "pack": "RestrictedEmoji"
+    },
+    "🍭": {
+      "custom_emoji_id": "5424799150912838494",
+      "fallback": "🍭",
+      "pack": "RestrictedEmoji"
+    },
+    "🍫": {
+      "custom_emoji_id": "5348308557919970713",
+      "fallback": "🍫",
+      "pack": "RestrictedEmoji"
+    },
+    "🍿": {
+      "custom_emoji_id": "5371081166013078244",
+      "fallback": "🍿",
+      "pack": "RestrictedEmoji"
+    },
+    "🍩": {
+      "custom_emoji_id": "5373351094883719887",
+      "fallback": "🍩",
+      "pack": "RestrictedEmoji"
+    },
+    "🍪": {
+      "custom_emoji_id": "5370783443175086955",
+      "fallback": "🍪",
+      "pack": "RestrictedEmoji"
+    },
+    "🍯": {
+      "custom_emoji_id": "5402418909557053333",
+      "fallback": "🍯",
+      "pack": "RestrictedEmoji"
+    },
+    "🥛": {
+      "custom_emoji_id": "5413704369918978673",
+      "fallback": "🥛",
+      "pack": "RestrictedEmoji"
+    },
+    "🫗": {
+      "custom_emoji_id": "5411324253662356461",
+      "fallback": "🫗",
+      "pack": "RestrictedEmoji"
+    },
+    "🍼": {
+      "custom_emoji_id": "5411128690916467494",
+      "fallback": "🍼",
+      "pack": "RestrictedEmoji"
+    },
+    "🫖": {
+      "custom_emoji_id": "5429279123925130812",
+      "fallback": "🫖",
+      "pack": "RestrictedEmoji"
+    },
+    "☕️": {
+      "custom_emoji_id": "5359370246190801956",
+      "fallback": "☕️",
+      "pack": "RestrictedEmoji"
+    },
+    "🧃": {
+      "custom_emoji_id": "5469782971923831839",
+      "fallback": "🧃",
+      "pack": "RestrictedEmoji"
+    },
+    "🥤": {
+      "custom_emoji_id": "5370775909802449577",
+      "fallback": "🥤",
+      "pack": "RestrictedEmoji"
+    },
+    "🧋": {
+      "custom_emoji_id": "5474268541278493225",
+      "fallback": "🧋",
+      "pack": "RestrictedEmoji"
+    },
+    "🍶": {
+      "custom_emoji_id": "5267028002650204185",
+      "fallback": "🍶",
+      "pack": "RestrictedEmoji"
+    },
+    "🍺": {
+      "custom_emoji_id": "5402227731972771532",
+      "fallback": "🍺",
+      "pack": "RestrictedEmoji"
+    },
+    "🍻": {
+      "custom_emoji_id": "5264737672684907396",
+      "fallback": "🍻",
+      "pack": "RestrictedEmoji"
+    },
+    "🥂": {
+      "custom_emoji_id": "5372923951796198347",
+      "fallback": "🥂",
+      "pack": "RestrictedEmoji"
+    },
+    "🍷": {
+      "custom_emoji_id": "5330280024673101519",
+      "fallback": "🍷",
+      "pack": "RestrictedEmoji"
+    },
+    "🥃": {
+      "custom_emoji_id": "5330015368788322059",
+      "fallback": "🥃",
+      "pack": "RestrictedEmoji"
+    },
+    "🍸": {
+      "custom_emoji_id": "5330136791808746014",
+      "fallback": "🍸",
+      "pack": "RestrictedEmoji"
+    },
+    "🍹": {
+      "custom_emoji_id": "5361684086807076580",
+      "fallback": "🍹",
+      "pack": "RestrictedEmoji"
+    },
+    "🧉": {
+      "custom_emoji_id": "5411156256016573323",
+      "fallback": "🧉",
+      "pack": "RestrictedEmoji"
+    },
+    "🍾": {
+      "custom_emoji_id": "5370900768796711127",
+      "fallback": "🍾",
+      "pack": "RestrictedEmoji"
+    },
+    "🍽": {
+      "custom_emoji_id": "5359678839591018693",
+      "fallback": "🍽",
+      "pack": "RestrictedEmoji"
+    },
+    "🧂": {
+      "custom_emoji_id": "5429368016863254478",
+      "fallback": "🧂",
+      "pack": "RestrictedEmoji"
+    },
+    "⚽️": {
+      "custom_emoji_id": "5373101763442255191",
+      "fallback": "⚽️",
+      "pack": "RestrictedEmoji"
+    },
+    "🏀": {
+      "custom_emoji_id": "5384088040677319401",
+      "fallback": "🏀",
+      "pack": "RestrictedEmoji"
+    },
+    "🪀": {
+      "custom_emoji_id": "5429528601395485922",
+      "fallback": "🪀",
+      "pack": "RestrictedEmoji"
+    },
+    "🏓": {
+      "custom_emoji_id": "5269563867305879894",
+      "fallback": "🏓",
+      "pack": "RestrictedEmoji"
+    },
+    "🏸": {
+      "custom_emoji_id": "5251537923924306335",
+      "fallback": "🏸",
+      "pack": "RestrictedEmoji"
+    },
+    "⛳️": {
+      "custom_emoji_id": "5264710717470158023",
+      "fallback": "⛳️",
+      "pack": "RestrictedEmoji"
+    },
+    "🪁": {
+      "custom_emoji_id": "5233706705769997857",
+      "fallback": "🪁",
+      "pack": "RestrictedEmoji"
+    },
+    "🏹": {
+      "custom_emoji_id": "5228736616859706595",
+      "fallback": "🏹",
+      "pack": "RestrictedEmoji"
+    },
+    "🤿": {
+      "custom_emoji_id": "5251345466439772001",
+      "fallback": "🤿",
+      "pack": "RestrictedEmoji"
+    },
+    "🥊": {
+      "custom_emoji_id": "5377674666661924559",
+      "fallback": "🥊",
+      "pack": "RestrictedEmoji"
+    },
+    "🛹": {
+      "custom_emoji_id": "5413496837099246635",
+      "fallback": "🛹",
+      "pack": "RestrictedEmoji"
+    },
+    "🛼": {
+      "custom_emoji_id": "5389109381432366393",
+      "fallback": "🛼",
+      "pack": "RestrictedEmoji"
+    },
+    "🛷": {
+      "custom_emoji_id": "5445060431498451052",
+      "fallback": "🛷",
+      "pack": "RestrictedEmoji"
+    },
+    "⛸": {
+      "custom_emoji_id": "5400004424972129965",
+      "fallback": "⛸",
+      "pack": "RestrictedEmoji"
+    },
+    "🏆": {
+      "custom_emoji_id": "5409008750893734809",
+      "fallback": "🏆",
+      "pack": "RestrictedEmoji"
+    },
+    "🥇": {
+      "custom_emoji_id": "5280735858926822987",
+      "fallback": "🥇",
+      "pack": "RestrictedEmoji"
+    },
+    "🥈": {
+      "custom_emoji_id": "5283195573812340110",
+      "fallback": "🥈",
+      "pack": "RestrictedEmoji"
+    },
+    "🥉": {
+      "custom_emoji_id": "5282750778409233531",
+      "fallback": "🥉",
+      "pack": "RestrictedEmoji"
+    },
+    "🏅": {
+      "custom_emoji_id": "5334644364280866007",
+      "fallback": "🏅",
+      "pack": "RestrictedEmoji"
+    },
+    "🎖": {
+      "custom_emoji_id": "5332547853304734597",
+      "fallback": "🎖",
+      "pack": "RestrictedEmoji"
+    },
+    "🏵": {
+      "custom_emoji_id": "5454388756867986435",
+      "fallback": "🏵",
+      "pack": "RestrictedEmoji"
+    },
+    "🎗": {
+      "custom_emoji_id": "5454172415070315962",
+      "fallback": "🎗",
+      "pack": "RestrictedEmoji"
+    },
+    "🎫": {
+      "custom_emoji_id": "5418010521309815154",
+      "fallback": "🎫",
+      "pack": "RestrictedEmoji"
+    },
+    "🎟": {
+      "custom_emoji_id": "5377599075237502153",
+      "fallback": "🎟",
+      "pack": "RestrictedEmoji"
+    },
+    "🎭": {
+      "custom_emoji_id": "5359441070201513074",
+      "fallback": "🎭",
+      "pack": "RestrictedEmoji"
+    },
+    "🎨": {
+      "custom_emoji_id": "5431456208487716895",
+      "fallback": "🎨",
+      "pack": "RestrictedEmoji"
+    },
+    "🎬": {
+      "custom_emoji_id": "5375464961822695044",
+      "fallback": "🎬",
+      "pack": "RestrictedEmoji"
+    },
+    "🎤": {
+      "custom_emoji_id": "5382360961313152917",
+      "fallback": "🎤",
+      "pack": "RestrictedEmoji"
+    },
+    "🎼": {
+      "custom_emoji_id": "5229095839334410849",
+      "fallback": "🎼",
+      "pack": "RestrictedEmoji"
+    },
+    "🎹": {
+      "custom_emoji_id": "5467398680959023683",
+      "fallback": "🎹",
+      "pack": "RestrictedEmoji"
+    },
+    "🪇": {
+      "custom_emoji_id": "5467918917462688479",
+      "fallback": "🪇",
+      "pack": "RestrictedEmoji"
+    },
+    "🥁": {
+      "custom_emoji_id": "5465293043177388397",
+      "fallback": "🥁",
+      "pack": "RestrictedEmoji"
+    },
+    "🪘": {
+      "custom_emoji_id": "5467919926780001747",
+      "fallback": "🪘",
+      "pack": "RestrictedEmoji"
+    },
+    "🎷": {
+      "custom_emoji_id": "5467793203769933478",
+      "fallback": "🎷",
+      "pack": "RestrictedEmoji"
+    },
+    "🎺": {
+      "custom_emoji_id": "5467522887118257234",
+      "fallback": "🎺",
+      "pack": "RestrictedEmoji"
+    },
+    "🪗": {
+      "custom_emoji_id": "5465250832238803903",
+      "fallback": "🪗",
+      "pack": "RestrictedEmoji"
+    },
+    "🎸": {
+      "custom_emoji_id": "5465665777619204788",
+      "fallback": "🎸",
+      "pack": "RestrictedEmoji"
+    },
+    "🪕": {
+      "custom_emoji_id": "5467853243117761295",
+      "fallback": "🪕",
+      "pack": "RestrictedEmoji"
+    },
+    "🎻": {
+      "custom_emoji_id": "5265153614497740567",
+      "fallback": "🎻",
+      "pack": "RestrictedEmoji"
+    },
+    "🪈": {
+      "custom_emoji_id": "5467646199924291236",
+      "fallback": "🪈",
+      "pack": "RestrictedEmoji"
+    },
+    "🎮": {
+      "custom_emoji_id": "5467583879948803288",
+      "fallback": "🎮",
+      "pack": "RestrictedEmoji"
+    },
+    "🚗": {
+      "custom_emoji_id": "5445085952194124000",
+      "fallback": "🚗",
+      "pack": "RestrictedEmoji"
+    },
+    "🚕": {
+      "custom_emoji_id": "5445015510435502457",
+      "fallback": "🚕",
+      "pack": "RestrictedEmoji"
+    },
+    "🏎": {
+      "custom_emoji_id": "5190458184690588640",
+      "fallback": "🏎",
+      "pack": "RestrictedEmoji"
+    },
+    "🚓": {
+      "custom_emoji_id": "5444893443169983691",
+      "fallback": "🚓",
+      "pack": "RestrictedEmoji"
+    },
+    "🚑": {
+      "custom_emoji_id": "5445188473063480079",
+      "fallback": "🚑",
+      "pack": "RestrictedEmoji"
+    },
+    "🚂": {
+      "custom_emoji_id": "5359595190807962128",
+      "fallback": "🚂",
+      "pack": "RestrictedEmoji"
+    },
+    "✈️": {
+      "custom_emoji_id": "5361600266225326825",
+      "fallback": "✈️",
+      "pack": "RestrictedEmoji"
+    },
+    "🛫": {
+      "custom_emoji_id": "5267341200255363810",
+      "fallback": "🛫",
+      "pack": "RestrictedEmoji"
+    },
+    "🛬": {
+      "custom_emoji_id": "5237795059369257857",
+      "fallback": "🛬",
+      "pack": "RestrictedEmoji"
+    },
+    "🛩": {
+      "custom_emoji_id": "5384178664487278651",
+      "fallback": "🛩",
+      "pack": "RestrictedEmoji"
+    },
+    "🛰": {
+      "custom_emoji_id": "5321304062715517873",
+      "fallback": "🛰",
+      "pack": "RestrictedEmoji"
+    },
+    "🚀": {
+      "custom_emoji_id": "5445284980978621387",
+      "fallback": "🚀",
+      "pack": "RestrictedEmoji"
+    },
+    "🛸": {
+      "custom_emoji_id": "5319139188744936824",
+      "fallback": "🛸",
+      "pack": "RestrictedEmoji"
+    },
+    "🚁": {
+      "custom_emoji_id": "5438101579456602876",
+      "fallback": "🚁",
+      "pack": "RestrictedEmoji"
+    },
+    "🛶": {
+      "custom_emoji_id": "5201984627077567357",
+      "fallback": "🛶",
+      "pack": "RestrictedEmoji"
+    },
+    "⛵️": {
+      "custom_emoji_id": "5188322825735267247",
+      "fallback": "⛵️",
+      "pack": "RestrictedEmoji"
+    },
+    "🚤": {
+      "custom_emoji_id": "5395404390444062636",
+      "fallback": "🚤",
+      "pack": "RestrictedEmoji"
+    },
+    "🛥": {
+      "custom_emoji_id": "5359437440954147777",
+      "fallback": "🛥",
+      "pack": "RestrictedEmoji"
+    },
+    "🗺": {
+      "custom_emoji_id": "5415803062738504079",
+      "fallback": "🗺",
+      "pack": "RestrictedEmoji"
+    },
+    "🗿": {
+      "custom_emoji_id": "5442983582882601962",
+      "fallback": "🗿",
+      "pack": "RestrictedEmoji"
+    },
+    "🗽": {
+      "custom_emoji_id": "5454219968948229067",
+      "fallback": "🗽",
+      "pack": "RestrictedEmoji"
+    },
+    "🏰": {
+      "custom_emoji_id": "5429403746696189687",
+      "fallback": "🏰",
+      "pack": "RestrictedEmoji"
+    },
+    "🎡": {
+      "custom_emoji_id": "5226711870492126219",
+      "fallback": "🎡",
+      "pack": "RestrictedEmoji"
+    },
+    "🎢": {
+      "custom_emoji_id": "5440551785284510215",
+      "fallback": "🎢",
+      "pack": "RestrictedEmoji"
+    },
+    "🎠": {
+      "custom_emoji_id": "5224362841208793190",
+      "fallback": "🎠",
+      "pack": "RestrictedEmoji"
+    },
+    "🏖": {
+      "custom_emoji_id": "5433645645376264953",
+      "fallback": "🏖",
+      "pack": "RestrictedEmoji"
+    },
+    "🏝": {
+      "custom_emoji_id": "5431751483194351011",
+      "fallback": "🏝",
+      "pack": "RestrictedEmoji"
+    },
+    "🏕": {
+      "custom_emoji_id": "5359636199155704118",
+      "fallback": "🏕",
+      "pack": "RestrictedEmoji"
+    },
+    "🏠": {
+      "custom_emoji_id": "5465226866321268133",
+      "fallback": "🏠",
+      "pack": "RestrictedEmoji"
+    },
+    "🏭": {
+      "custom_emoji_id": "5264746606216904351",
+      "fallback": "🏭",
+      "pack": "RestrictedEmoji"
+    },
+    "🏢": {
+      "custom_emoji_id": "5264733042710181045",
+      "fallback": "🏢",
+      "pack": "RestrictedEmoji"
+    },
+    "🏬": {
+      "custom_emoji_id": "5265105755677159697",
+      "fallback": "🏬",
+      "pack": "RestrictedEmoji"
+    },
+    "🏣": {
+      "custom_emoji_id": "5264716824913671598",
+      "fallback": "🏣",
+      "pack": "RestrictedEmoji"
+    },
+    "🏤": {
+      "custom_emoji_id": "5265256642173235585",
+      "fallback": "🏤",
+      "pack": "RestrictedEmoji"
+    },
+    "🏥": {
+      "custom_emoji_id": "5264827875588077689",
+      "fallback": "🏥",
+      "pack": "RestrictedEmoji"
+    },
+    "🏦": {
+      "custom_emoji_id": "5264895611517300926",
+      "fallback": "🏦",
+      "pack": "RestrictedEmoji"
+    },
+    "🏨": {
+      "custom_emoji_id": "5265159812135546996",
+      "fallback": "🏨",
+      "pack": "RestrictedEmoji"
+    },
+    "🏪": {
+      "custom_emoji_id": "5267092422864694820",
+      "fallback": "🏪",
+      "pack": "RestrictedEmoji"
+    },
+    "🏫": {
+      "custom_emoji_id": "5265002646397285605",
+      "fallback": "🏫",
+      "pack": "RestrictedEmoji"
+    },
+    "🏛": {
+      "custom_emoji_id": "5359778044745622115",
+      "fallback": "🏛",
+      "pack": "RestrictedEmoji"
+    },
+    "🎆": {
+      "custom_emoji_id": "5431783411981228752",
+      "fallback": "🎆",
+      "pack": "RestrictedEmoji"
+    },
+    "🎇": {
+      "custom_emoji_id": "5431585985219534209",
+      "fallback": "🎇",
+      "pack": "RestrictedEmoji"
+    },
+    "📱": {
+      "custom_emoji_id": "5407025283456835913",
+      "fallback": "📱",
+      "pack": "RestrictedEmoji"
+    },
+    "📲": {
+      "custom_emoji_id": "5406809207947142040",
+      "fallback": "📲",
+      "pack": "RestrictedEmoji"
+    },
+    "💻": {
+      "custom_emoji_id": "5431376038628171216",
+      "fallback": "💻",
+      "pack": "RestrictedEmoji"
+    },
+    "⌨️": {
+      "custom_emoji_id": "5472111548572900003",
+      "fallback": "⌨️",
+      "pack": "RestrictedEmoji"
+    },
+    "🖨": {
+      "custom_emoji_id": "5386494631112353009",
+      "fallback": "🖨",
+      "pack": "RestrictedEmoji"
+    },
+    "📹": {
+      "custom_emoji_id": "5375309569905938163",
+      "fallback": "📹",
+      "pack": "RestrictedEmoji"
+    },
+    "📞": {
+      "custom_emoji_id": "5467539229468793355",
+      "fallback": "📞",
+      "pack": "RestrictedEmoji"
+    },
+    "☎️": {
+      "custom_emoji_id": "5465169893580086142",
+      "fallback": "☎️",
+      "pack": "RestrictedEmoji"
+    },
+    "📺": {
+      "custom_emoji_id": "5373330964372004748",
+      "fallback": "📺",
+      "pack": "RestrictedEmoji"
+    },
+    "🎙": {
+      "custom_emoji_id": "5382013970905309819",
+      "fallback": "🎙",
+      "pack": "RestrictedEmoji"
+    },
+    "🧭": {
+      "custom_emoji_id": "5433825729060018456",
+      "fallback": "🧭",
+      "pack": "RestrictedEmoji"
+    },
+    "⏰": {
+      "custom_emoji_id": "5413704112220949842",
+      "fallback": "⏰",
+      "pack": "RestrictedEmoji"
+    },
+    "⌛️": {
+      "custom_emoji_id": "5451646226975955576",
+      "fallback": "⌛️",
+      "pack": "RestrictedEmoji"
+    },
+    "⏳": {
+      "custom_emoji_id": "5451732530048802485",
+      "fallback": "⏳",
+      "pack": "RestrictedEmoji"
+    },
+    "💡": {
+      "custom_emoji_id": "5472146462362048818",
+      "fallback": "💡",
+      "pack": "RestrictedEmoji"
+    },
+    "🛢": {
+      "custom_emoji_id": "5436341901290658109",
+      "fallback": "🛢",
+      "pack": "RestrictedEmoji"
+    },
+    "💸": {
+      "custom_emoji_id": "5472030678633684592",
+      "fallback": "💸",
+      "pack": "RestrictedEmoji"
+    },
+    "🪙": {
+      "custom_emoji_id": "5379600444098093058",
+      "fallback": "🪙",
+      "pack": "RestrictedEmoji"
+    },
+    "💰": {
+      "custom_emoji_id": "5375296873982604963",
+      "fallback": "💰",
+      "pack": "RestrictedEmoji"
+    },
+    "🪪": {
+      "custom_emoji_id": "5422683699130933153",
+      "fallback": "🪪",
+      "pack": "RestrictedEmoji"
+    },
+    "💎": {
+      "custom_emoji_id": "5471952986970267163",
+      "fallback": "💎",
+      "pack": "RestrictedEmoji"
+    },
+    "🧰": {
+      "custom_emoji_id": "5449428597922079323",
+      "fallback": "🧰",
+      "pack": "RestrictedEmoji"
+    },
+    "🧱": {
+      "custom_emoji_id": "5436275698664759373",
+      "fallback": "🧱",
+      "pack": "RestrictedEmoji"
+    },
+    "⛓️": {
+      "custom_emoji_id": "5318757666800031348",
+      "fallback": "⛓️",
+      "pack": "RestrictedEmoji"
+    },
+    "⛓️‍💥": {
+      "custom_emoji_id": "5375466233133030264",
+      "fallback": "⛓️‍💥",
+      "pack": "RestrictedEmoji"
+    },
+    "🔫": {
+      "custom_emoji_id": "5222486447306602688",
+      "fallback": "🔫",
+      "pack": "RestrictedEmoji"
+    },
+    "💣": {
+      "custom_emoji_id": "5469654973308476699",
+      "fallback": "💣",
+      "pack": "RestrictedEmoji"
+    },
+    "🧨": {
+      "custom_emoji_id": "5469913852462242978",
+      "fallback": "🧨",
+      "pack": "RestrictedEmoji"
+    },
+    "🗡": {
+      "custom_emoji_id": "5393607290228067750",
+      "fallback": "🗡",
+      "pack": "RestrictedEmoji"
+    },
+    "⚔️": {
+      "custom_emoji_id": "5408935401442267103",
+      "fallback": "⚔️",
+      "pack": "RestrictedEmoji"
+    },
+    "⚰️": {
+      "custom_emoji_id": "5433769525117983603",
+      "fallback": "⚰️",
+      "pack": "RestrictedEmoji"
+    },
+    "🔮": {
+      "custom_emoji_id": "5361837567463399422",
+      "fallback": "🔮",
+      "pack": "RestrictedEmoji"
+    },
+    "🧿": {
+      "custom_emoji_id": "5426900601101374618",
+      "fallback": "🧿",
+      "pack": "RestrictedEmoji"
+    },
+    "🪬": {
+      "custom_emoji_id": "5404451992456156919",
+      "fallback": "🪬",
+      "pack": "RestrictedEmoji"
+    },
+    "💈": {
+      "custom_emoji_id": "5400271640657418526",
+      "fallback": "💈",
+      "pack": "RestrictedEmoji"
+    },
+    "🔭": {
+      "custom_emoji_id": "5372846474881146350",
+      "fallback": "🔭",
+      "pack": "RestrictedEmoji"
+    },
+    "🔬": {
+      "custom_emoji_id": "5379679518740978720",
+      "fallback": "🔬",
+      "pack": "RestrictedEmoji"
+    },
+    "🩺": {
+      "custom_emoji_id": "5359299744302639114",
+      "fallback": "🩺",
+      "pack": "RestrictedEmoji"
+    },
+    "💊": {
+      "custom_emoji_id": "5433635625217563352",
+      "fallback": "💊",
+      "pack": "RestrictedEmoji"
+    },
+    "💉": {
+      "custom_emoji_id": "5472317878801800869",
+      "fallback": "💉",
+      "pack": "RestrictedEmoji"
+    },
+    "🦠": {
+      "custom_emoji_id": "5433656554593196791",
+      "fallback": "🦠",
+      "pack": "RestrictedEmoji"
+    },
+    "🧪": {
+      "custom_emoji_id": "5411512278740640309",
+      "fallback": "🧪",
+      "pack": "RestrictedEmoji"
+    },
+    "🌡": {
+      "custom_emoji_id": "5470049770997292425",
+      "fallback": "🌡",
+      "pack": "RestrictedEmoji"
+    },
+    "🧻": {
+      "custom_emoji_id": "5433689153394973729",
+      "fallback": "🧻",
+      "pack": "RestrictedEmoji"
+    },
+    "🧼": {
+      "custom_emoji_id": "5472386005573049567",
+      "fallback": "🧼",
+      "pack": "RestrictedEmoji"
+    },
+    "🪥": {
+      "custom_emoji_id": "5199649509193308558",
+      "fallback": "🪥",
+      "pack": "RestrictedEmoji"
+    },
+    "🪒": {
+      "custom_emoji_id": "5469909248257317234",
+      "fallback": "🪒",
+      "pack": "RestrictedEmoji"
+    },
+    "🧽": {
+      "custom_emoji_id": "5188365693803830912",
+      "fallback": "🧽",
+      "pack": "RestrictedEmoji"
+    },
+    "🔑": {
+      "custom_emoji_id": "5330115548900501467",
+      "fallback": "🔑",
+      "pack": "RestrictedEmoji"
+    },
+    "🗝": {
+      "custom_emoji_id": "5330100898767054648",
+      "fallback": "🗝",
+      "pack": "RestrictedEmoji"
+    },
+    "🧸": {
+      "custom_emoji_id": "5397915559037785261",
+      "fallback": "🧸",
+      "pack": "RestrictedEmoji"
+    },
+    "🪆": {
+      "custom_emoji_id": "5429629795119944797",
+      "fallback": "🪆",
+      "pack": "RestrictedEmoji"
+    },
+    "🖼": {
+      "custom_emoji_id": "5375074927252621134",
+      "fallback": "🖼",
+      "pack": "RestrictedEmoji"
+    },
+    "🛍": {
+      "custom_emoji_id": "5373052667671093676",
+      "fallback": "🛍",
+      "pack": "RestrictedEmoji"
+    },
+    "🛒": {
+      "custom_emoji_id": "5431499171045581032",
+      "fallback": "🛒",
+      "pack": "RestrictedEmoji"
+    },
+    "🎁": {
+      "custom_emoji_id": "5199749070830197566",
+      "fallback": "🎁",
+      "pack": "RestrictedEmoji"
+    },
+    "🎈": {
+      "custom_emoji_id": "5472091323571903308",
+      "fallback": "🎈",
+      "pack": "RestrictedEmoji"
+    },
+    "🎏": {
+      "custom_emoji_id": "5449737629408975897",
+      "fallback": "🎏",
+      "pack": "RestrictedEmoji"
+    },
+    "🎀": {
+      "custom_emoji_id": "5375152498656961898",
+      "fallback": "🎀",
+      "pack": "RestrictedEmoji"
+    },
+    "🪄": {
+      "custom_emoji_id": "5260426225599405269",
+      "fallback": "🪄",
+      "pack": "RestrictedEmoji"
+    },
+    "🪅": {
+      "custom_emoji_id": "5447147987467788070",
+      "fallback": "🪅",
+      "pack": "RestrictedEmoji"
+    },
+    "🎊": {
+      "custom_emoji_id": "5435933711893797296",
+      "fallback": "🎊",
+      "pack": "RestrictedEmoji"
+    },
+    "🎉": {
+      "custom_emoji_id": "5436040291507247633",
+      "fallback": "🎉",
+      "pack": "RestrictedEmoji"
+    },
+    "🪭": {
+      "custom_emoji_id": "5379705640732087225",
+      "fallback": "🪭",
+      "pack": "RestrictedEmoji"
+    },
+    "🎐": {
+      "custom_emoji_id": "5319290706601204434",
+      "fallback": "🎐",
+      "pack": "RestrictedEmoji"
+    },
+    "🪩": {
+      "custom_emoji_id": "5375407018418904583",
+      "fallback": "🪩",
+      "pack": "RestrictedEmoji"
+    },
+    "📨": {
+      "custom_emoji_id": "5406631276042002796",
+      "fallback": "📨",
+      "pack": "RestrictedEmoji"
+    },
+    "💌": {
+      "custom_emoji_id": "5472019095106886003",
+      "fallback": "💌",
+      "pack": "RestrictedEmoji"
+    },
+    "📥": {
+      "custom_emoji_id": "5433811242135331842",
+      "fallback": "📥",
+      "pack": "RestrictedEmoji"
+    },
+    "📤": {
+      "custom_emoji_id": "5433614747381538714",
+      "fallback": "📤",
+      "pack": "RestrictedEmoji"
+    },
+    "📪": {
+      "custom_emoji_id": "5350310124349053625",
+      "fallback": "📪",
+      "pack": "RestrictedEmoji"
+    },
+    "📫": {
+      "custom_emoji_id": "5350403531297809491",
+      "fallback": "📫",
+      "pack": "RestrictedEmoji"
+    },
+    "📬": {
+      "custom_emoji_id": "5350421256627838238",
+      "fallback": "📬",
+      "pack": "RestrictedEmoji"
+    },
+    "📭": {
+      "custom_emoji_id": "5352896944496728039",
+      "fallback": "📭",
+      "pack": "RestrictedEmoji"
+    },
+    "📊": {
+      "custom_emoji_id": "5431577498364158238",
+      "fallback": "📊",
+      "pack": "RestrictedEmoji"
+    },
+    "📈": {
+      "custom_emoji_id": "5373001317042101552",
+      "fallback": "📈",
+      "pack": "RestrictedEmoji"
+    },
+    "📉": {
+      "custom_emoji_id": "5361748661640372834",
+      "fallback": "📉",
+      "pack": "RestrictedEmoji"
+    },
+    "📆": {
+      "custom_emoji_id": "5431897022456145283",
+      "fallback": "📆",
+      "pack": "RestrictedEmoji"
+    },
+    "🗳": {
+      "custom_emoji_id": "5359741159566484212",
+      "fallback": "🗳",
+      "pack": "RestrictedEmoji"
+    },
+    "📁": {
+      "custom_emoji_id": "5433653135799228968",
+      "fallback": "📁",
+      "pack": "RestrictedEmoji"
+    },
+    "📂": {
+      "custom_emoji_id": "5431721976769027887",
+      "fallback": "📂",
+      "pack": "RestrictedEmoji"
+    },
+    "🗂": {
+      "custom_emoji_id": "5431736674147114227",
+      "fallback": "🗂",
+      "pack": "RestrictedEmoji"
+    },
+    "📰": {
+      "custom_emoji_id": "5433982607035474385",
+      "fallback": "📰",
+      "pack": "RestrictedEmoji"
+    },
+    "📚": {
+      "custom_emoji_id": "5373098009640836781",
+      "fallback": "📚",
+      "pack": "RestrictedEmoji"
+    },
+    "📖": {
+      "custom_emoji_id": "5226512880362332956",
+      "fallback": "📖",
+      "pack": "RestrictedEmoji"
+    },
+    "🔗": {
+      "custom_emoji_id": "5375129357373165375",
+      "fallback": "🔗",
+      "pack": "RestrictedEmoji"
+    },
+    "📎": {
+      "custom_emoji_id": "5377844313575150051",
+      "fallback": "📎",
+      "pack": "RestrictedEmoji"
+    },
+    "🧮": {
+      "custom_emoji_id": "5472404950673791399",
+      "fallback": "🧮",
+      "pack": "RestrictedEmoji"
+    },
+    "✂️": {
+      "custom_emoji_id": "5237808360882977239",
+      "fallback": "✂️",
+      "pack": "RestrictedEmoji"
+    },
+    "📝": {
+      "custom_emoji_id": "5334882760735598374",
+      "fallback": "📝",
+      "pack": "RestrictedEmoji"
+    },
+    "✏️": {
+      "custom_emoji_id": "5334673106202010226",
+      "fallback": "✏️",
+      "pack": "RestrictedEmoji"
+    },
+    "🔍": {
+      "custom_emoji_id": "5188217332748527444",
+      "fallback": "🔍",
+      "pack": "RestrictedEmoji"
+    },
+    "🔎": {
+      "custom_emoji_id": "5188311512791393083",
+      "fallback": "🔎",
+      "pack": "RestrictedEmoji"
+    },
+    "🔐": {
+      "custom_emoji_id": "5472308992514464048",
+      "fallback": "🔐",
+      "pack": "RestrictedEmoji"
+    },
+    "🩷": {
+      "custom_emoji_id": "5434031913260035048",
+      "fallback": "🩷",
+      "pack": "RestrictedEmoji"
+    },
+    "❤️": {
+      "custom_emoji_id": "5449505950283078474",
+      "fallback": "❤️",
+      "pack": "RestrictedEmoji"
+    },
+    "🧡": {
+      "custom_emoji_id": "5449599833973203438",
+      "fallback": "🧡",
+      "pack": "RestrictedEmoji"
+    },
+    "💛": {
+      "custom_emoji_id": "5449366943666543715",
+      "fallback": "💛",
+      "pack": "RestrictedEmoji"
+    },
+    "💚": {
+      "custom_emoji_id": "5449380056201697322",
+      "fallback": "💚",
+      "pack": "RestrictedEmoji"
+    },
+    "🩵": {
+      "custom_emoji_id": "5433856365061746058",
+      "fallback": "🩵",
+      "pack": "RestrictedEmoji"
+    },
+    "💙": {
+      "custom_emoji_id": "5449759615346548186",
+      "fallback": "💙",
+      "pack": "RestrictedEmoji"
+    },
+    "💜": {
+      "custom_emoji_id": "5449468596952507859",
+      "fallback": "💜",
+      "pack": "RestrictedEmoji"
+    },
+    "🖤": {
+      "custom_emoji_id": "5449692618151695997",
+      "fallback": "🖤",
+      "pack": "RestrictedEmoji"
+    },
+    "🩶": {
+      "custom_emoji_id": "5433713454319938373",
+      "fallback": "🩶",
+      "pack": "RestrictedEmoji"
+    },
+    "🤍": {
+      "custom_emoji_id": "5451714942157724312",
+      "fallback": "🤍",
+      "pack": "RestrictedEmoji"
+    },
+    "🤎": {
+      "custom_emoji_id": "5449727072379346350",
+      "fallback": "🤎",
+      "pack": "RestrictedEmoji"
+    },
+    "💔": {
+      "custom_emoji_id": "5471954395719539651",
+      "fallback": "💔",
+      "pack": "RestrictedEmoji"
+    },
+    "❤️‍🔥": {
+      "custom_emoji_id": "5449394813709327952",
+      "fallback": "❤️‍🔥",
+      "pack": "RestrictedEmoji"
+    },
+    "❤️‍🩹": {
+      "custom_emoji_id": "5470166383654347072",
+      "fallback": "❤️‍🩹",
+      "pack": "RestrictedEmoji"
+    },
+    "❣️": {
+      "custom_emoji_id": "5471898432295673647",
+      "fallback": "❣️",
+      "pack": "RestrictedEmoji"
+    },
+    "💕": {
+      "custom_emoji_id": "5465511459444235288",
+      "fallback": "💕",
+      "pack": "RestrictedEmoji"
+    },
+    "💞": {
+      "custom_emoji_id": "5451609943092239685",
+      "fallback": "💞",
+      "pack": "RestrictedEmoji"
+    },
+    "💓": {
+      "custom_emoji_id": "5449455694870748968",
+      "fallback": "💓",
+      "pack": "RestrictedEmoji"
+    },
+    "💗": {
+      "custom_emoji_id": "5451745243151997382",
+      "fallback": "💗",
+      "pack": "RestrictedEmoji"
+    },
+    "💖": {
+      "custom_emoji_id": "5465540480538254161",
+      "fallback": "💖",
+      "pack": "RestrictedEmoji"
+    },
+    "💘": {
+      "custom_emoji_id": "5452140079495518256",
+      "fallback": "💘",
+      "pack": "RestrictedEmoji"
+    },
+    "💝": {
+      "custom_emoji_id": "5465263910414195580",
+      "fallback": "💝",
+      "pack": "RestrictedEmoji"
+    },
+    "💟": {
+      "custom_emoji_id": "5436275462441542596",
+      "fallback": "💟",
+      "pack": "RestrictedEmoji"
+    },
+    "⛎": {
+      "custom_emoji_id": "5424649771950287002",
+      "fallback": "⛎",
+      "pack": "RestrictedEmoji"
+    },
+    "♈️": {
+      "custom_emoji_id": "5424657219423577765",
+      "fallback": "♈️",
+      "pack": "RestrictedEmoji"
+    },
+    "♉️": {
+      "custom_emoji_id": "5424777671781393596",
+      "fallback": "♉️",
+      "pack": "RestrictedEmoji"
+    },
+    "♊️": {
+      "custom_emoji_id": "5422582995032746400",
+      "fallback": "♊️",
+      "pack": "RestrictedEmoji"
+    },
+    "♋️": {
+      "custom_emoji_id": "5424934828929723803",
+      "fallback": "♋️",
+      "pack": "RestrictedEmoji"
+    },
+    "♌️": {
+      "custom_emoji_id": "5424717464929838278",
+      "fallback": "♌️",
+      "pack": "RestrictedEmoji"
+    },
+    "♍️": {
+      "custom_emoji_id": "5425070270723402683",
+      "fallback": "♍️",
+      "pack": "RestrictedEmoji"
+    },
+    "♎️": {
+      "custom_emoji_id": "5424647753315657842",
+      "fallback": "♎️",
+      "pack": "RestrictedEmoji"
+    },
+    "♏️": {
+      "custom_emoji_id": "5424922309100053218",
+      "fallback": "♏️",
+      "pack": "RestrictedEmoji"
+    },
+    "♐️": {
+      "custom_emoji_id": "5424710210730075565",
+      "fallback": "♐️",
+      "pack": "RestrictedEmoji"
+    },
+    "♑️": {
+      "custom_emoji_id": "5424710661701642809",
+      "fallback": "♑️",
+      "pack": "RestrictedEmoji"
+    },
+    "♒️": {
+      "custom_emoji_id": "5424638381697018084",
+      "fallback": "♒️",
+      "pack": "RestrictedEmoji"
+    },
+    "♓️": {
+      "custom_emoji_id": "5425091973193147960",
+      "fallback": "♓️",
+      "pack": "RestrictedEmoji"
+    },
+    "❌": {
+      "custom_emoji_id": "5465665476971471368",
+      "fallback": "❌",
+      "pack": "RestrictedEmoji"
+    },
+    "💯": {
+      "custom_emoji_id": "5188208446461188962",
+      "fallback": "💯",
+      "pack": "RestrictedEmoji"
+    },
+    "💢": {
+      "custom_emoji_id": "5467910507916697142",
+      "fallback": "💢",
+      "pack": "RestrictedEmoji"
+    },
+    "♨️": {
+      "custom_emoji_id": "5465432711218863135",
+      "fallback": "♨️",
+      "pack": "RestrictedEmoji"
+    },
+    "🔞": {
+      "custom_emoji_id": "5422542669584800702",
+      "fallback": "🔞",
+      "pack": "RestrictedEmoji"
+    },
+    "❗️": {
+      "custom_emoji_id": "5467928559664242360",
+      "fallback": "❗️",
+      "pack": "RestrictedEmoji"
+    },
+    "❕": {
+      "custom_emoji_id": "5467519850576354798",
+      "fallback": "❕",
+      "pack": "RestrictedEmoji"
+    },
+    "❓": {
+      "custom_emoji_id": "5467666648263564704",
+      "fallback": "❓",
+      "pack": "RestrictedEmoji"
+    },
+    "❔": {
+      "custom_emoji_id": "5467461928647399673",
+      "fallback": "❔",
+      "pack": "RestrictedEmoji"
+    },
+    "‼️": {
+      "custom_emoji_id": "5467890025217661107",
+      "fallback": "‼️",
+      "pack": "RestrictedEmoji"
+    },
+    "⁉️": {
+      "custom_emoji_id": "5467596412663372909",
+      "fallback": "⁉️",
+      "pack": "RestrictedEmoji"
+    },
+    "✅": {
+      "custom_emoji_id": "5427009714745517609",
+      "fallback": "✅",
+      "pack": "RestrictedEmoji"
+    },
+    "💤": {
+      "custom_emoji_id": "5451959871257713464",
+      "fallback": "💤",
+      "pack": "RestrictedEmoji"
+    },
+    "🛂": {
+      "custom_emoji_id": "5429612430567155314",
+      "fallback": "🛂",
+      "pack": "RestrictedEmoji"
+    },
+    "🛃": {
+      "custom_emoji_id": "5343824560523322473",
+      "fallback": "🛃",
+      "pack": "RestrictedEmoji"
+    },
+    "🛄": {
+      "custom_emoji_id": "5429116151391070736",
+      "fallback": "🛄",
+      "pack": "RestrictedEmoji"
+    },
+    "🛅": {
+      "custom_emoji_id": "5429337466760864755",
+      "fallback": "🛅",
+      "pack": "RestrictedEmoji"
+    },
+    "🚹": {
+      "custom_emoji_id": "5429564911048992647",
+      "fallback": "🚹",
+      "pack": "RestrictedEmoji"
+    },
+    "🚺": {
+      "custom_emoji_id": "5429474729620677471",
+      "fallback": "🚺",
+      "pack": "RestrictedEmoji"
+    },
+    "🚼": {
+      "custom_emoji_id": "5447506874935030757",
+      "fallback": "🚼",
+      "pack": "RestrictedEmoji"
+    },
+    "🆗": {
+      "custom_emoji_id": "5363850326577259091",
+      "fallback": "🆗",
+      "pack": "RestrictedEmoji"
+    },
+    "🆙": {
+      "custom_emoji_id": "5364105043907716258",
+      "fallback": "🆙",
+      "pack": "RestrictedEmoji"
+    },
+    "🆒": {
+      "custom_emoji_id": "5362038683602002650",
+      "fallback": "🆒",
+      "pack": "RestrictedEmoji"
+    },
+    "🆕": {
+      "custom_emoji_id": "5361979468887893611",
+      "fallback": "🆕",
+      "pack": "RestrictedEmoji"
+    },
+    "🆓": {
+      "custom_emoji_id": "5364112491381006601",
+      "fallback": "🆓",
+      "pack": "RestrictedEmoji"
+    },
+    "🔄": {
+      "custom_emoji_id": "5264727218734524899",
+      "fallback": "🔄",
+      "pack": "RestrictedEmoji"
+    },
+    "🎵": {
+      "custom_emoji_id": "5188621441926438751",
+      "fallback": "🎵",
+      "pack": "RestrictedEmoji"
+    },
+    "🎶": {
+      "custom_emoji_id": "5188705588925702510",
+      "fallback": "🎶",
+      "pack": "RestrictedEmoji"
+    },
+    "➕": {
+      "custom_emoji_id": "5226945370684140473",
+      "fallback": "➕",
+      "pack": "RestrictedEmoji"
+    },
+    "➖": {
+      "custom_emoji_id": "5229113891081956317",
+      "fallback": "➖",
+      "pack": "RestrictedEmoji"
+    },
+    "➗": {
+      "custom_emoji_id": "5226470789682833538",
+      "fallback": "➗",
+      "pack": "RestrictedEmoji"
+    },
+    "✖️": {
+      "custom_emoji_id": "5226660202035554522",
+      "fallback": "✖️",
+      "pack": "RestrictedEmoji"
+    },
+    "💱": {
+      "custom_emoji_id": "5471899089425667918",
+      "fallback": "💱",
+      "pack": "RestrictedEmoji"
+    },
+    "©️": {
+      "custom_emoji_id": "5229177516727478228",
+      "fallback": "©️",
+      "pack": "RestrictedEmoji"
+    },
+    "®️": {
+      "custom_emoji_id": "5228901410459887866",
+      "fallback": "®️",
+      "pack": "RestrictedEmoji"
+    },
+    "👁‍🗨": {
+      "custom_emoji_id": "5228686859663585439",
+      "fallback": "👁‍🗨",
+      "pack": "RestrictedEmoji"
+    },
+    "🔝": {
+      "custom_emoji_id": "5422354988103901774",
+      "fallback": "🔝",
+      "pack": "RestrictedEmoji"
+    },
+    "✔️": {
+      "custom_emoji_id": "5188216731453103384",
+      "fallback": "✔️",
+      "pack": "RestrictedEmoji"
+    },
+    "☑️": {
+      "custom_emoji_id": "5454096630372379732",
+      "fallback": "☑️",
+      "pack": "RestrictedEmoji"
+    },
+    "🔔": {
+      "custom_emoji_id": "5242628160297641831",
+      "fallback": "🔔",
+      "pack": "RestrictedEmoji"
+    },
+    "🔕": {
+      "custom_emoji_id": "5244807637157029775",
+      "fallback": "🔕",
+      "pack": "RestrictedEmoji"
+    },
+    "📣": {
+      "custom_emoji_id": "5469903029144657419",
+      "fallback": "📣",
+      "pack": "RestrictedEmoji"
+    },
+    "💬": {
+      "custom_emoji_id": "5465300082628763143",
+      "fallback": "💬",
+      "pack": "RestrictedEmoji"
+    },
+    "💭": {
+      "custom_emoji_id": "5465143921912846619",
+      "fallback": "💭",
+      "pack": "RestrictedEmoji"
+    },
+    "🗯": {
+      "custom_emoji_id": "5465132703458270101",
+      "fallback": "🗯",
+      "pack": "RestrictedEmoji"
+    },
+    "🏳️": {
+      "custom_emoji_id": "5411285332668720752",
+      "fallback": "🏳️",
+      "pack": "RestrictedEmoji"
+    },
+    "🏴": {
+      "custom_emoji_id": "5411091492204716695",
+      "fallback": "🏴",
+      "pack": "RestrictedEmoji"
+    },
+    "🏴‍☠️": {
+      "custom_emoji_id": "5386372293263892965",
+      "fallback": "🏴‍☠️",
+      "pack": "RestrictedEmoji"
+    },
+    "🏁": {
+      "custom_emoji_id": "5411520005386806155",
+      "fallback": "🏁",
+      "pack": "RestrictedEmoji"
+    },
+    "🚩": {
+      "custom_emoji_id": "5411175424455613715",
+      "fallback": "🚩",
+      "pack": "RestrictedEmoji"
+    },
+    "🏳️‍🌈": {
+      "custom_emoji_id": "5269245889402125871",
+      "fallback": "🏳️‍🌈",
+      "pack": "RestrictedEmoji"
+    },
+    "🏳️‍⚧️": {
+      "custom_emoji_id": "5269534159017096888",
+      "fallback": "🏳️‍⚧️",
+      "pack": "RestrictedEmoji"
+    },
+    "🇺🇳": {
+      "custom_emoji_id": "5228760535532582734",
+      "fallback": "🇺🇳",
+      "pack": "RestrictedEmoji"
+    },
+    "🇦🇺": {
+      "custom_emoji_id": "5382062173323276195",
+      "fallback": "🇦🇺",
+      "pack": "RestrictedEmoji"
+    },
+    "🇦🇹": {
+      "custom_emoji_id": "5409096965227031137",
+      "fallback": "🇦🇹",
+      "pack": "RestrictedEmoji"
+    },
+    "🇦🇿": {
+      "custom_emoji_id": "5224254431939275524",
+      "fallback": "🇦🇿",
+      "pack": "RestrictedEmoji"
+    },
+    "🇦🇽": {
+      "custom_emoji_id": "5467839726855666731",
+      "fallback": "🇦🇽",
+      "pack": "RestrictedEmoji"
+    },
+    "🇦🇱": {
+      "custom_emoji_id": "5442808872202942144",
+      "fallback": "🇦🇱",
+      "pack": "RestrictedEmoji"
+    },
+    "🇩🇿": {
+      "custom_emoji_id": "5269400778807720624",
+      "fallback": "🇩🇿",
+      "pack": "RestrictedEmoji"
+    },
+    "🇦🇸": {
+      "custom_emoji_id": "5233381108594260837",
+      "fallback": "🇦🇸",
+      "pack": "RestrictedEmoji"
+    },
+    "🇦🇮": {
+      "custom_emoji_id": "5454237677098384174",
+      "fallback": "🇦🇮",
+      "pack": "RestrictedEmoji"
+    },
+    "🇦🇴": {
+      "custom_emoji_id": "5221978936791017415",
+      "fallback": "🇦🇴",
+      "pack": "RestrictedEmoji"
+    },
+    "🇦🇩": {
+      "custom_emoji_id": "5229127072336589200",
+      "fallback": "🇦🇩",
+      "pack": "RestrictedEmoji"
+    },
+    "🇦🇶": {
+      "custom_emoji_id": "5222477234601732139",
+      "fallback": "🇦🇶",
+      "pack": "RestrictedEmoji"
+    },
+    "🇦🇬": {
+      "custom_emoji_id": "5233687283927892876",
+      "fallback": "🇦🇬",
+      "pack": "RestrictedEmoji"
+    },
+    "🇦🇷": {
+      "custom_emoji_id": "5262873863036872166",
+      "fallback": "🇦🇷",
+      "pack": "RestrictedEmoji"
+    },
+    "🇦🇲": {
+      "custom_emoji_id": "5411455658186778270",
+      "fallback": "🇦🇲",
+      "pack": "RestrictedEmoji"
+    },
+    "🇦🇼": {
+      "custom_emoji_id": "5231044964212817289",
+      "fallback": "🇦🇼",
+      "pack": "RestrictedEmoji"
+    },
+    "🇮🇴": {
+      "custom_emoji_id": "5454408067040952538",
+      "fallback": "🇮🇴",
+      "pack": "RestrictedEmoji"
+    },
+    "🇦🇫": {
+      "custom_emoji_id": "5341723801824541640",
+      "fallback": "🇦🇫",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇸": {
+      "custom_emoji_id": "5429268893313017179",
+      "fallback": "🇧🇸",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇩": {
+      "custom_emoji_id": "5222131025877936317",
+      "fallback": "🇧🇩",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇧": {
+      "custom_emoji_id": "5222119223307807441",
+      "fallback": "🇧🇧",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇭": {
+      "custom_emoji_id": "5229186179676517309",
+      "fallback": "🇧🇭",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇾": {
+      "custom_emoji_id": "5382219601054544127",
+      "fallback": "🇧🇾",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇿": {
+      "custom_emoji_id": "5231366665853224722",
+      "fallback": "🇧🇿",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇪": {
+      "custom_emoji_id": "5411564862025244994",
+      "fallback": "🇧🇪",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇯": {
+      "custom_emoji_id": "5429270924832548299",
+      "fallback": "🇧🇯",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇲": {
+      "custom_emoji_id": "5454179609140544421",
+      "fallback": "🇧🇲",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇬": {
+      "custom_emoji_id": "5408875181705799521",
+      "fallback": "🇧🇬",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇴": {
+      "custom_emoji_id": "5357272214796255046",
+      "fallback": "🇧🇴",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇶": {
+      "custom_emoji_id": "5233482856369504645",
+      "fallback": "🇧🇶",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇦": {
+      "custom_emoji_id": "5382033281078275575",
+      "fallback": "🇧🇦",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇼": {
+      "custom_emoji_id": "5422594827667653377",
+      "fallback": "🇧🇼",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇷": {
+      "custom_emoji_id": "5202074005346983800",
+      "fallback": "🇧🇷",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇳": {
+      "custom_emoji_id": "5467415349727083629",
+      "fallback": "🇧🇳",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇫": {
+      "custom_emoji_id": "5474323070183285988",
+      "fallback": "🇧🇫",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇮": {
+      "custom_emoji_id": "5357542359649237058",
+      "fallback": "🇧🇮",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇹": {
+      "custom_emoji_id": "5420163176098446088",
+      "fallback": "🇧🇹",
+      "pack": "RestrictedEmoji"
+    },
+    "🇻🇺": {
+      "custom_emoji_id": "5469952197930267656",
+      "fallback": "🇻🇺",
+      "pack": "RestrictedEmoji"
+    },
+    "🇻🇦": {
+      "custom_emoji_id": "5443067545198277083",
+      "fallback": "🇻🇦",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇧": {
+      "custom_emoji_id": "5202196682497859879",
+      "fallback": "🇬🇧",
+      "pack": "RestrictedEmoji"
+    },
+    "🏴󠁧󠁢󠁥󠁮󠁧󠁿": {
+      "custom_emoji_id": "5229192892710402006",
+      "fallback": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "pack": "RestrictedEmoji"
+    },
+    "🏴󠁧󠁢󠁳󠁣󠁴󠁿": {
+      "custom_emoji_id": "5226852401822057871",
+      "fallback": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "pack": "RestrictedEmoji"
+    },
+    "🏴󠁧󠁢󠁷󠁬󠁳󠁿": {
+      "custom_emoji_id": "5228957348113955582",
+      "fallback": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+      "pack": "RestrictedEmoji"
+    },
+    "🇭🇺": {
+      "custom_emoji_id": "5409065547541260699",
+      "fallback": "🇭🇺",
+      "pack": "RestrictedEmoji"
+    },
+    "🇻🇪": {
+      "custom_emoji_id": "5228751795274136090",
+      "fallback": "🇻🇪",
+      "pack": "RestrictedEmoji"
+    },
+    "🇻🇬": {
+      "custom_emoji_id": "5453884806880315764",
+      "fallback": "🇻🇬",
+      "pack": "RestrictedEmoji"
+    },
+    "🇻🇮": {
+      "custom_emoji_id": "5231484597065237155",
+      "fallback": "🇻🇮",
+      "pack": "RestrictedEmoji"
+    },
+    "🇹🇱": {
+      "custom_emoji_id": "5422602597263489621",
+      "fallback": "🇹🇱",
+      "pack": "RestrictedEmoji"
+    },
+    "🇻🇳": {
+      "custom_emoji_id": "5474542319673812606",
+      "fallback": "🇻🇳",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇦": {
+      "custom_emoji_id": "5408983586680350780",
+      "fallback": "🇬🇦",
+      "pack": "RestrictedEmoji"
+    },
+    "🇭🇹": {
+      "custom_emoji_id": "5357490485034236365",
+      "fallback": "🇭🇹",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇾": {
+      "custom_emoji_id": "5420413662886117194",
+      "fallback": "🇬🇾",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇲": {
+      "custom_emoji_id": "5420472705801536529",
+      "fallback": "🇬🇲",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇭": {
+      "custom_emoji_id": "5188676065320511388",
+      "fallback": "🇬🇭",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇵": {
+      "custom_emoji_id": "5467664243081886165",
+      "fallback": "🇬🇵",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇹": {
+      "custom_emoji_id": "5357434603214748263",
+      "fallback": "🇬🇹",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇳": {
+      "custom_emoji_id": "5408977500711691863",
+      "fallback": "🇬🇳",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇼": {
+      "custom_emoji_id": "5429574437286454077",
+      "fallback": "🇬🇼",
+      "pack": "RestrictedEmoji"
+    },
+    "🇩🇪": {
+      "custom_emoji_id": "5409360418520967565",
+      "fallback": "🇩🇪",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇬": {
+      "custom_emoji_id": "5229073617173624053",
+      "fallback": "🇬🇬",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇮": {
+      "custom_emoji_id": "5226496954623603888",
+      "fallback": "🇬🇮",
+      "pack": "RestrictedEmoji"
+    },
+    "🇭🇳": {
+      "custom_emoji_id": "5224205572391315540",
+      "fallback": "🇭🇳",
+      "pack": "RestrictedEmoji"
+    },
+    "🇭🇰": {
+      "custom_emoji_id": "5222395857856374392",
+      "fallback": "🇭🇰",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇩": {
+      "custom_emoji_id": "5467787680441976258",
+      "fallback": "🇬🇩",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇱": {
+      "custom_emoji_id": "5221969376193816323",
+      "fallback": "🇬🇱",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇷": {
+      "custom_emoji_id": "5381889099026149370",
+      "fallback": "🇬🇷",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇪": {
+      "custom_emoji_id": "5440371950708864925",
+      "fallback": "🇬🇪",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇺": {
+      "custom_emoji_id": "5233385291892407085",
+      "fallback": "🇬🇺",
+      "pack": "RestrictedEmoji"
+    },
+    "🇩🇰": {
+      "custom_emoji_id": "5381854399985366436",
+      "fallback": "🇩🇰",
+      "pack": "RestrictedEmoji"
+    },
+    "🇯🇪": {
+      "custom_emoji_id": "5229188988585130961",
+      "fallback": "🇯🇪",
+      "pack": "RestrictedEmoji"
+    },
+    "🇩🇯": {
+      "custom_emoji_id": "5458586718032634511",
+      "fallback": "🇩🇯",
+      "pack": "RestrictedEmoji"
+    },
+    "🇩🇲": {
+      "custom_emoji_id": "5231486851923069595",
+      "fallback": "🇩🇲",
+      "pack": "RestrictedEmoji"
+    },
+    "🇩🇴": {
+      "custom_emoji_id": "5427236235615683748",
+      "fallback": "🇩🇴",
+      "pack": "RestrictedEmoji"
+    },
+    "🇪🇺": {
+      "custom_emoji_id": "5228784522924930237",
+      "fallback": "🇪🇺",
+      "pack": "RestrictedEmoji"
+    },
+    "🇪🇬": {
+      "custom_emoji_id": "5226476858471626962",
+      "fallback": "🇪🇬",
+      "pack": "RestrictedEmoji"
+    },
+    "🇿🇲": {
+      "custom_emoji_id": "5339279432857171449",
+      "fallback": "🇿🇲",
+      "pack": "RestrictedEmoji"
+    },
+    "🇪🇭": {
+      "custom_emoji_id": "5431541386279135269",
+      "fallback": "🇪🇭",
+      "pack": "RestrictedEmoji"
+    },
+    "🇿🇼": {
+      "custom_emoji_id": "5357255314099943456",
+      "fallback": "🇿🇼",
+      "pack": "RestrictedEmoji"
+    },
+    "🇮🇱": {
+      "custom_emoji_id": "5332299462461107995",
+      "fallback": "🇮🇱",
+      "pack": "RestrictedEmoji"
+    },
+    "🇮🇳": {
+      "custom_emoji_id": "5447419223242449630",
+      "fallback": "🇮🇳",
+      "pack": "RestrictedEmoji"
+    },
+    "🇮🇩": {
+      "custom_emoji_id": "5291937150814661333",
+      "fallback": "🇮🇩",
+      "pack": "RestrictedEmoji"
+    },
+    "🇯🇴": {
+      "custom_emoji_id": "5460834231468959552",
+      "fallback": "🇯🇴",
+      "pack": "RestrictedEmoji"
+    },
+    "🇮🇶": {
+      "custom_emoji_id": "5229059314932528805",
+      "fallback": "🇮🇶",
+      "pack": "RestrictedEmoji"
+    },
+    "🇮🇷": {
+      "custom_emoji_id": "5271878966347601947",
+      "fallback": "🇮🇷",
+      "pack": "RestrictedEmoji"
+    },
+    "🇮🇪": {
+      "custom_emoji_id": "5411194670204069594",
+      "fallback": "🇮🇪",
+      "pack": "RestrictedEmoji"
+    },
+    "🇮🇸": {
+      "custom_emoji_id": "5226903563472483349",
+      "fallback": "🇮🇸",
+      "pack": "RestrictedEmoji"
+    },
+    "🇪🇸": {
+      "custom_emoji_id": "5201957744877248121",
+      "fallback": "🇪🇸",
+      "pack": "RestrictedEmoji"
+    },
+    "🇮🇹": {
+      "custom_emoji_id": "5449723275628259037",
+      "fallback": "🇮🇹",
+      "pack": "RestrictedEmoji"
+    },
+    "🇾🇪": {
+      "custom_emoji_id": "5408878892557542535",
+      "fallback": "🇾🇪",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇻": {
+      "custom_emoji_id": "5233184244473283152",
+      "fallback": "🇨🇻",
+      "pack": "RestrictedEmoji"
+    },
+    "🇰🇿": {
+      "custom_emoji_id": "5228718354658769982",
+      "fallback": "🇰🇿",
+      "pack": "RestrictedEmoji"
+    },
+    "🇰🇭": {
+      "custom_emoji_id": "5357374413543062283",
+      "fallback": "🇰🇭",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇲": {
+      "custom_emoji_id": "5474681124426884947",
+      "fallback": "🇨🇲",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇦": {
+      "custom_emoji_id": "5382084502858249131",
+      "fallback": "🇨🇦",
+      "pack": "RestrictedEmoji"
+    },
+    "🇮🇨": {
+      "custom_emoji_id": "5233582259092601024",
+      "fallback": "🇮🇨",
+      "pack": "RestrictedEmoji"
+    },
+    "🇶🇦": {
+      "custom_emoji_id": "5228799250367788944",
+      "fallback": "🇶🇦",
+      "pack": "RestrictedEmoji"
+    },
+    "🇰🇪": {
+      "custom_emoji_id": "5269725950781699509",
+      "fallback": "🇰🇪",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇾": {
+      "custom_emoji_id": "5228997115216149309",
+      "fallback": "🇨🇾",
+      "pack": "RestrictedEmoji"
+    },
+    "🇰🇬": {
+      "custom_emoji_id": "5427268877367130483",
+      "fallback": "🇰🇬",
+      "pack": "RestrictedEmoji"
+    },
+    "🇰🇮": {
+      "custom_emoji_id": "5231365287168721267",
+      "fallback": "🇰🇮",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇳": {
+      "custom_emoji_id": "5431782733376399004",
+      "fallback": "🇨🇳",
+      "pack": "RestrictedEmoji"
+    },
+    "🇰🇵": {
+      "custom_emoji_id": "5341271404329317987",
+      "fallback": "🇰🇵",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇨": {
+      "custom_emoji_id": "5467863456549978285",
+      "fallback": "🇨🇨",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇴": {
+      "custom_emoji_id": "5341564321098907092",
+      "fallback": "🇨🇴",
+      "pack": "RestrictedEmoji"
+    },
+    "🇰🇲": {
+      "custom_emoji_id": "5422342777511886475",
+      "fallback": "🇰🇲",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇬": {
+      "custom_emoji_id": "5422479718249151727",
+      "fallback": "🇨🇬",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇩": {
+      "custom_emoji_id": "5269407491841603689",
+      "fallback": "🇨🇩",
+      "pack": "RestrictedEmoji"
+    },
+    "🇽🇰": {
+      "custom_emoji_id": "5442767700646442025",
+      "fallback": "🇽🇰",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇷": {
+      "custom_emoji_id": "5269494559418629149",
+      "fallback": "🇨🇷",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇮": {
+      "custom_emoji_id": "5411283953984218884",
+      "fallback": "🇨🇮",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇺": {
+      "custom_emoji_id": "5357035553508308603",
+      "fallback": "🇨🇺",
+      "pack": "RestrictedEmoji"
+    },
+    "🇰🇼": {
+      "custom_emoji_id": "5429154466794317724",
+      "fallback": "🇰🇼",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇼": {
+      "custom_emoji_id": "5233622988267472134",
+      "fallback": "🇨🇼",
+      "pack": "RestrictedEmoji"
+    },
+    "🇱🇦": {
+      "custom_emoji_id": "5426971433702012873",
+      "fallback": "🇱🇦",
+      "pack": "RestrictedEmoji"
+    },
+    "🇱🇻": {
+      "custom_emoji_id": "5269650286342846979",
+      "fallback": "🇱🇻",
+      "pack": "RestrictedEmoji"
+    },
+    "🇱🇸": {
+      "custom_emoji_id": "5422515422312281871",
+      "fallback": "🇱🇸",
+      "pack": "RestrictedEmoji"
+    },
+    "🇱🇷": {
+      "custom_emoji_id": "5422520224085720580",
+      "fallback": "🇱🇷",
+      "pack": "RestrictedEmoji"
+    },
+    "🇱🇧": {
+      "custom_emoji_id": "5427118703835625983",
+      "fallback": "🇱🇧",
+      "pack": "RestrictedEmoji"
+    },
+    "🇱🇾": {
+      "custom_emoji_id": "5222284437814783192",
+      "fallback": "🇱🇾",
+      "pack": "RestrictedEmoji"
+    },
+    "🇱🇹": {
+      "custom_emoji_id": "5411197345968695511",
+      "fallback": "🇱🇹",
+      "pack": "RestrictedEmoji"
+    },
+    "🇱🇮": {
+      "custom_emoji_id": "5226703795953612903",
+      "fallback": "🇱🇮",
+      "pack": "RestrictedEmoji"
+    },
+    "🇱🇺": {
+      "custom_emoji_id": "5411158944666101440",
+      "fallback": "🇱🇺",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇺": {
+      "custom_emoji_id": "5269757084999628216",
+      "fallback": "🇲🇺",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇷": {
+      "custom_emoji_id": "5422465115360345921",
+      "fallback": "🇲🇷",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇬": {
+      "custom_emoji_id": "5429165814097913547",
+      "fallback": "🇲🇬",
+      "pack": "RestrictedEmoji"
+    },
+    "🇾🇹": {
+      "custom_emoji_id": "5467780911573514412",
+      "fallback": "🇾🇹",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇴": {
+      "custom_emoji_id": "5420505321783179067",
+      "fallback": "🇲🇴",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇼": {
+      "custom_emoji_id": "5341341330691863561",
+      "fallback": "🇲🇼",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇾": {
+      "custom_emoji_id": "5339498171246588311",
+      "fallback": "🇲🇾",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇱": {
+      "custom_emoji_id": "5411259459785730007",
+      "fallback": "🇲🇱",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇻": {
+      "custom_emoji_id": "5233344051616430964",
+      "fallback": "🇲🇻",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇹": {
+      "custom_emoji_id": "5226954282741283529",
+      "fallback": "🇲🇹",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇦": {
+      "custom_emoji_id": "5260720207520867861",
+      "fallback": "🇲🇦",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇶": {
+      "custom_emoji_id": "5470045239806802915",
+      "fallback": "🇲🇶",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇭": {
+      "custom_emoji_id": "5469803287119150148",
+      "fallback": "🇲🇭",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇽": {
+      "custom_emoji_id": "5382126374494417411",
+      "fallback": "🇲🇽",
+      "pack": "RestrictedEmoji"
+    },
+    "🇫🇲": {
+      "custom_emoji_id": "5231007765501067757",
+      "fallback": "🇫🇲",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇿": {
+      "custom_emoji_id": "5429106139822303027",
+      "fallback": "🇲🇿",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇩": {
+      "custom_emoji_id": "5442607966517736672",
+      "fallback": "🇲🇩",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇨": {
+      "custom_emoji_id": "5289959262540277451",
+      "fallback": "🇲🇨",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇳": {
+      "custom_emoji_id": "5420481703758019034",
+      "fallback": "🇲🇳",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇸": {
+      "custom_emoji_id": "5454038304716504375",
+      "fallback": "🇲🇸",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇲": {
+      "custom_emoji_id": "5188162778073935826",
+      "fallback": "🇲🇲",
+      "pack": "RestrictedEmoji"
+    },
+    "🇳🇦": {
+      "custom_emoji_id": "5420229786746239476",
+      "fallback": "🇳🇦",
+      "pack": "RestrictedEmoji"
+    },
+    "🇳🇷": {
+      "custom_emoji_id": "5233464284930915439",
+      "fallback": "🇳🇷",
+      "pack": "RestrictedEmoji"
+    },
+    "🇳🇵": {
+      "custom_emoji_id": "5413521039239955481",
+      "fallback": "🇳🇵",
+      "pack": "RestrictedEmoji"
+    },
+    "🇳🇪": {
+      "custom_emoji_id": "5339240099546673885",
+      "fallback": "🇳🇪",
+      "pack": "RestrictedEmoji"
+    },
+    "🇳🇬": {
+      "custom_emoji_id": "5411568100430587798",
+      "fallback": "🇳🇬",
+      "pack": "RestrictedEmoji"
+    },
+    "🇳🇱": {
+      "custom_emoji_id": "5411124743841524806",
+      "fallback": "🇳🇱",
+      "pack": "RestrictedEmoji"
+    },
+    "🇳🇮": {
+      "custom_emoji_id": "5426842228200847679",
+      "fallback": "🇳🇮",
+      "pack": "RestrictedEmoji"
+    },
+    "🇳🇺": {
+      "custom_emoji_id": "5454251094576218954",
+      "fallback": "🇳🇺",
+      "pack": "RestrictedEmoji"
+    },
+    "🇳🇿": {
+      "custom_emoji_id": "5269712902671055050",
+      "fallback": "🇳🇿",
+      "pack": "RestrictedEmoji"
+    },
+    "🇳🇨": {
+      "custom_emoji_id": "5233223766762338378",
+      "fallback": "🇳🇨",
+      "pack": "RestrictedEmoji"
+    },
+    "🇳🇴": {
+      "custom_emoji_id": "5382300771641470186",
+      "fallback": "🇳🇴",
+      "pack": "RestrictedEmoji"
+    },
+    "🇮🇲": {
+      "custom_emoji_id": "5226538255029121667",
+      "fallback": "🇮🇲",
+      "pack": "RestrictedEmoji"
+    },
+    "🇳🇫": {
+      "custom_emoji_id": "5233192645429312298",
+      "fallback": "🇳🇫",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇽": {
+      "custom_emoji_id": "5467797026290809748",
+      "fallback": "🇨🇽",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇭": {
+      "custom_emoji_id": "5454076894997659542",
+      "fallback": "🇸🇭",
+      "pack": "RestrictedEmoji"
+    },
+    "🇵🇳": {
+      "custom_emoji_id": "5454181382962036548",
+      "fallback": "🇵🇳",
+      "pack": "RestrictedEmoji"
+    },
+    "🇹🇨": {
+      "custom_emoji_id": "5454045923988488117",
+      "fallback": "🇹🇨",
+      "pack": "RestrictedEmoji"
+    },
+    "🇦🇪": {
+      "custom_emoji_id": "5449495646656537594",
+      "fallback": "🇦🇪",
+      "pack": "RestrictedEmoji"
+    },
+    "🇴🇲": {
+      "custom_emoji_id": "5269663308683688305",
+      "fallback": "🇴🇲",
+      "pack": "RestrictedEmoji"
+    },
+    "🇰🇾": {
+      "custom_emoji_id": "5454177075109839093",
+      "fallback": "🇰🇾",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇰": {
+      "custom_emoji_id": "5454192094610473874",
+      "fallback": "🇨🇰",
+      "pack": "RestrictedEmoji"
+    },
+    "🇵🇰": {
+      "custom_emoji_id": "5269660289321679111",
+      "fallback": "🇵🇰",
+      "pack": "RestrictedEmoji"
+    },
+    "🇵🇼": {
+      "custom_emoji_id": "5222244507503833341",
+      "fallback": "🇵🇼",
+      "pack": "RestrictedEmoji"
+    },
+    "🇵🇸": {
+      "custom_emoji_id": "5449405314904369668",
+      "fallback": "🇵🇸",
+      "pack": "RestrictedEmoji"
+    },
+    "🇵🇦": {
+      "custom_emoji_id": "5269271835299560112",
+      "fallback": "🇵🇦",
+      "pack": "RestrictedEmoji"
+    },
+    "🇵🇬": {
+      "custom_emoji_id": "5426911591922678926",
+      "fallback": "🇵🇬",
+      "pack": "RestrictedEmoji"
+    },
+    "🇵🇾": {
+      "custom_emoji_id": "5426992955783134297",
+      "fallback": "🇵🇾",
+      "pack": "RestrictedEmoji"
+    },
+    "🇵🇪": {
+      "custom_emoji_id": "5409100220812239915",
+      "fallback": "🇵🇪",
+      "pack": "RestrictedEmoji"
+    },
+    "🇵🇱": {
+      "custom_emoji_id": "5291847690940852675",
+      "fallback": "🇵🇱",
+      "pack": "RestrictedEmoji"
+    },
+    "🇵🇹": {
+      "custom_emoji_id": "5382075788369605892",
+      "fallback": "🇵🇹",
+      "pack": "RestrictedEmoji"
+    },
+    "🇵🇷": {
+      "custom_emoji_id": "5269767070798592290",
+      "fallback": "🇵🇷",
+      "pack": "RestrictedEmoji"
+    },
+    "🇰🇷": {
+      "custom_emoji_id": "5456531898304047227",
+      "fallback": "🇰🇷",
+      "pack": "RestrictedEmoji"
+    },
+    "🇷🇪": {
+      "custom_emoji_id": "5420322107068267129",
+      "fallback": "🇷🇪",
+      "pack": "RestrictedEmoji"
+    },
+    "🇷🇺": {
+      "custom_emoji_id": "5449408995691341691",
+      "fallback": "🇷🇺",
+      "pack": "RestrictedEmoji"
+    },
+    "🇷🇼": {
+      "custom_emoji_id": "5359528550095402400",
+      "fallback": "🇷🇼",
+      "pack": "RestrictedEmoji"
+    },
+    "🇷🇴": {
+      "custom_emoji_id": "5411159898148840778",
+      "fallback": "🇷🇴",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇻": {
+      "custom_emoji_id": "5427301849831061043",
+      "fallback": "🇸🇻",
+      "pack": "RestrictedEmoji"
+    },
+    "🇼🇸": {
+      "custom_emoji_id": "5233271161726450295",
+      "fallback": "🇼🇸",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇲": {
+      "custom_emoji_id": "5228954998766843234",
+      "fallback": "🇸🇲",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇹": {
+      "custom_emoji_id": "5429484951642842713",
+      "fallback": "🇸🇹",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇦": {
+      "custom_emoji_id": "5202079966761590204",
+      "fallback": "🇸🇦",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇰": {
+      "custom_emoji_id": "5442634591020003500",
+      "fallback": "🇲🇰",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇵": {
+      "custom_emoji_id": "5230969196694748793",
+      "fallback": "🇲🇵",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇨": {
+      "custom_emoji_id": "5231446105568329752",
+      "fallback": "🇸🇨",
+      "pack": "RestrictedEmoji"
+    },
+    "🇧🇱": {
+      "custom_emoji_id": "5233616700435348314",
+      "fallback": "🇧🇱",
+      "pack": "RestrictedEmoji"
+    },
+    "🇵🇲": {
+      "custom_emoji_id": "5231258308123313128",
+      "fallback": "🇵🇲",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇳": {
+      "custom_emoji_id": "5474274146210817219",
+      "fallback": "🇸🇳",
+      "pack": "RestrictedEmoji"
+    },
+    "🇻🇨": {
+      "custom_emoji_id": "5467396563540131322",
+      "fallback": "🇻🇨",
+      "pack": "RestrictedEmoji"
+    },
+    "🇰🇳": {
+      "custom_emoji_id": "5231087492978982103",
+      "fallback": "🇰🇳",
+      "pack": "RestrictedEmoji"
+    },
+    "🇱🇨": {
+      "custom_emoji_id": "5222280134257551597",
+      "fallback": "🇱🇨",
+      "pack": "RestrictedEmoji"
+    },
+    "🇷🇸": {
+      "custom_emoji_id": "5384313376136507326",
+      "fallback": "🇷🇸",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇬": {
+      "custom_emoji_id": "5292144120993686909",
+      "fallback": "🇸🇬",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇽": {
+      "custom_emoji_id": "5461113820955027461",
+      "fallback": "🇸🇽",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇾": {
+      "custom_emoji_id": "5308002793812955097",
+      "fallback": "🇸🇾",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇰": {
+      "custom_emoji_id": "5381967160056755878",
+      "fallback": "🇸🇰",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇮": {
+      "custom_emoji_id": "5440874620796284751",
+      "fallback": "🇸🇮",
+      "pack": "RestrictedEmoji"
+    },
+    "🇺🇸": {
+      "custom_emoji_id": "5202021044105257611",
+      "fallback": "🇺🇸",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇧": {
+      "custom_emoji_id": "5233325407163398971",
+      "fallback": "🇸🇧",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇴": {
+      "custom_emoji_id": "5474375863921288686",
+      "fallback": "🇸🇴",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇩": {
+      "custom_emoji_id": "5431435781623260953",
+      "fallback": "🇸🇩",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇷": {
+      "custom_emoji_id": "5467524222853071645",
+      "fallback": "🇸🇷",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇱": {
+      "custom_emoji_id": "5411093944631044380",
+      "fallback": "🇸🇱",
+      "pack": "RestrictedEmoji"
+    },
+    "🇹🇯": {
+      "custom_emoji_id": "5427304285077516492",
+      "fallback": "🇹🇯",
+      "pack": "RestrictedEmoji"
+    },
+    "🇹🇭": {
+      "custom_emoji_id": "5341471408071390957",
+      "fallback": "🇹🇭",
+      "pack": "RestrictedEmoji"
+    },
+    "🇹🇼": {
+      "custom_emoji_id": "5222365101595568847",
+      "fallback": "🇹🇼",
+      "pack": "RestrictedEmoji"
+    },
+    "🇹🇿": {
+      "custom_emoji_id": "5269360178481872158",
+      "fallback": "🇹🇿",
+      "pack": "RestrictedEmoji"
+    },
+    "🇹🇬": {
+      "custom_emoji_id": "5426845148778609404",
+      "fallback": "🇹🇬",
+      "pack": "RestrictedEmoji"
+    },
+    "🇹🇰": {
+      "custom_emoji_id": "5231066898610798438",
+      "fallback": "🇹🇰",
+      "pack": "RestrictedEmoji"
+    },
+    "🇹🇴": {
+      "custom_emoji_id": "5467490150877508877",
+      "fallback": "🇹🇴",
+      "pack": "RestrictedEmoji"
+    },
+    "🇹🇹": {
+      "custom_emoji_id": "5420380776321533161",
+      "fallback": "🇹🇹",
+      "pack": "RestrictedEmoji"
+    },
+    "🇹🇻": {
+      "custom_emoji_id": "5454304115947487098",
+      "fallback": "🇹🇻",
+      "pack": "RestrictedEmoji"
+    },
+    "🇹🇳": {
+      "custom_emoji_id": "5357130455105679545",
+      "fallback": "🇹🇳",
+      "pack": "RestrictedEmoji"
+    },
+    "🇹🇲": {
+      "custom_emoji_id": "5422512652058379683",
+      "fallback": "🇹🇲",
+      "pack": "RestrictedEmoji"
+    },
+    "🇹🇷": {
+      "custom_emoji_id": "5226948110873278599",
+      "fallback": "🇹🇷",
+      "pack": "RestrictedEmoji"
+    },
+    "🇺🇬": {
+      "custom_emoji_id": "5267090670518025063",
+      "fallback": "🇺🇬",
+      "pack": "RestrictedEmoji"
+    },
+    "🇺🇿": {
+      "custom_emoji_id": "5449829434334912605",
+      "fallback": "🇺🇿",
+      "pack": "RestrictedEmoji"
+    },
+    "🇺🇦": {
+      "custom_emoji_id": "5447309366568953338",
+      "fallback": "🇺🇦",
+      "pack": "RestrictedEmoji"
+    },
+    "🇼🇫": {
+      "custom_emoji_id": "5231000034559934302",
+      "fallback": "🇼🇫",
+      "pack": "RestrictedEmoji"
+    },
+    "🇺🇾": {
+      "custom_emoji_id": "5269256068474616775",
+      "fallback": "🇺🇾",
+      "pack": "RestrictedEmoji"
+    },
+    "🇫🇴": {
+      "custom_emoji_id": "5228851794997688064",
+      "fallback": "🇫🇴",
+      "pack": "RestrictedEmoji"
+    },
+    "🇫🇯": {
+      "custom_emoji_id": "5454336104863908516",
+      "fallback": "🇫🇯",
+      "pack": "RestrictedEmoji"
+    },
+    "🇵🇭": {
+      "custom_emoji_id": "5460873607729129032",
+      "fallback": "🇵🇭",
+      "pack": "RestrictedEmoji"
+    },
+    "🇫🇮": {
+      "custom_emoji_id": "5382151560182642075",
+      "fallback": "🇫🇮",
+      "pack": "RestrictedEmoji"
+    },
+    "🇫🇰": {
+      "custom_emoji_id": "5454214681843481342",
+      "fallback": "🇫🇰",
+      "pack": "RestrictedEmoji"
+    },
+    "🇫🇷": {
+      "custom_emoji_id": "5202132623060640759",
+      "fallback": "🇫🇷",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇫": {
+      "custom_emoji_id": "5233523014313720667",
+      "fallback": "🇬🇫",
+      "pack": "RestrictedEmoji"
+    },
+    "🇵🇫": {
+      "custom_emoji_id": "5467450310760874001",
+      "fallback": "🇵🇫",
+      "pack": "RestrictedEmoji"
+    },
+    "🇹🇫": {
+      "custom_emoji_id": "5233379493686558144",
+      "fallback": "🇹🇫",
+      "pack": "RestrictedEmoji"
+    },
+    "🇭🇷": {
+      "custom_emoji_id": "5262677003210860950",
+      "fallback": "🇭🇷",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇫": {
+      "custom_emoji_id": "5422628135139031178",
+      "fallback": "🇨🇫",
+      "pack": "RestrictedEmoji"
+    },
+    "🇹🇩": {
+      "custom_emoji_id": "5411229867461060921",
+      "fallback": "🇹🇩",
+      "pack": "RestrictedEmoji"
+    },
+    "🇲🇪": {
+      "custom_emoji_id": "5440827745523216914",
+      "fallback": "🇲🇪",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇿": {
+      "custom_emoji_id": "5429496861587156146",
+      "fallback": "🇨🇿",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇱": {
+      "custom_emoji_id": "5222427035023977899",
+      "fallback": "🇨🇱",
+      "pack": "RestrictedEmoji"
+    },
+    "🇨🇭": {
+      "custom_emoji_id": "5442703336266543270",
+      "fallback": "🇨🇭",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇪": {
+      "custom_emoji_id": "5384542551296455687",
+      "fallback": "🇸🇪",
+      "pack": "RestrictedEmoji"
+    },
+    "🇱🇰": {
+      "custom_emoji_id": "5341732791191091574",
+      "fallback": "🇱🇰",
+      "pack": "RestrictedEmoji"
+    },
+    "🇪🇨": {
+      "custom_emoji_id": "5359624993586034294",
+      "fallback": "🇪🇨",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇶": {
+      "custom_emoji_id": "5447111931217324976",
+      "fallback": "🇬🇶",
+      "pack": "RestrictedEmoji"
+    },
+    "🇪🇷": {
+      "custom_emoji_id": "5420548035232937623",
+      "fallback": "🇪🇷",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇿": {
+      "custom_emoji_id": "5422587427438998925",
+      "fallback": "🇸🇿",
+      "pack": "RestrictedEmoji"
+    },
+    "🇪🇪": {
+      "custom_emoji_id": "5411174505332615466",
+      "fallback": "🇪🇪",
+      "pack": "RestrictedEmoji"
+    },
+    "🇪🇹": {
+      "custom_emoji_id": "5269679685393989166",
+      "fallback": "🇪🇹",
+      "pack": "RestrictedEmoji"
+    },
+    "🇬🇸": {
+      "custom_emoji_id": "5454396500694024535",
+      "fallback": "🇬🇸",
+      "pack": "RestrictedEmoji"
+    },
+    "🇿🇦": {
+      "custom_emoji_id": "5341547124049852736",
+      "fallback": "🇿🇦",
+      "pack": "RestrictedEmoji"
+    },
+    "🇸🇸": {
+      "custom_emoji_id": "5458535642281552190",
+      "fallback": "🇸🇸",
+      "pack": "RestrictedEmoji"
+    },
+    "🇯🇲": {
+      "custom_emoji_id": "5420144630429667484",
+      "fallback": "🇯🇲",
+      "pack": "RestrictedEmoji"
+    },
+    "🇯🇵": {
+      "custom_emoji_id": "5456261908069885892",
+      "fallback": "🇯🇵",
+      "pack": "RestrictedEmoji"
+    },
+    "🎌": {
+      "custom_emoji_id": "5413869111979556783",
+      "fallback": "🎌",
+      "pack": "RestrictedEmoji"
+    },
+    "🎣": {
+      "custom_emoji_id": "5343609421316521960",
+      "fallback": "🎣",
+      "pack": "RestrictedEmoji"
+    },
+    "🏑": {
+      "custom_emoji_id": "5345844204469782981",
+      "fallback": "🏑",
+      "pack": "RestrictedEmoji"
+    },
+    "🏒": {
+      "custom_emoji_id": "5346281767147960701",
+      "fallback": "🏒",
+      "pack": "RestrictedEmoji"
+    },
+    "🥍": {
+      "custom_emoji_id": "5346083885119734774",
+      "fallback": "🥍",
+      "pack": "RestrictedEmoji"
+    },
+    "🪃": {
+      "custom_emoji_id": "5346283455070109679",
+      "fallback": "🪃",
+      "pack": "RestrictedEmoji"
+    },
+    "🏏": {
+      "custom_emoji_id": "5346089086325130313",
+      "fallback": "🏏",
+      "pack": "RestrictedEmoji"
+    },
+    "🎯": {
+      "custom_emoji_id": "5350460637182993292",
+      "fallback": "🎯",
+      "pack": "RestrictedEmoji"
+    },
+    "🕯": {
+      "custom_emoji_id": "5350571717922167592",
+      "fallback": "🕯",
+      "pack": "RestrictedEmoji"
+    },
+    "🪓": {
+      "custom_emoji_id": "5350341795437911403",
+      "fallback": "🪓",
+      "pack": "RestrictedEmoji"
+    },
+    "⚙": {
+      "custom_emoji_id": "5877260593903177342",
+      "fallback": "⚙",
+      "pack": "TgAndroidIcons"
+    },
+    "🎛": {
+      "custom_emoji_id": "5875431869842985304",
+      "fallback": "🎛",
+      "pack": "TgAndroidIcons"
+    },
+    "↔️": {
+      "custom_emoji_id": "5888642858533001671",
+      "fallback": "↔️",
+      "pack": "TgAndroidIcons"
+    },
+    "⬇️": {
+      "custom_emoji_id": "5886451926995833684",
+      "fallback": "⬇️",
+      "pack": "TgAndroidIcons"
+    },
+    "⬅️": {
+      "custom_emoji_id": "5875082500023258804",
+      "fallback": "⬅️",
+      "pack": "TgAndroidIcons"
+    },
+    "↖️": {
+      "custom_emoji_id": "5846097080002550195",
+      "fallback": "↖️",
+      "pack": "TgAndroidIcons"
+    },
+    "◀️": {
+      "custom_emoji_id": "5877629862306385808",
+      "fallback": "◀️",
+      "pack": "TgAndroidIcons"
+    },
+    "🔼": {
+      "custom_emoji_id": "5875078273775439450",
+      "fallback": "🔼",
+      "pack": "TgAndroidIcons"
+    },
+    "🔽": {
+      "custom_emoji_id": "5875008416132370818",
+      "fallback": "🔽",
+      "pack": "TgAndroidIcons"
+    },
+    "📶": {
+      "custom_emoji_id": "5874986954180791957",
+      "fallback": "📶",
+      "pack": "TgAndroidIcons"
+    },
+    "🔁": {
+      "custom_emoji_id": "6005843436479975944",
+      "fallback": "🔁",
+      "pack": "TgAndroidIcons"
+    },
+    "➡️": {
+      "custom_emoji_id": "5877468380125990242",
+      "fallback": "➡️",
+      "pack": "TgAndroidIcons"
+    },
+    "🛜": {
+      "custom_emoji_id": "5967432491684860012",
+      "fallback": "🛜",
+      "pack": "TgAndroidIcons"
+    },
+    "↗️": {
+      "custom_emoji_id": "5884343982816759327",
+      "fallback": "↗️",
+      "pack": "TgAndroidIcons"
+    },
+    "🔖": {
+      "custom_emoji_id": "5843862283964390528",
+      "fallback": "🔖",
+      "pack": "TgAndroidIcons"
+    },
+    "⌨": {
+      "custom_emoji_id": "5877396173135811032",
+      "fallback": "⌨",
+      "pack": "TgAndroidIcons"
+    },
+    "🔨": {
+      "custom_emoji_id": "5875450995332353523",
+      "fallback": "🔨",
+      "pack": "TgAndroidIcons"
+    },
+    "🗃": {
+      "custom_emoji_id": "5877316724830768997",
+      "fallback": "🗃",
+      "pack": "TgAndroidIcons"
+    },
+    "🔋": {
+      "custom_emoji_id": "5778546461436284629",
+      "fallback": "🔋",
+      "pack": "TgAndroidIcons"
+    },
+    "📦": {
+      "custom_emoji_id": "5924720918826848520",
+      "fallback": "📦",
+      "pack": "TgAndroidIcons"
+    },
+    "📄": {
+      "custom_emoji_id": "5839323457015256759",
+      "fallback": "📄",
+      "pack": "TgAndroidIcons"
+    },
+    "🏷": {
+      "custom_emoji_id": "5854776233950188167",
+      "fallback": "🏷",
+      "pack": "TgAndroidIcons"
+    },
+    "🗑": {
+      "custom_emoji_id": "5879896690210639947",
+      "fallback": "🗑",
+      "pack": "TgAndroidIcons"
+    },
+    "🖋": {
+      "custom_emoji_id": "5839380580080293813",
+      "fallback": "🖋",
+      "pack": "TgAndroidIcons"
+    },
+    "🚪": {
+      "custom_emoji_id": "5877341274863832725",
+      "fallback": "🚪",
+      "pack": "TgAndroidIcons"
+    },
+    "📷": {
+      "custom_emoji_id": "5846024087033353251",
+      "fallback": "📷",
+      "pack": "TgAndroidIcons"
+    },
+    "🚫": {
+      "custom_emoji_id": "5872829476143894491",
+      "fallback": "🚫",
+      "pack": "TgAndroidIcons"
+    },
+    "ℹ️": {
+      "custom_emoji_id": "5879785854284599288",
+      "fallback": "ℹ️",
+      "pack": "TgAndroidIcons"
+    },
+    "🕓": {
+      "custom_emoji_id": "5776213190387961618",
+      "fallback": "🕓",
+      "pack": "TgAndroidIcons"
+    },
+    "🕒": {
+      "custom_emoji_id": "5778605968208170641",
+      "fallback": "🕒",
+      "pack": "TgAndroidIcons"
+    },
+    "🎞": {
+      "custom_emoji_id": "5775981206319402773",
+      "fallback": "🎞",
+      "pack": "TgAndroidIcons"
+    },
+    "🔒": {
+      "custom_emoji_id": "5832546462478635761",
+      "fallback": "🔒",
+      "pack": "TgAndroidIcons"
+    },
+    "⏲": {
+      "custom_emoji_id": "5877613700344450910",
+      "fallback": "⏲",
+      "pack": "TgAndroidIcons"
+    },
+    "6️⃣": {
+      "custom_emoji_id": "5900120651825418289",
+      "fallback": "6️⃣",
+      "pack": "TgAndroidIcons"
+    },
+    "1️⃣": {
+      "custom_emoji_id": "5900116262368841797",
+      "fallback": "1️⃣",
+      "pack": "TgAndroidIcons"
+    },
+    "2️⃣": {
+      "custom_emoji_id": "5900006938271288826",
+      "fallback": "2️⃣",
+      "pack": "TgAndroidIcons"
+    },
+    "4️⃣": {
+      "custom_emoji_id": "5900108617327054997",
+      "fallback": "4️⃣",
+      "pack": "TgAndroidIcons"
+    },
+    "5️⃣": {
+      "custom_emoji_id": "5960961389014028206",
+      "fallback": "5️⃣",
+      "pack": "TgAndroidIcons"
+    },
+    "3️⃣": {
+      "custom_emoji_id": "5798869482176779018",
+      "fallback": "3️⃣",
+      "pack": "TgAndroidIcons"
+    },
+    "⏲️": {
+      "custom_emoji_id": "5960751816084820359",
+      "fallback": "⏲️",
+      "pack": "TgAndroidIcons"
+    },
+    "⏩": {
+      "custom_emoji_id": "6028482475385164542",
+      "fallback": "⏩",
+      "pack": "TgAndroidIcons"
+    },
+    "💾": {
+      "custom_emoji_id": "5884448719889240368",
+      "fallback": "💾",
+      "pack": "TgAndroidIcons"
+    },
+    "🎥": {
+      "custom_emoji_id": "5882002216323125435",
+      "fallback": "🎥",
+      "pack": "TgAndroidIcons"
+    },
+    "❤": {
+      "custom_emoji_id": "5899833370052923106",
+      "fallback": "❤",
+      "pack": "TgAndroidIcons"
+    },
+    "🏞": {
+      "custom_emoji_id": "5843506780931363129",
+      "fallback": "🏞",
+      "pack": "TgAndroidIcons"
+    },
+    "✅️": {
+      "custom_emoji_id": "5843908536467198016",
+      "fallback": "✅️",
+      "pack": "TgAndroidIcons"
+    },
+    "🌐": {
+      "custom_emoji_id": "5879585266426973039",
+      "fallback": "🌐",
+      "pack": "TgAndroidIcons"
+    },
+    "⚠️": {
+      "custom_emoji_id": "5881702736843511327",
+      "fallback": "⚠️",
+      "pack": "TgAndroidIcons"
+    },
+    "🛡": {
+      "custom_emoji_id": "5926783847453692661",
+      "fallback": "🛡",
+      "pack": "TgAndroidIcons"
+    },
+    "🗒": {
+      "custom_emoji_id": "5877597667231534929",
+      "fallback": "🗒",
+      "pack": "TgAndroidIcons"
+    },
+    "🔓": {
+      "custom_emoji_id": "6034962180875490251",
+      "fallback": "🔓",
+      "pack": "TgAndroidIcons"
+    },
+    "📌": {
+      "custom_emoji_id": "5908961403917570106",
+      "fallback": "📌",
+      "pack": "TgAndroidIcons"
+    },
+    "🔊": {
+      "custom_emoji_id": "5890997763331591703",
+      "fallback": "🔊",
+      "pack": "TgAndroidIcons"
+    },
+    "🔇": {
+      "custom_emoji_id": "5890838600433536921",
+      "fallback": "🔇",
+      "pack": "TgAndroidIcons"
+    },
+    "🔈": {
+      "custom_emoji_id": "5891206318353551398",
+      "fallback": "🔈",
+      "pack": "TgAndroidIcons"
+    },
+    "🎧": {
+      "custom_emoji_id": "6007938409857815902",
+      "fallback": "🎧",
+      "pack": "TgAndroidIcons"
+    },
+    "🪟": {
+      "custom_emoji_id": "5915980888012755151",
+      "fallback": "🪟",
+      "pack": "TgAndroidIcons"
+    },
+    "♾": {
+      "custom_emoji_id": "5908972566537572230",
+      "fallback": "♾",
+      "pack": "TgAndroidIcons"
+    },
+    "🙋": {
+      "custom_emoji_id": "5906995262378741881",
+      "fallback": "🙋",
+      "pack": "TgAndroidIcons"
+    },
+    "🧙‍♀️": {
+      "custom_emoji_id": "5895247345708175293",
+      "fallback": "🧙‍♀️",
+      "pack": "TgAndroidIcons"
+    },
+    "⚗️": {
+      "custom_emoji_id": "5913787972200698358",
+      "fallback": "⚗️",
+      "pack": "TgAndroidIcons"
+    },
+    "🧦": {
+      "custom_emoji_id": "5985568880150450900",
+      "fallback": "🧦",
+      "pack": "TgAndroidIcons"
+    },
+    "✉️": {
+      "custom_emoji_id": "5985817223749439505",
+      "fallback": "✉️",
+      "pack": "TgAndroidIcons"
+    },
+    "🫎": {
+      "custom_emoji_id": "5985691737689952110",
+      "fallback": "🫎",
+      "pack": "TgAndroidIcons"
+    },
+    "🍬": {
+      "custom_emoji_id": "5895434906929991182",
+      "fallback": "🍬",
+      "pack": "TgAndroidIcons"
+    },
+    "🍎": {
+      "custom_emoji_id": "5935989710420709120",
+      "fallback": "🍎",
+      "pack": "TgAndroidIcons"
+    },
+    "🛠": {
+      "custom_emoji_id": "5988023995125993550",
+      "fallback": "🛠",
+      "pack": "TgAndroidIcons"
+    },
+    "🚿": {
+      "custom_emoji_id": "5994485571559362460",
+      "fallback": "🚿",
+      "pack": "TgAndroidIcons"
+    },
+    "🏡": {
+      "custom_emoji_id": "6010362983320916413",
+      "fallback": "🏡",
+      "pack": "TgAndroidIcons"
+    },
+    "🚐": {
+      "custom_emoji_id": "5927266769281487788",
+      "fallback": "🚐",
+      "pack": "TgAndroidIcons"
+    },
+    "🎲": {
+      "custom_emoji_id": "5960608239623082921",
+      "fallback": "🎲",
+      "pack": "TgAndroidIcons"
+    },
+    "🔴": {
+      "custom_emoji_id": "5967333011652350314",
+      "fallback": "🔴",
+      "pack": "TgAndroidIcons"
+    },
+    "⚪️": {
+      "custom_emoji_id": "5994324703559290598",
+      "fallback": "⚪️",
+      "pack": "TgAndroidIcons"
+    },
+    "🪧": {
+      "custom_emoji_id": "5994636050033545139",
+      "fallback": "🪧",
+      "pack": "TgAndroidIcons"
+    },
+    "🖌": {
+      "custom_emoji_id": "5814327284223448001",
+      "fallback": "🖌",
+      "pack": "TgAndroidIcons"
+    },
+    "🧹": {
+      "custom_emoji_id": "5845947563601041174",
+      "fallback": "🧹",
+      "pack": "TgAndroidIcons"
+    },
+    "⬆️": {
+      "custom_emoji_id": "6005807101056651268",
+      "fallback": "⬆️",
+      "pack": "TgAndroidIcons"
+    },
+    "💧": {
+      "custom_emoji_id": "6005799322870878528",
+      "fallback": "💧",
+      "pack": "TgAndroidIcons"
+    },
+    "🔠": {
+      "custom_emoji_id": "5899806560867062244",
+      "fallback": "🔠",
+      "pack": "TgAndroidIcons"
+    },
+    "🔃": {
+      "custom_emoji_id": "6006085522311614682",
+      "fallback": "🔃",
+      "pack": "TgAndroidIcons"
+    },
+    "🔣": {
+      "custom_emoji_id": "6008258140108231117",
+      "fallback": "🔣",
+      "pack": "TgAndroidIcons"
+    },
+    "📢": {
+      "custom_emoji_id": "5771695636411847302",
+      "fallback": "📢",
+      "pack": "TgAndroidIcons"
+    },
+    "📍": {
+      "custom_emoji_id": "5944940516754853337",
+      "fallback": "📍",
+      "pack": "TgAndroidIcons"
+    },
+    "💳": {
+      "custom_emoji_id": "5967548335542767952",
+      "fallback": "💳",
+      "pack": "TgAndroidIcons"
+    },
+    "💵": {
+      "custom_emoji_id": "5967390100357648692",
+      "fallback": "💵",
+      "pack": "TgAndroidIcons"
+    },
+    "#️⃣": {
+      "custom_emoji_id": "5951584964305755220",
+      "fallback": "#️⃣",
+      "pack": "TgAndroidIcons"
+    },
+    "#⃣": {
+      "custom_emoji_id": "5987589013723158366",
+      "fallback": "#⃣",
+      "pack": "TgAndroidIcons"
+    },
+    "🗻": {
+      "custom_emoji_id": "5931588842116091655",
+      "fallback": "🗻",
+      "pack": "TgAndroidIcons"
+    },
+    "📸": {
+      "custom_emoji_id": "5884290437459480896",
+      "fallback": "📸",
+      "pack": "TgAndroidIcons"
+    },
+    "📅": {
+      "custom_emoji_id": "5967412305338568701",
+      "fallback": "📅",
+      "pack": "TgAndroidIcons"
+    },
+    "🍏": {
+      "custom_emoji_id": "5818920837645867167",
+      "fallback": "🍏",
+      "pack": "TgAndroidIcons"
+    },
+    "🖊": {
+      "custom_emoji_id": "5985774024968379294",
+      "fallback": "🖊",
+      "pack": "TgAndroidIcons"
+    },
+    "1⃣": {
+      "custom_emoji_id": "5794182096603847292",
+      "fallback": "1⃣",
+      "pack": "TgAndroidIcons"
+    },
+    "2⃣": {
+      "custom_emoji_id": "5794303034292968945",
+      "fallback": "2⃣",
+      "pack": "TgAndroidIcons"
+    },
+    "3⃣": {
+      "custom_emoji_id": "5794031944547178894",
+      "fallback": "3⃣",
+      "pack": "TgAndroidIcons"
+    },
+    "4⃣": {
+      "custom_emoji_id": "5793901252987330401",
+      "fallback": "4⃣",
+      "pack": "TgAndroidIcons"
+    },
+    "5⃣": {
+      "custom_emoji_id": "5794066823976592976",
+      "fallback": "5⃣",
+      "pack": "TgAndroidIcons"
+    },
+    "6⃣": {
+      "custom_emoji_id": "5794235255414069703",
+      "fallback": "6⃣",
+      "pack": "TgAndroidIcons"
+    },
+    "7⃣": {
+      "custom_emoji_id": "5794030595927448202",
+      "fallback": "7⃣",
+      "pack": "TgAndroidIcons"
+    },
+    "8⃣": {
+      "custom_emoji_id": "5794426162415409242",
+      "fallback": "8⃣",
+      "pack": "TgAndroidIcons"
+    },
+    "9⃣": {
+      "custom_emoji_id": "5793905801357695657",
+      "fallback": "9⃣",
+      "pack": "TgAndroidIcons"
+    },
+    "🔢": {
+      "custom_emoji_id": "5226513232549664618",
+      "fallback": "🔢",
+      "pack": "tgmacicons"
+    },
+    "👨‍🎨": {
+      "custom_emoji_id": "5258450450448915742",
+      "fallback": "👨‍🎨",
+      "pack": "tgmacicons"
+    },
+    "🗓": {
+      "custom_emoji_id": "5258105663359294787",
+      "fallback": "🗓",
+      "pack": "tgmacicons"
+    },
+    "👩‍🎨": {
+      "custom_emoji_id": "5258215635996908355",
+      "fallback": "👩‍🎨",
+      "pack": "tgmacicons"
+    },
+    "⛓": {
+      "custom_emoji_id": "5260730055880876557",
+      "fallback": "⛓",
+      "pack": "tgmacicons"
+    },
+    "©": {
+      "custom_emoji_id": "5258507474729704350",
+      "fallback": "©",
+      "pack": "tgmacicons"
+    },
+    "🏘": {
+      "custom_emoji_id": "5257963315258204021",
+      "fallback": "🏘",
+      "pack": "tgmacicons"
+    },
+    "🌠": {
+      "custom_emoji_id": "5258212268742549391",
+      "fallback": "🌠",
+      "pack": "tgmacicons"
+    },
+    "🕔": {
+      "custom_emoji_id": "5258419835922030550",
+      "fallback": "🕔",
+      "pack": "tgmacicons"
+    },
+    "📼": {
+      "custom_emoji_id": "5258391252914676042",
+      "fallback": "📼",
+      "pack": "tgmacicons"
+    },
+    "🕘": {
+      "custom_emoji_id": "5199457120428249992",
+      "fallback": "🕘",
+      "pack": "tgmacicons"
+    },
+    "⛔️": {
+      "custom_emoji_id": "5275969776668134187",
+      "fallback": "⛔️",
+      "pack": "tgmacicons"
+    },
+    "🍴": {
+      "custom_emoji_id": "5296727963495079440",
+      "fallback": "🍴",
+      "pack": "tgmacicons"
+    },
+    "👸": {
+      "custom_emoji_id": "5231256405452793159",
+      "fallback": "👸",
+      "pack": "StarEmoji"
+    },
+    "🏋️‍♀️": {
+      "custom_emoji_id": "5226608387550093968",
+      "fallback": "🏋️‍♀️",
+      "pack": "StarEmoji"
+    },
+    "🚨": {
+      "custom_emoji_id": "5222453530677225961",
+      "fallback": "🚨",
+      "pack": "StarEmoji"
+    },
+    "🪚": {
+      "custom_emoji_id": "5255919529300600486",
+      "fallback": "🪚",
+      "pack": "StarEmoji"
+    }
+  },
+  "categories": {},
+  "keywords": {}
+}
