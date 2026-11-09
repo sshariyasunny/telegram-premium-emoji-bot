@@ -195,113 +195,15 @@ TAG_HAND_WAVE = '<tg-emoji emoji-id="5875465628285931233">👋</tg-emoji>'
 TAG_POINT_DOWN = '<tg-emoji emoji-id="5470177992950946662">👇</tg-emoji>'
 TAG_POINT_RIGHT = '<tg-emoji emoji-id="5471978009449731768">👉</tg-emoji>'
 
-# -------------------------------------------------------------
-# FONT HELPER FUNCTIONS
-# -------------------------------------------------------------
+BN_TO_EN_DIGITS = {
+    '০': '0', '১': '1', '২': '2', '৩': '3', '৪': '4',
+    '৫': '5', '৬': '6', '৭': '7', '৮': '8', '৯': '9'
+}
 
-def to_led_screen(text: str) -> str:
+def normalize_digits(text: str) -> str:
     res = []
-    for ch in text.upper():
-        if ch in LED_LETTERS:
-            res.append(f'<tg-emoji emoji-id="{LED_LETTERS[ch]}">🔠</tg-emoji>')
-        elif ch in LED_NUMBERS:
-            res.append(f'<tg-emoji emoji-id="{LED_NUMBERS[ch]}">{ch}️⃣</tg-emoji>')
-        else:
-            res.append(ch)
-    return "".join(res)
-
-def to_retro_font(text: str) -> str:
-    res = []
-    for ch in text.upper():
-        if ch in RETRO_LETTERS:
-            res.append(f'<tg-emoji emoji-id="{RETRO_LETTERS[ch]}">🔤</tg-emoji>')
-        elif ch in RETRO_NUMBERS:
-            res.append(f'<tg-emoji emoji-id="{RETRO_NUMBERS[ch]}">{ch}️⃣</tg-emoji>')
-        else:
-            res.append(ch)
-    return "".join(res)
-
-def to_cat_font(text: str) -> str:
-    res = []
-    for ch in text.upper():
-        if ch in CAT_LETTERS:
-            res.append(f'<tg-emoji emoji-id="{CAT_LETTERS[ch]}">🔠</tg-emoji>')
-        elif ch in CAT_NUMBERS:
-            res.append(f'<tg-emoji emoji-id="{CAT_NUMBERS[ch]}">{ch}️⃣</tg-emoji>')
-        else:
-            res.append(ch)
-    return "".join(res)
-
-def to_slime_font(text: str) -> str:
-    res = []
-    for ch in text.upper():
-        if ch in SLIME_LETTERS:
-            cid, fb = SLIME_LETTERS[ch]
-            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
-        elif ch in SLIME_NUMBERS:
-            cid, fb = SLIME_NUMBERS[ch]
-            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
-        else:
-            res.append(ch)
-    return "".join(res)
-
-def to_abc_font(text: str) -> str:
-    res = []
-    for ch in text.upper():
-        if ch in ABC_LETTERS:
-            cid, fb = ABC_LETTERS[ch]
-            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
-        elif ch in ABC_NUMBERS:
-            cid, fb = ABC_NUMBERS[ch]
-            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
-        else:
-            res.append(ch)
-    return "".join(res)
-
-def to_bony_font(text: str) -> str:
-    res = []
-    for ch in text.upper():
-        if ch in BONY_LETTERS:
-            cid, fb = BONY_LETTERS[ch]
-            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
-        elif ch in BONY_NUMBERS:
-            cid, fb = BONY_NUMBERS[ch]
-            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
-        else:
-            res.append(ch)
-    return "".join(res)
-
-def to_spooky_font(text: str) -> str:
-    res = []
-    for ch in text.upper():
-        if ch in SPOOKY_LETTERS:
-            cid, fb = SPOOKY_LETTERS[ch]
-            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
-        else:
-            res.append(ch)
-    return "".join(res)
-
-def to_flags_font(text: str) -> str:
-    res = []
-    for ch in text.upper():
-        if ch in FLAGS_LETTERS:
-            cid, fb = FLAGS_LETTERS[ch]
-            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
-        elif ch in FLAGS_NUMBERS:
-            cid, fb = FLAGS_NUMBERS[ch]
-            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
-        else:
-            res.append(ch)
-    return "".join(res)
-
-def to_table_font(text: str) -> str:
-    res = []
-    for ch in text.upper():
-        if ch in TABLE_LETTERS:
-            cid, fb = TABLE_LETTERS[ch]
-            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
-        else:
-            res.append(ch)
+    for ch in text:
+        res.append(BN_TO_EN_DIGITS.get(ch, ch))
     return "".join(res)
 
 def convert_existing_emojis_to_premium(text: str) -> str:
@@ -312,55 +214,184 @@ def convert_existing_emojis_to_premium(text: str) -> str:
         return em
     return re.sub(r'[\U00010000-\U0010ffff]', rep, text)
 
-def convert_digits_to_led(text: str) -> str:
-    def rep(m):
-        d = m.group(0)
-        if d in LED_NUMBERS:
-            return f'<tg-emoji emoji-id="{LED_NUMBERS[d]}">{d}️⃣</tg-emoji>'
-        return d
-    return re.sub(r'\d', rep, text)
+# -------------------------------------------------------------
+# FONT CONVERTERS (Always converts letters & numbers to stickers)
+# -------------------------------------------------------------
 
-def convert_digits_to_abc(text: str) -> str:
-    def rep(m):
-        d = m.group(0)
-        if d in ABC_NUMBERS:
-            cid, fb = ABC_NUMBERS[d]
-            return f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>'
-        return d
-    return re.sub(r'\d', rep, text)
+def to_abc_font(text: str) -> str:
+    """Converts letters and digits into 3D ABC custom emoji stickers."""
+    text = normalize_digits(text)
+    res = []
+    for ch in text:
+        u = ch.upper()
+        if u in ABC_LETTERS:
+            cid, fb = ABC_LETTERS[u]
+            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
+        elif u in ABC_NUMBERS:
+            cid, fb = ABC_NUMBERS[u]
+            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
+        else:
+            res.append(html.escape(ch))
+    return "".join(res)
 
-def convert_digits_to_slime(text: str) -> str:
-    def rep(m):
-        d = m.group(0)
-        if d in SLIME_NUMBERS:
-            cid, fb = SLIME_NUMBERS[d]
-            return f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>'
-        return d
-    return re.sub(r'\d', rep, text)
+def to_slime_font(text: str) -> str:
+    """Converts letters and digits into Green Slime custom emoji stickers."""
+    text = normalize_digits(text)
+    res = []
+    for ch in text:
+        u = ch.upper()
+        if u in SLIME_LETTERS:
+            cid, fb = SLIME_LETTERS[u]
+            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
+        elif u in SLIME_NUMBERS:
+            cid, fb = SLIME_NUMBERS[u]
+            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
+        else:
+            res.append(html.escape(ch))
+    return "".join(res)
 
-def convert_digits_to_bony(text: str) -> str:
-    def rep(m):
-        d = m.group(0)
-        if d in BONY_NUMBERS:
-            cid, fb = BONY_NUMBERS[d]
-            return f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>'
-        return d
-    return re.sub(r'\d', rep, text)
+def to_led_screen(text: str) -> str:
+    """Converts letters and digits into LED Screen custom emoji stickers."""
+    text = normalize_digits(text)
+    res = []
+    for ch in text:
+        u = ch.upper()
+        if u in LED_LETTERS:
+            res.append(f'<tg-emoji emoji-id="{LED_LETTERS[u]}">🔠</tg-emoji>')
+        elif u in LED_NUMBERS:
+            res.append(f'<tg-emoji emoji-id="{LED_NUMBERS[u]}">{u}️⃣</tg-emoji>')
+        else:
+            res.append(html.escape(ch))
+    return "".join(res)
 
-def convert_digits_to_flags(text: str) -> str:
-    def rep(m):
-        d = m.group(0)
-        if d in FLAGS_NUMBERS:
-            cid, fb = FLAGS_NUMBERS[d]
-            return f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>'
-        return d
-    return re.sub(r'\d', rep, text)
+def to_retro_font(text: str) -> str:
+    """Converts letters and digits into Retro 3D custom emoji stickers."""
+    text = normalize_digits(text)
+    res = []
+    for ch in text:
+        u = ch.upper()
+        if u in RETRO_LETTERS:
+            res.append(f'<tg-emoji emoji-id="{RETRO_LETTERS[u]}">🔤</tg-emoji>')
+        elif u in RETRO_NUMBERS:
+            res.append(f'<tg-emoji emoji-id="{RETRO_NUMBERS[u]}">{u}️⃣</tg-emoji>')
+        else:
+            res.append(html.escape(ch))
+    return "".join(res)
+
+def to_bony_font(text: str) -> str:
+    """Converts letters and digits into Bony Skeleton custom emoji stickers."""
+    text = normalize_digits(text)
+    res = []
+    for ch in text:
+        u = ch.upper()
+        if u in BONY_LETTERS:
+            cid, fb = BONY_LETTERS[u]
+            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
+        elif u in BONY_NUMBERS:
+            cid, fb = BONY_NUMBERS[u]
+            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
+        else:
+            res.append(html.escape(ch))
+    return "".join(res)
+
+def to_spooky_font(text: str) -> str:
+    """Converts letters into Spooky Ghost custom emoji stickers."""
+    text = normalize_digits(text)
+    res = []
+    for ch in text:
+        u = ch.upper()
+        if u in SPOOKY_LETTERS:
+            cid, fb = SPOOKY_LETTERS[u]
+            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
+        elif u in ABC_NUMBERS:
+            cid, fb = ABC_NUMBERS[u]
+            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
+        else:
+            res.append(html.escape(ch))
+    return "".join(res)
+
+def to_flags_font(text: str) -> str:
+    """Converts letters and digits into Festive Flags custom emoji stickers."""
+    text = normalize_digits(text)
+    res = []
+    for ch in text:
+        u = ch.upper()
+        if u in FLAGS_LETTERS:
+            cid, fb = FLAGS_LETTERS[u]
+            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
+        elif u in FLAGS_NUMBERS:
+            cid, fb = FLAGS_NUMBERS[u]
+            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
+        else:
+            res.append(html.escape(ch))
+    return "".join(res)
+
+def to_table_font(text: str) -> str:
+    """Converts letters into Wooden Table custom emoji stickers."""
+    text = normalize_digits(text)
+    res = []
+    for ch in text:
+        u = ch.upper()
+        if u in TABLE_LETTERS:
+            cid, fb = TABLE_LETTERS[u]
+            res.append(f'<tg-emoji emoji-id="{cid}">{fb}</tg-emoji>')
+        elif u in LED_NUMBERS:
+            res.append(f'<tg-emoji emoji-id="{LED_NUMBERS[u]}">{u}️⃣</tg-emoji>')
+        else:
+            res.append(html.escape(ch))
+    return "".join(res)
+
+def to_cat_font(text: str) -> str:
+    """Converts letters and digits into Cat Font custom emoji stickers."""
+    text = normalize_digits(text)
+    res = []
+    for ch in text:
+        u = ch.upper()
+        if u in CAT_LETTERS:
+            res.append(f'<tg-emoji emoji-id="{CAT_LETTERS[u]}">🔠</tg-emoji>')
+        elif u in CAT_NUMBERS:
+            res.append(f'<tg-emoji emoji-id="{CAT_NUMBERS[u]}">{u}️⃣</tg-emoji>')
+        else:
+            res.append(html.escape(ch))
+    return "".join(res)
+
+# Helper to format lines preserving clickable links and usernames
+def format_line_with_font(line: str, font_fn, badge: str = "") -> str:
+    line_clean = line.strip()
+    if not line_clean:
+        return ""
+    
+    # Clickable username or web link
+    if line_clean.startswith("@") or line_clean.startswith("http://") or line_clean.startswith("https://") or line_clean.startswith("t.me/"):
+        return f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>"
+
+    # Tokenize preserving usernames and URLs
+    tokens = re.split(r'(\s+|[@#][a-zA-Z0-9_]+|https?://\S+)', line_clean)
+    out = []
+    for tok in tokens:
+        if not tok:
+            continue
+        if tok.startswith("@") or tok.startswith("#") or tok.startswith("http://") or tok.startswith("https://"):
+            out.append(f"<b>{html.escape(tok)}</b>")
+        elif tok.isspace():
+            out.append(tok)
+        else:
+            # If token is Bengali text without English/digits, keep bolded
+            if re.search(r'[\u0980-\u09FF]', tok) and not re.search(r'[A-Za-z0-9]', tok):
+                out.append(f"<b>{html.escape(tok)}</b>")
+            else:
+                out.append(font_fn(tok))
+
+    formatted_text = "".join(out)
+    if badge:
+        return f"<blockquote>{badge} {formatted_text}</blockquote>"
+    return f"<blockquote>{formatted_text}</blockquote>"
 
 # -------------------------------------------------------------
 # INDIVIDUAL STYLES IMPLEMENTATION
 # -------------------------------------------------------------
 
-# 1. 👑 Ultra Professional VIP Mix (Pro Mix)
+# 1. 👑 Ultra Professional VIP Mix (Flagship Mix)
 def style_pro_mix(text: str) -> str:
     lines = text.strip().splitlines()
     decorated = []
@@ -381,41 +412,20 @@ def style_pro_mix(text: str) -> str:
         if not line_clean:
             decorated.append("")
             continue
-        
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
 
-        is_pure_english = bool(re.search(r'^[A-Za-z0-9\s:_\-+*#@.]+$', line_clean))
-        
         # Header line (Line 0)
         if i == 0:
-            if is_pure_english and len(line_clean) <= 24 and not line_clean.startswith("@"):
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
+            else:
                 hdr_font = to_abc_font(line_clean)
                 escaped = f"{TAG_SHUZI_FIRE} {TAG_DSPSIR_CROWN} {hdr_font} {TAG_ATTR_CHECK_NEON} {TAG_SHUZI_FIRE}"
-            else:
-                escaped = f"{TAG_SHUZI_FIRE} {TAG_DSPSIR_APPLE_GLOW} <b>{escaped}</b> {TAG_ATTR_CHECK_NEON} {TAG_SHUZI_FIRE}"
-            decorated.append(escaped)
+                decorated.append(escaped)
             continue
-
-        # Submitting/Links lines
-        if line_clean.startswith("@") or "submit" in line_clean.lower() or "file" in line_clean.lower() or "link" in line_clean.lower():
-            escaped = f"<blockquote>{TAG_HASIB_DOWN} <b>{escaped}</b></blockquote>"
-            decorated.append(escaped)
-            continue
-
-        # Convert numbers and keywords
-        escaped = convert_digits_to_abc(escaped)
-
-        def rep_keyword(m):
-            w = m.group(0)
-            if len(w) <= 8 and w.isupper() and w not in ["TK", "PM", "AM"]:
-                return to_led_screen(w)
-            return w
-        escaped = re.sub(r'\b[A-Z]{3,8}\b', rep_keyword, escaped)
 
         badge = vip_badges[(i - 1) % len(vip_badges)]
-        escaped = f"<blockquote>{badge} {escaped}</blockquote>"
-        decorated.append(escaped)
+        formatted = format_line_with_font(line_clean, to_abc_font, badge=badge)
+        decorated.append(formatted)
 
     return "\n".join(decorated)
 
@@ -430,23 +440,19 @@ def style_cyber_mix(text: str) -> str:
         if not line_clean:
             decorated.append("")
             continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        is_pure_english = bool(re.search(r'^[A-Za-z0-9\s:_\-+*#@.]+$', line_clean))
 
         if i == 0:
-            if is_pure_english and len(line_clean) <= 25 and not line_clean.startswith("@"):
-                cyber_hdr = to_retro_font(line_clean)
-                escaped = f"{TAG_ELEC_SHOCK1} {cyber_hdr} {TAG_ELEC_SHOCK2}"
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
             else:
-                escaped = f"{TAG_ELEC_SHOCK1} ⚡️ <b>{escaped}</b> ⚡️ {TAG_ELEC_SHOCK2}"
-            decorated.append(escaped)
+                hdr_font = to_retro_font(line_clean)
+                escaped = f"{TAG_ELEC_SHOCK1} {hdr_font} {TAG_ELEC_SHOCK2}"
+                decorated.append(escaped)
             continue
 
-        escaped = convert_digits_to_led(escaped)
         badge = cyber_badges[(i - 1) % len(cyber_badges)]
-        escaped = f"<blockquote>{badge} {escaped}</blockquote>"
-        decorated.append(escaped)
+        formatted = format_line_with_font(line_clean, to_retro_font, badge=badge)
+        decorated.append(formatted)
     return "\n".join(decorated)
 
 # 3. 🌟 Neon Glow Mix
@@ -460,26 +466,22 @@ def style_neon_glow(text: str) -> str:
         if not line_clean:
             decorated.append("")
             continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        is_pure_english = bool(re.search(r'^[A-Za-z0-9\s:_\-+*#@.]+$', line_clean))
 
         if i == 0:
-            if is_pure_english and len(line_clean) <= 25 and not line_clean.startswith("@"):
-                neon_hdr = to_led_screen(line_clean)
-                escaped = f"{TAG_ORDER_STAR} {neon_hdr} {TAG_ORDER_STAR}"
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
             else:
-                escaped = f"{TAG_ORDER_STAR} 🌟 <b>{escaped}</b> 🌟 {TAG_ORDER_STAR}"
-            decorated.append(escaped)
+                hdr_font = to_led_screen(line_clean)
+                escaped = f"{TAG_ORDER_STAR} {hdr_font} {TAG_ORDER_STAR}"
+                decorated.append(escaped)
             continue
 
-        escaped = convert_digits_to_led(escaped)
         badge = neon_badges[(i - 1) % len(neon_badges)]
-        escaped = f"<blockquote>{badge} {escaped}</blockquote>"
-        decorated.append(escaped)
+        formatted = format_line_with_font(line_clean, to_led_screen, badge=badge)
+        decorated.append(formatted)
     return "\n".join(decorated)
 
-# 4. 💎 3D ABC Font Style
+# 4. 💎 3D ABC Font Style (ABCEmoji)
 def style_abc(text: str) -> str:
     lines = text.strip().splitlines()
     decorated = []
@@ -488,26 +490,18 @@ def style_abc(text: str) -> str:
         if not line_clean:
             decorated.append("")
             continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        is_pure_english = bool(re.search(r'^[A-Za-z0-9\s:_\-+*#@.]+$', line_clean))
-
-        if is_pure_english and len(line_clean) <= 25 and not line_clean.startswith("@"):
-            abc_txt = to_abc_font(line_clean)
-            if i == 0:
-                escaped = f"{TAG_DSPSIR_DIAMOND} {abc_txt} {TAG_DSPSIR_CROWN}"
+        if i == 0:
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
             else:
-                escaped = f"<blockquote>{TAG_ATTR_CHECK_BLUE} {abc_txt}</blockquote>"
-        else:
-            escaped = convert_digits_to_abc(escaped)
-            if i == 0 and len(lines) > 1:
-                escaped = f"{TAG_DSPSIR_DIAMOND} <b>{escaped}</b> {TAG_DSPSIR_CROWN}"
-            else:
-                escaped = f"<blockquote>{TAG_ATTR_CHECK_BLUE} {escaped}</blockquote>"
-        decorated.append(escaped)
+                hdr = to_abc_font(line_clean)
+                decorated.append(f"{TAG_DSPSIR_DIAMOND} {hdr} {TAG_DSPSIR_CROWN}")
+            continue
+        formatted = format_line_with_font(line_clean, to_abc_font, badge=TAG_ATTR_CHECK_BLUE)
+        decorated.append(formatted)
     return "\n".join(decorated)
 
-# 5. 🟢 Slime Font Style
+# 5. 🟢 Slime Font Style (SlimeFontEmoji)
 def style_slime(text: str) -> str:
     lines = text.strip().splitlines()
     decorated = []
@@ -516,26 +510,18 @@ def style_slime(text: str) -> str:
         if not line_clean:
             decorated.append("")
             continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        is_pure_english = bool(re.search(r'^[A-Za-z0-9\s:_\-+*#@.]+$', line_clean))
-
-        if is_pure_english and len(line_clean) <= 25 and not line_clean.startswith("@"):
-            slime_txt = to_slime_font(line_clean)
-            if i == 0:
-                escaped = f"{TAG_ATTR_CIRCLE_GREEN} {slime_txt} {TAG_ATTR_CHECK_GREEN}"
+        if i == 0:
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
             else:
-                escaped = f"<blockquote>{TAG_ATTR_CHECK_GREEN} {slime_txt}</blockquote>"
-        else:
-            escaped = convert_digits_to_slime(escaped)
-            if i == 0 and len(lines) > 1:
-                escaped = f"{TAG_ATTR_CIRCLE_GREEN} <b>{escaped}</b> {TAG_ATTR_CHECK_GREEN}"
-            else:
-                escaped = f"<blockquote>{TAG_ATTR_CHECK_GREEN} {escaped}</blockquote>"
-        decorated.append(escaped)
+                hdr = to_slime_font(line_clean)
+                decorated.append(f"{TAG_ATTR_CIRCLE_GREEN} {hdr} {TAG_ATTR_CHECK_GREEN}")
+            continue
+        formatted = format_line_with_font(line_clean, to_slime_font, badge=TAG_ATTR_CHECK_GREEN)
+        decorated.append(formatted)
     return "\n".join(decorated)
 
-# 6. 💀 Bony Skeleton Font Style
+# 6. 💀 Bony Skeleton Font Style (BonyFontEmoji)
 def style_bony(text: str) -> str:
     lines = text.strip().splitlines()
     decorated = []
@@ -544,26 +530,18 @@ def style_bony(text: str) -> str:
         if not line_clean:
             decorated.append("")
             continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        is_pure_english = bool(re.search(r'^[A-Za-z0-9\s:_\-+*#@.]+$', line_clean))
-
-        if is_pure_english and len(line_clean) <= 25 and not line_clean.startswith("@"):
-            bony_txt = to_bony_font(line_clean)
-            if i == 0:
-                escaped = f"{TAG_SHUZI_FIRE} {bony_txt} {TAG_SHUZI_FIRE}"
+        if i == 0:
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
             else:
-                escaped = f"<blockquote>💀 {bony_txt}</blockquote>"
-        else:
-            escaped = convert_digits_to_bony(escaped)
-            if i == 0 and len(lines) > 1:
-                escaped = f"{TAG_SHUZI_FIRE} <b>{escaped}</b> {TAG_SHUZI_FIRE}"
-            else:
-                escaped = f"<blockquote>💀 {escaped}</blockquote>"
-        decorated.append(escaped)
+                hdr = to_bony_font(line_clean)
+                decorated.append(f"{TAG_SHUZI_FIRE} {hdr} {TAG_SHUZI_FIRE}")
+            continue
+        formatted = format_line_with_font(line_clean, to_bony_font, badge="💀")
+        decorated.append(formatted)
     return "\n".join(decorated)
 
-# 7. 🎃 Spooky Letters Style
+# 7. 🎃 Spooky Letters Style (SpookyLetters)
 def style_spooky(text: str) -> str:
     lines = text.strip().splitlines()
     decorated = []
@@ -572,25 +550,18 @@ def style_spooky(text: str) -> str:
         if not line_clean:
             decorated.append("")
             continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        is_pure_english = bool(re.search(r'^[A-Za-z0-9\s:_\-+*#@.]+$', line_clean))
-
-        if is_pure_english and len(line_clean) <= 25 and not line_clean.startswith("@"):
-            spooky_txt = to_spooky_font(line_clean)
-            if i == 0:
-                escaped = f"🎃 {spooky_txt} 🎃"
+        if i == 0:
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
             else:
-                escaped = f"<blockquote>🎃 {spooky_txt}</blockquote>"
-        else:
-            if i == 0 and len(lines) > 1:
-                escaped = f"🎃 <b>{escaped}</b> 🎃"
-            else:
-                escaped = f"<blockquote>🎃 {escaped}</blockquote>"
-        decorated.append(escaped)
+                hdr = to_spooky_font(line_clean)
+                decorated.append(f"🎃 {hdr} 🎃")
+            continue
+        formatted = format_line_with_font(line_clean, to_spooky_font, badge="🎃")
+        decorated.append(formatted)
     return "\n".join(decorated)
 
-# 8. 🚩 Festive Flags Style
+# 8. 🚩 Festive Flags Style (FestiveFlags)
 def style_flags(text: str) -> str:
     lines = text.strip().splitlines()
     decorated = []
@@ -599,26 +570,18 @@ def style_flags(text: str) -> str:
         if not line_clean:
             decorated.append("")
             continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        is_pure_english = bool(re.search(r'^[A-Za-z0-9\s:_\-+*#@.]+$', line_clean))
-
-        if is_pure_english and len(line_clean) <= 25 and not line_clean.startswith("@"):
-            flags_txt = to_flags_font(line_clean)
-            if i == 0:
-                escaped = f"🚩 {flags_txt} 🚩"
+        if i == 0:
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
             else:
-                escaped = f"<blockquote>🚩 {flags_txt}</blockquote>"
-        else:
-            escaped = convert_digits_to_flags(escaped)
-            if i == 0 and len(lines) > 1:
-                escaped = f"🚩 <b>{escaped}</b> 🚩"
-            else:
-                escaped = f"<blockquote>🚩 {escaped}</blockquote>"
-        decorated.append(escaped)
+                hdr = to_flags_font(line_clean)
+                decorated.append(f"🚩 {hdr} 🚩")
+            continue
+        formatted = format_line_with_font(line_clean, to_flags_font, badge="🚩")
+        decorated.append(formatted)
     return "\n".join(decorated)
 
-# 9. 🪵 Table Font Style
+# 9. 🪵 Table Font Style (TableFontEmoji)
 def style_table(text: str) -> str:
     lines = text.strip().splitlines()
     decorated = []
@@ -627,25 +590,78 @@ def style_table(text: str) -> str:
         if not line_clean:
             decorated.append("")
             continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        is_pure_english = bool(re.search(r'^[A-Za-z0-9\s:_\-+*#@.]+$', line_clean))
-
-        if is_pure_english and len(line_clean) <= 25 and not line_clean.startswith("@"):
-            tbl_txt = to_table_font(line_clean)
-            if i == 0:
-                escaped = f"🪵 {tbl_txt} 🪵"
+        if i == 0:
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
             else:
-                escaped = f"<blockquote>🪵 {tbl_txt}</blockquote>"
-        else:
-            if i == 0 and len(lines) > 1:
-                escaped = f"🪵 <b>{escaped}</b> 🪵"
-            else:
-                escaped = f"<blockquote>🪵 {escaped}</blockquote>"
-        decorated.append(escaped)
+                hdr = to_table_font(line_clean)
+                decorated.append(f"🪵 {hdr} 🪵")
+            continue
+        formatted = format_line_with_font(line_clean, to_table_font, badge="🪵")
+        decorated.append(formatted)
     return "\n".join(decorated)
 
-# 10. ✨ Attractive VIP Pack Style
+# 10. 🟢 LED Screen Style (LedScreenEmoji)
+def style_led(text: str) -> str:
+    lines = text.strip().splitlines()
+    decorated = []
+    for i, line in enumerate(lines):
+        line_clean = line.strip()
+        if not line_clean:
+            decorated.append("")
+            continue
+        if i == 0:
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
+            else:
+                hdr = to_led_screen(line_clean)
+                decorated.append(f"{TAG_HASIB_FIRE} {hdr} {TAG_HASIB_FIRE}")
+            continue
+        formatted = format_line_with_font(line_clean, to_led_screen, badge=TAG_BLUE_VERIFIED)
+        decorated.append(formatted)
+    return "\n".join(decorated)
+
+# 11. 🕹 Retro Font Style (RetroFontEmoji)
+def style_retro(text: str) -> str:
+    lines = text.strip().splitlines()
+    decorated = []
+    for i, line in enumerate(lines):
+        line_clean = line.strip()
+        if not line_clean:
+            decorated.append("")
+            continue
+        if i == 0:
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
+            else:
+                hdr = to_retro_font(line_clean)
+                decorated.append(f"{TAG_HASIB_FIRE} {hdr} {TAG_HASIB_FIRE}")
+            continue
+        formatted = format_line_with_font(line_clean, to_retro_font, badge=TAG_XTREMIST_BLUE)
+        decorated.append(formatted)
+    return "\n".join(decorated)
+
+# 12. 🐱 Cat Font Style (CatFontEmoji)
+def style_cat(text: str) -> str:
+    lines = text.strip().splitlines()
+    decorated = []
+    for i, line in enumerate(lines):
+        line_clean = line.strip()
+        if not line_clean:
+            decorated.append("")
+            continue
+        if i == 0:
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
+            else:
+                hdr = to_cat_font(line_clean)
+                decorated.append(f"{TAG_HEART} {hdr} {TAG_ROSE}")
+            continue
+        formatted = format_line_with_font(line_clean, to_cat_font, badge=TAG_HEART)
+        decorated.append(formatted)
+    return "\n".join(decorated)
+
+# 13. ✨ Attractive VIP Pack Style
 def style_attractive(text: str) -> str:
     lines = text.strip().splitlines()
     decorated = []
@@ -655,17 +671,19 @@ def style_attractive(text: str) -> str:
         if not line_clean:
             decorated.append("")
             continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        if i == 0 and len(lines) > 1:
-            escaped = f"{TAG_ATTR_CHECK_NEON} {TAG_ATTR_STAR} <b>{escaped}</b> {TAG_ATTR_CHECK_GOLD}"
-        else:
-            badge = badges[i % len(badges)]
-            escaped = f"<blockquote>{badge} {escaped}</blockquote>"
-        decorated.append(escaped)
+        if i == 0:
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
+            else:
+                hdr = to_abc_font(line_clean)
+                decorated.append(f"{TAG_ATTR_CHECK_NEON} {TAG_ATTR_STAR} {hdr} {TAG_ATTR_CHECK_GOLD}")
+            continue
+        badge = badges[i % len(badges)]
+        formatted = format_line_with_font(line_clean, to_abc_font, badge=badge)
+        decorated.append(formatted)
     return "\n".join(decorated)
 
-# 11. 🍏 DSPSIR Luxury Pack Style
+# 14. 🍏 DSPSIR Luxury Pack Style
 def style_dspsir(text: str) -> str:
     lines = text.strip().splitlines()
     decorated = []
@@ -675,17 +693,19 @@ def style_dspsir(text: str) -> str:
         if not line_clean:
             decorated.append("")
             continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        if i == 0 and len(lines) > 1:
-            escaped = f"{TAG_DSPSIR_APPLE_GLOW} {TAG_DSPSIR_CROWN} <b>{escaped}</b> {TAG_DSPSIR_DIAMOND}"
-        else:
-            badge = badges[i % len(badges)]
-            escaped = f"<blockquote>{badge} {escaped}</blockquote>"
-        decorated.append(escaped)
+        if i == 0:
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
+            else:
+                hdr = to_abc_font(line_clean)
+                decorated.append(f"{TAG_DSPSIR_APPLE_GLOW} {TAG_DSPSIR_CROWN} {hdr} {TAG_DSPSIR_DIAMOND}")
+            continue
+        badge = badges[i % len(badges)]
+        formatted = format_line_with_font(line_clean, to_abc_font, badge=badge)
+        decorated.append(formatted)
     return "\n".join(decorated)
 
-# 12. ⚡️ Electric Shock Style
+# 15. ⚡️ Electric Shock Style
 def style_electric(text: str) -> str:
     lines = text.strip().splitlines()
     decorated = []
@@ -695,97 +715,19 @@ def style_electric(text: str) -> str:
         if not line_clean:
             decorated.append("")
             continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        if i == 0 and len(lines) > 1:
-            escaped = f"{TAG_ELEC_SHOCK1} ⚡️ <b>{escaped}</b> ⚡️ {TAG_ELEC_SHOCK2}"
-        else:
-            shk = shocks[i % len(shocks)]
-            escaped = f"<blockquote>{shk} {escaped}</blockquote>"
-        decorated.append(escaped)
-    return "\n".join(decorated)
-
-# 13. LED Screen Style
-def style_led(text: str) -> str:
-    lines = text.strip().splitlines()
-    decorated = []
-    for i, line in enumerate(lines):
-        line_clean = line.strip()
-        if not line_clean:
-            decorated.append("")
+        if i == 0:
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
+            else:
+                hdr = to_retro_font(line_clean)
+                decorated.append(f"{TAG_ELEC_SHOCK1} {hdr} {TAG_ELEC_SHOCK2}")
             continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        is_english = bool(re.search(r'^[A-Za-z0-9\s:_\-+*#@.]+$', line_clean))
-        if is_english and len(line_clean) <= 25 and not line_clean.startswith("@"):
-            led_text = to_led_screen(line_clean)
-            if i == 0:
-                escaped = f"{TAG_HASIB_FIRE} {led_text} {TAG_HASIB_FIRE}"
-            else:
-                escaped = f"<blockquote>{TAG_BLUE_VERIFIED} {led_text}</blockquote>"
-        else:
-            escaped = convert_digits_to_led(escaped)
-            if i == 0 and len(lines) > 1:
-                escaped = f"{TAG_HASIB_FIRE} {TAG_RED_VERIFIED} <b>{escaped}</b> {TAG_BLUE_VERIFIED} {TAG_HASIB_FIRE}"
-            else:
-                badges = [TAG_BLUE_VERIFIED, TAG_GREEN_VERIFIED, TAG_RED_VERIFIED, TAG_HASIB_SHIELD, TAG_HASIB_GOLD]
-                badge = badges[i % len(badges)]
-                escaped = f"<blockquote>{badge} {escaped}</blockquote>"
-        decorated.append(escaped)
+        badge = shocks[i % len(shocks)]
+        formatted = format_line_with_font(line_clean, to_retro_font, badge=badge)
+        decorated.append(formatted)
     return "\n".join(decorated)
 
-# 14. Retro Font Style
-def style_retro(text: str) -> str:
-    lines = text.strip().splitlines()
-    decorated = []
-    for i, line in enumerate(lines):
-        line_clean = line.strip()
-        if not line_clean:
-            decorated.append("")
-            continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        is_english = bool(re.search(r'^[A-Za-z0-9\s:_\-+*#@.]+$', line_clean))
-        if is_english and len(line_clean) <= 25 and not line_clean.startswith("@"):
-            ret_text = to_retro_font(line_clean)
-            if i == 0:
-                escaped = f"{TAG_HASIB_FIRE} {ret_text} {TAG_HASIB_FIRE}"
-            else:
-                escaped = f"<blockquote>{TAG_XTREMIST_BLUE} {ret_text}</blockquote>"
-        else:
-            if i == 0 and len(lines) > 1:
-                escaped = f"{TAG_CROWN} {TAG_RED_VERIFIED} <b>{escaped}</b> {TAG_BLUE_VERIFIED} {TAG_DIAMOND}"
-            else:
-                badges = [TAG_RED_VERIFIED, TAG_BLUE_VERIFIED, TAG_XTREMIST_BLUE, TAG_HASIB_GOLD]
-                badge = badges[i % len(badges)]
-                escaped = f"<blockquote>{badge} {escaped}</blockquote>"
-        decorated.append(escaped)
-    return "\n".join(decorated)
-
-# 15. Cat Font Style
-def style_cat(text: str) -> str:
-    lines = text.strip().splitlines()
-    decorated = []
-    for i, line in enumerate(lines):
-        line_clean = line.strip()
-        if not line_clean:
-            decorated.append("")
-            continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        is_english = bool(re.search(r'^[A-Za-z0-9\s:_\-+*#@.]+$', line_clean))
-        if is_english and len(line_clean) <= 25 and not line_clean.startswith("@"):
-            cat_text = to_cat_font(line_clean)
-            escaped = f"<blockquote>{TAG_HEART} {cat_text} {TAG_SPARKLES}</blockquote>"
-        else:
-            if i == 0:
-                escaped = f"{TAG_HEART} {TAG_SPARKLES} <b>{escaped}</b> {TAG_ROSE} {TAG_HEART}"
-            else:
-                escaped = f"<blockquote>{TAG_HEART} {escaped} {TAG_BLUE_VERIFIED}</blockquote>"
-        decorated.append(escaped)
-    return "\n".join(decorated)
-
-# 16. Hasib Pack Style
+# 16. 🔴 Hasib Pack Style
 def style_hasib(text: str) -> str:
     lines = text.strip().splitlines()
     decorated = []
@@ -795,17 +737,19 @@ def style_hasib(text: str) -> str:
         if not line_clean:
             decorated.append("")
             continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        if i == 0 and len(lines) > 1:
-            escaped = f"{TAG_HASIB_FIRE} {TAG_RED_VERIFIED} <b>{escaped}</b> {TAG_HASIB_GOLD} {TAG_HASIB_FIRE}"
-        else:
-            badge = badges[i % len(badges)]
-            escaped = f"<blockquote>{badge} {escaped}</blockquote>"
-        decorated.append(escaped)
+        if i == 0:
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
+            else:
+                hdr = to_led_screen(line_clean)
+                decorated.append(f"{TAG_HASIB_FIRE} {TAG_RED_VERIFIED} {hdr} {TAG_HASIB_GOLD} {TAG_HASIB_FIRE}")
+            continue
+        badge = badges[i % len(badges)]
+        formatted = format_line_with_font(line_clean, to_led_screen, badge=badge)
+        decorated.append(formatted)
     return "\n".join(decorated)
 
-# 17. XtremistQFS Style
+# 17. 🔵 XtremistQFS Style
 def style_xtremist(text: str) -> str:
     lines = text.strip().splitlines()
     decorated = []
@@ -815,17 +759,19 @@ def style_xtremist(text: str) -> str:
         if not line_clean:
             decorated.append("")
             continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        if i == 0 and len(lines) > 1:
-            escaped = f"{TAG_XTREMIST_STAR} {TAG_XTREMIST_BLUE} <b>{escaped}</b> {TAG_XTREMIST_GLOW}"
-        else:
-            badge = badges[i % len(badges)]
-            escaped = f"<blockquote>{badge} {escaped}</blockquote>"
-        decorated.append(escaped)
+        if i == 0:
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
+            else:
+                hdr = to_abc_font(line_clean)
+                decorated.append(f"{TAG_XTREMIST_STAR} {TAG_XTREMIST_BLUE} {hdr} {TAG_XTREMIST_GLOW}")
+            continue
+        badge = badges[i % len(badges)]
+        formatted = format_line_with_font(line_clean, to_abc_font, badge=badge)
+        decorated.append(formatted)
     return "\n".join(decorated)
 
-# 18. Tara Lightning Style
+# 18. ⚡️ Tara Lightning Style
 def style_tara(text: str) -> str:
     lines = text.strip().splitlines()
     decorated = []
@@ -835,17 +781,19 @@ def style_tara(text: str) -> str:
         if not line_clean:
             decorated.append("")
             continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        if i == 0 and len(lines) > 1:
-            escaped = f"{TAG_TARA_LIGHTNING} ⚡️ <b>{escaped}</b> ⚡️ {TAG_TARA_LIGHTNING2}"
-        else:
-            lt = lightnings[i % len(lightnings)]
-            escaped = f"<blockquote>{lt} {escaped}</blockquote>"
-        decorated.append(escaped)
+        if i == 0:
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
+            else:
+                hdr = to_retro_font(line_clean)
+                decorated.append(f"{TAG_TARA_LIGHTNING} {hdr} {TAG_TARA_LIGHTNING2}")
+            continue
+        badge = lightnings[i % len(lightnings)]
+        formatted = format_line_with_font(line_clean, to_retro_font, badge=badge)
+        decorated.append(formatted)
     return "\n".join(decorated)
 
-# 19. OrderEmoji Star Style
+# 19. 🌟 OrderEmoji Star Style
 def style_order(text: str) -> str:
     lines = text.strip().splitlines()
     decorated = []
@@ -855,17 +803,19 @@ def style_order(text: str) -> str:
         if not line_clean:
             decorated.append("")
             continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        if i == 0 and len(lines) > 1:
-            escaped = f"{TAG_ORDER_STAR} 🌟 <b>{escaped}</b> 🌟 {TAG_ORDER_STAR2}"
-        else:
-            st = stars[i % len(stars)]
-            escaped = f"<blockquote>{st} {escaped}</blockquote>"
-        decorated.append(escaped)
+        if i == 0:
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
+            else:
+                hdr = to_led_screen(line_clean)
+                decorated.append(f"{TAG_ORDER_STAR} {hdr} {TAG_ORDER_STAR2}")
+            continue
+        badge = stars[i % len(stars)]
+        formatted = format_line_with_font(line_clean, to_led_screen, badge=badge)
+        decorated.append(formatted)
     return "\n".join(decorated)
 
-# 20. Blockquotes Frame Style
+# 20. 💬 Blockquotes Frame Style
 def style_quotes(text: str) -> str:
     lines = text.strip().splitlines()
     decorated = []
@@ -875,17 +825,19 @@ def style_quotes(text: str) -> str:
         if not line_clean:
             decorated.append("")
             continue
-        escaped = html.escape(line_clean)
-        escaped = convert_existing_emojis_to_premium(escaped)
-        if i == 0 and len(lines) > 1:
-            escaped = f"{TAG_HASIB_FIRE} {TAG_RED_VERIFIED} <b>{escaped}</b> {TAG_BLUE_VERIFIED} {TAG_HASIB_FIRE}"
-        else:
-            badge = badges[i % len(badges)]
-            escaped = f"<blockquote>{badge} {escaped}</blockquote>"
-        decorated.append(escaped)
+        if i == 0:
+            if line_clean.startswith("@") or line_clean.startswith("http"):
+                decorated.append(f"<blockquote>{TAG_HASIB_DOWN} <b>{html.escape(line_clean)}</b></blockquote>")
+            else:
+                hdr = to_abc_font(line_clean)
+                decorated.append(f"{TAG_HASIB_FIRE} {TAG_RED_VERIFIED} {hdr} {TAG_BLUE_VERIFIED} {TAG_HASIB_FIRE}")
+            continue
+        badge = badges[i % len(badges)]
+        formatted = format_line_with_font(line_clean, to_abc_font, badge=badge)
+        decorated.append(formatted)
     return "\n".join(decorated)
 
-# 21. Smart All-in-One Style
+# 21. ✨ Smart All-in-One Style
 def style_smart(text: str) -> str:
     return style_pro_mix(text)
 
@@ -925,10 +877,18 @@ def decorate_text(text: str, style: str = "pro_mix") -> str:
     return fn(text)
 
 def get_plain_text_for_copy(text: str, style: str = "pro_mix") -> str:
-    """Returns a clean plain text version with standard emojis for CopyTextButton."""
-    decorated = decorate_text(text, style=style)
-    # Strip HTML tags
-    clean = re.sub(r'<tg-emoji[^>]*>(.*?)</tg-emoji>', r'\1', decorated)
-    clean = re.sub(r'</?blockquote>', '', clean)
-    clean = re.sub(r'</?[bi]>', '', clean)
-    return html.unescape(clean)
+    """Returns a clean formatted text version with badges and quotes for CopyTextButton."""
+    lines = text.strip().splitlines()
+    out = []
+    for i, line in enumerate(lines):
+        line_clean = line.strip()
+        if not line_clean:
+            out.append("")
+            continue
+        if i == 0:
+            out.append(f"🔥 👑 {line_clean} 👑 🔥")
+        elif line_clean.startswith("@"):
+            out.append(f"> ⬇️ {line_clean}")
+        else:
+            out.append(f"> ✅ {line_clean}")
+    return "\n".join(out)
