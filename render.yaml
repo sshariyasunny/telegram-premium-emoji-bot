@@ -9,3 +9,4 @@ services:
         sync: false
       - key: DEFAULT_STYLE
         value: smart
+

@@ -8,3 +8,4 @@ powershell -Command "Get-CimInstance Win32_Process -Filter \"Name like 'python%'
 echo Done!
 timeout /t 2 >nul
 exit
+

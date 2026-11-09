@@ -8,3 +8,4 @@ start "" pythonw main.py
 echo Bot started in background!
 timeout /t 3 >nul
 exit
+

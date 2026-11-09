@@ -9,3 +9,4 @@ start "" pythonw main.py
 echo Bot restarted successfully!
 timeout /t 2 >nul
 exit
+
