@@ -221,6 +221,7 @@ def convert_existing_emojis_to_premium(text: str) -> str:
 def to_abc_font(text: str) -> str:
     """Converts letters and digits into 3D ABC custom emoji stickers."""
     text = normalize_digits(text)
+    text = re.sub(r' +', '   ', text)
     res = []
     for ch in text:
         u = ch.upper()
@@ -237,6 +238,7 @@ def to_abc_font(text: str) -> str:
 def to_slime_font(text: str) -> str:
     """Converts letters and digits into Green Slime custom emoji stickers."""
     text = normalize_digits(text)
+    text = re.sub(r' +', '   ', text)
     res = []
     for ch in text:
         u = ch.upper()
@@ -253,6 +255,7 @@ def to_slime_font(text: str) -> str:
 def to_led_screen(text: str) -> str:
     """Converts letters and digits into LED Screen custom emoji stickers."""
     text = normalize_digits(text)
+    text = re.sub(r' +', '   ', text)
     res = []
     for ch in text:
         u = ch.upper()
@@ -267,6 +270,7 @@ def to_led_screen(text: str) -> str:
 def to_retro_font(text: str) -> str:
     """Converts letters and digits into Retro 3D custom emoji stickers."""
     text = normalize_digits(text)
+    text = re.sub(r' +', '   ', text)
     res = []
     for ch in text:
         u = ch.upper()
@@ -281,6 +285,7 @@ def to_retro_font(text: str) -> str:
 def to_bony_font(text: str) -> str:
     """Converts letters and digits into Bony Skeleton custom emoji stickers."""
     text = normalize_digits(text)
+    text = re.sub(r' +', '   ', text)
     res = []
     for ch in text:
         u = ch.upper()
@@ -297,6 +302,7 @@ def to_bony_font(text: str) -> str:
 def to_spooky_font(text: str) -> str:
     """Converts letters into Spooky Ghost custom emoji stickers."""
     text = normalize_digits(text)
+    text = re.sub(r' +', '   ', text)
     res = []
     for ch in text:
         u = ch.upper()
@@ -313,6 +319,7 @@ def to_spooky_font(text: str) -> str:
 def to_flags_font(text: str) -> str:
     """Converts letters and digits into Festive Flags custom emoji stickers."""
     text = normalize_digits(text)
+    text = re.sub(r' +', '   ', text)
     res = []
     for ch in text:
         u = ch.upper()
@@ -329,6 +336,7 @@ def to_flags_font(text: str) -> str:
 def to_table_font(text: str) -> str:
     """Converts letters into Wooden Table custom emoji stickers."""
     text = normalize_digits(text)
+    text = re.sub(r' +', '   ', text)
     res = []
     for ch in text:
         u = ch.upper()
@@ -344,6 +352,7 @@ def to_table_font(text: str) -> str:
 def to_cat_font(text: str) -> str:
     """Converts letters and digits into Cat Font custom emoji stickers."""
     text = normalize_digits(text)
+    text = re.sub(r' +', '   ', text)
     res = []
     for ch in text:
         u = ch.upper()
@@ -374,7 +383,8 @@ def format_line_with_font(line: str, font_fn, badge: str = "") -> str:
         if tok.startswith("@") or tok.startswith("#") or tok.startswith("http://") or tok.startswith("https://"):
             out.append(f"<b>{html.escape(tok)}</b>")
         elif tok.isspace():
-            out.append(tok)
+            # Expand single space to 3 spaces as requested by user
+            out.append("   ")
         else:
             # If token is Bengali text without English/digits, keep bolded
             if re.search(r'[\u0980-\u09FF]', tok) and not re.search(r'[A-Za-z0-9]', tok):
@@ -877,7 +887,7 @@ def decorate_text(text: str, style: str = "pro_mix") -> str:
     return fn(text)
 
 def get_plain_text_for_copy(text: str, style: str = "pro_mix") -> str:
-    """Returns a clean formatted text version with badges and quotes for CopyTextButton."""
+    """Returns a clean formatted text version with badges and quotes for CopyTextButton with 3-space gaps."""
     lines = text.strip().splitlines()
     out = []
     for i, line in enumerate(lines):
@@ -885,10 +895,12 @@ def get_plain_text_for_copy(text: str, style: str = "pro_mix") -> str:
         if not line_clean:
             out.append("")
             continue
+        # Expand single space between words to 3 spaces as requested by user
+        line_spaced = re.sub(r' +', '   ', line_clean)
         if i == 0:
-            out.append(f"🔥 👑 {line_clean} 👑 🔥")
+            out.append(f"🔥 👑 {line_spaced} 👑 🔥")
         elif line_clean.startswith("@"):
             out.append(f"> ⬇️ {line_clean}")
         else:
-            out.append(f"> ✅ {line_clean}")
+            out.append(f"> ✅ {line_spaced}")
     return "\n".join(out)
